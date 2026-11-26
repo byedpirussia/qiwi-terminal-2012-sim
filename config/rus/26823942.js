@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "26823942.gif",
   "receiptName": "",
-  "sName": "Войны мафии",
+  "sName": "Р’РѕР№РЅС‹ РјР°С„РёРё",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник или ID",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє РёР»Рё ID",
                   "mask": "<!^.+${1,30}>",
                   "name": "account",
                   "nobr": "false",

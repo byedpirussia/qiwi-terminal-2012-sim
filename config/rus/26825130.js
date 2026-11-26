@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите логин на 4game.ru",
+                  "header": "Р’РІРµРґРёС‚Рµ Р»РѕРіРёРЅ РЅР° 4game.ru",
                   "mask": "<!^.+${1,29}>",
                   "name": "account",
                   "nobr": "false",

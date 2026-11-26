@@ -1,4 +1,4 @@
-﻿(function ($) {
+(function ($) {
     //    $.fn.AndroidSelector = function (items, returnItemIdTo, returnItemValueTo, triggerafter) {
     //        $(this).unbind('click').click(function () {
     //            var container_height = items.length * 90 > 900 ? 900 : items.length * 90;

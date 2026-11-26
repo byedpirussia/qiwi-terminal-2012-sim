@@ -5,7 +5,7 @@ var prv_value = getcookie('prv_value');
 
 prv_folder = value[prv_value]["prv_folder"];
 
-alert("категория провайдера = " + prv_folder);
+alert("РєР°С‚РµРіРѕСЂРёСЏ РїСЂРѕРІР°Р№РґРµСЂР° = " + prv_folder);
 
 	if (prv_folder == "internet") { 
 
@@ -29,11 +29,11 @@ alert("категория провайдера = " + prv_folder);
 
 		var somecookie = getcookie('Phone_Number');
 
-//		alert("а шо там в гугисах? посмотрим: somecookie = " + somecookie);
+//		alert("Р° С€Рѕ С‚Р°Рј РІ РіСѓРіРёСЃР°С…? РїРѕСЃРјРѕС‚СЂРёРј: somecookie = " + somecookie);
 
 		if (somecookie == 'null' ){
 
-//			alert("да нихрена там нет! топаем ввадить данные!");
+//			alert("РґР° РЅРёС…СЂРµРЅР° С‚Р°Рј РЅРµС‚! С‚РѕРїР°РµРј РІРІР°РґРёС‚СЊ РґР°РЅРЅС‹Рµ!");
 
 			parent.location = value[prv_value]["prv_page"];
 
@@ -44,7 +44,7 @@ alert("категория провайдера = " + prv_folder);
 
 		if (somecookie != 'null' ){
 
-//			alert("ёпта, да там дофига чо, топаем падтверждать пока не спёрли!");
+//			alert("С‘РїС‚Р°, РґР° С‚Р°Рј РґРѕС„РёРіР° С‡Рѕ, С‚РѕРїР°РµРј РїР°РґС‚РІРµСЂР¶РґР°С‚СЊ РїРѕРєР° РЅРµ СЃРїС‘СЂР»Рё!");
 
 			parent.location = value[prv_value]["prv_page_conf"];
 
@@ -57,7 +57,7 @@ alert("категория провайдера = " + prv_folder);
 
 	else {
 
-//		alert("вы не записаны, идите в баню!");
+//		alert("РІС‹ РЅРµ Р·Р°РїРёСЃР°РЅС‹, РёРґРёС‚Рµ РІ Р±Р°РЅСЋ!");
 
 		parent.location = "./main.html"
 

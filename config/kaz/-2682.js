@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"26823396","tag":"visible","logo":"wtanks.gif","sName":"World of tank","small_logo":""},
 {"__type":"provider","id":"2682229","tag":"visible","logo":"pWorld.gif","sName":"Perfect World","small_logo":""},
 {"__type":"provider","id":"26822148","tag":"visible","logo":"tankion.gif","sName":"Tanki Online","small_logo":""},

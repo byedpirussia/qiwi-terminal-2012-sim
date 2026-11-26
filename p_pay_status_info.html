@@ -1,9 +1,9 @@
 <html>
 <head>
 	<title>provider / 180</title>
-	<meta http-equiv="content-type" content="text/html; charset=windows-1251">
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta http-equiv="pragma" content="no-cache">
-	<meta http-equiv="refresh" content="180; URL=./index.html">
+	<meta http-equiv="refresh" content="180; URL=./terminal.html">
 	<style type="text/css">
 	.t_header {
 	    text-align: center;
@@ -22,7 +22,7 @@
     }
 
     function menu() {
-        parent.location = "./index.html";
+        parent.location = "./terminal.html";
     }
 
     function bdef() {
@@ -33,7 +33,7 @@
         aDisps = getDisps();
 
         if (!aDisps.length) {
-            $('content_td').innerHTML = 'Информация о платежах отсутствует';
+            $('content_td').innerHTML = 'РРЅС„РѕСЂРјР°С†РёСЏ Рѕ РїР»Р°С‚РµР¶Р°С… РѕС‚СЃСѓС‚СЃС‚РІСѓРµС‚';
             return;
         }
 
@@ -82,10 +82,10 @@
 
     function getStatusStr(sCode) {
         switch (sCode) {
-            case '0': return '<span style="color: #fa1e1e;">не проведен</span>';
-            case '1': return '<span style="color: #00961e;">проведен</span>';
-            case '2': return 'в стадии проведения';
-            case '3': return 'ожидает отправки на сервер';
+            case '0': return '<span style="color: #fa1e1e;">РЅРµ РїСЂРѕРІРµРґРµРЅ</span>';
+            case '1': return '<span style="color: #00961e;">РїСЂРѕРІРµРґРµРЅ</span>';
+            case '2': return 'РІ СЃС‚Р°РґРёРё РїСЂРѕРІРµРґРµРЅРёСЏ';
+            case '3': return 'РѕР¶РёРґР°РµС‚ РѕС‚РїСЂР°РІРєРё РЅР° СЃРµСЂРІРµСЂ';
             default: return '';
         }
     }
@@ -132,7 +132,7 @@
         <input id="DublCheckRcptDate" name="DublCheckRcptDate" type="hidden" value="" />
         <input id="DublCheckPrvName" name="DublCheckPrvName" type="hidden" value="" />
         <input id="_extra_dubl_check_page" name="_extra_dubl_check_page" type="hidden" value="print.html" />
-        <input id="_receipt_prt_top_msg" name="_receipt_prt_top_msg" type="hidden" value="Дубликат чека" />
+        <input id="_receipt_prt_top_msg" name="_receipt_prt_top_msg" type="hidden" value="Р”СѓР±Р»РёРєР°С‚ С‡РµРєР°" />
 		<input id="Language" name="Language" type="hidden" value="RU" />
     </form>
 

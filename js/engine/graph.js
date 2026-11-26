@@ -1,4 +1,4 @@
-﻿	CPoint = createClass
+	CPoint = createClass
 (
 	null,
 	{

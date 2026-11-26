@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"142","tag":"visible","logo":"142.gif","sName":"Beeline","small_logo":""},
 {"__type":"provider","id":"1420001","tag":"visible","logo":"1420001.gif","sName":"ДОС","small_logo":""},
 {"__type":"provider","id":"644","tag":"visible","logo":"644.gif","sName":"Activ","small_logo":""},

@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"group","id":"-67512","logo":"","name":"Удостоверение личности, паспорт","tag":"visible,ranges"},
 {"__type":"group","id":"-67513","logo":"","name":"Автодокументы (любые)","tag":"visible,ranges"},
 {"__type":"group","id":"-67514","logo":"","name":"Военный билет, приписное свидетельство","tag":"visible,ranges"},

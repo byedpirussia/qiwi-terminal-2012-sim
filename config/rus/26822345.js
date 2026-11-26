@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,16}>",
                   "name": "account",
                   "nobr": "false",

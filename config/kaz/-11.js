@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"4513","tag":"visible","logo":"4513.gif","sName":"Госпошлина","small_logo":""},
 {"__type":"provider","id":"4514","tag":"visible","logo":"4514.gif","sName":"За акты","small_logo":""},
 {"__type":"provider","id":"4516","tag":"visible","logo":"4516.gif","sName":"За подключение","small_logo":""},

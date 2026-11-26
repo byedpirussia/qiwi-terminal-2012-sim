@@ -1,4 +1,4 @@
-﻿<table>
+<table>
 	<tr>
 		<td style="position: relative; background: url(img/custom/netscore/header.png)">
 			<div id="debug" style="width:470px; height:125px" onclick="goto('index'); "></div>
@@ -10,7 +10,7 @@
             <!--  <img src="img/custom/netscore/lang_ru.jpg" name="currentlang" id="currentlang" border="0" />-->
             <input type="hidden" name="currentlangid" id="currentlangid" value="ru" /></div>
 		
-            <a href="index.html"><div id="goto-ext" style="font-size:32px; font-weight: bold; font-family:Verdana;  display: block; position: absolute; top: 3px; right:35px; background: url(img/custom/netscore/exit.png); width:200px; height:105px;text-align:center;line-height:107px;color:White" langres="main.exit">[main.exit]</div></a>
+            <a href="terminal.html"><div id="goto-ext" style="font-size:32px; font-weight: bold; font-family:Verdana;  display: block; position: absolute; top: 3px; right:35px; background: url(img/custom/netscore/exit.png); width:200px; height:105px;text-align:center;line-height:107px;color:White" langres="main.exit">[main.exit]</div></a>
 		</td>
 	</tr>
 </table>

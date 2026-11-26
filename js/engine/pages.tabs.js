@@ -1,4 +1,4 @@
-﻿	CTab = createClass
+	CTab = createClass
 (
 	CControl,
 	{
@@ -129,7 +129,7 @@
             this._aFields = this._getFields(aFields);
             this._aFldObjects = [];
 	        if (!this._aFields.length) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
         },
         
@@ -511,7 +511,7 @@
 	        CInputTab.base.ctor.call(this, oParent, sInstance, sCtrlPlace, sId);
 	        this._aFields = this._getFields(aFields);
 	        if (!this._aFields.length) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
 	        this._nCurrentField = 0;
 	        this._aFldObjects = [];
@@ -752,7 +752,7 @@
 	                    this._oKeyboard = new CDigitalKeyboardDT(this, "kb", sPlace);
 	                    break;
 	                default:
-	                    document.location.href = "./index.html";
+	                    document.location.href = "./terminal.html";
 	                    return;
 	            }
 	            if (!$isNoU(this._oKeyboard)) {
@@ -1060,7 +1060,7 @@
 	        PSCInputTab.base.ctor.call(this, oParent, sInstance, sCtrlPlace, sId);
 	        this._aFields = this._getFields(aFields);
 	        if (!this._aFields.length) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
 	        this._nCurrentField = 0;
 	        this._aFldObjects = [];
@@ -1266,7 +1266,7 @@
 	        CBtnTab.base.ctor.call(this, oParent, sInstance, sCtrlPlace, sId);
 	        this._oButtons = this._getButtons(aButtons);
 	        if (!$sizeOf(this._oButtons)) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
 	        this._bIsListenersModified = false;
 	        this._nRows = 4;

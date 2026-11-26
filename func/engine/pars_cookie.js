@@ -44,23 +44,23 @@ CookieListItemClass = function(_name, _value)
 }
 
 
-// класс, инкапсулирующий всю работу с cookie
+// РєР»Р°СЃСЃ, РёРЅРєР°РїСЃСѓР»РёСЂСѓСЋС‰РёР№ РІСЃСЋ СЂР°Р±РѕС‚Сѓ СЃ cookie
 CookieClass = newClass(
     null,
     {
-        // конструктор
+        // РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ
         constructor : function()
         {
             this._list = this.getCookieList();
             this.updateList();
         },
         
-        // метод, заплняющий внутренний список Cookie значениями CookieListItem
+        // РјРµС‚РѕРґ, Р·Р°РїР»РЅСЏСЋС‰РёР№ РІРЅСѓС‚СЂРµРЅРЅРёР№ СЃРїРёСЃРѕРє Cookie Р·РЅР°С‡РµРЅРёСЏРјРё CookieListItem
         getCookieList : function()
         {
-            var result = new Array();                   // результирующий список
-            var tempArr = document.cookie.split("; ");  // временный массив cookie, хранящий значения в виде "имя=значение"
-            var cookieArr = new Array();                // временный массив, хранящий имя и значение отдельной cookie
+            var result = new Array();                   // СЂРµР·СѓР»СЊС‚РёСЂСѓСЋС‰РёР№ СЃРїРёСЃРѕРє
+            var tempArr = document.cookie.split("; ");  // РІСЂРµРјРµРЅРЅС‹Р№ РјР°СЃСЃРёРІ cookie, С…СЂР°РЅСЏС‰РёР№ Р·РЅР°С‡РµРЅРёСЏ РІ РІРёРґРµ "РёРјСЏ=Р·РЅР°С‡РµРЅРёРµ"
+            var cookieArr = new Array();                // РІСЂРµРјРµРЅРЅС‹Р№ РјР°СЃСЃРёРІ, С…СЂР°РЅСЏС‰РёР№ РёРјСЏ Рё Р·РЅР°С‡РµРЅРёРµ РѕС‚РґРµР»СЊРЅРѕР№ cookie
         
             for (var i=0; i<tempArr.length; i++)
             {
@@ -76,7 +76,7 @@ CookieClass = newClass(
             return result;
         },
         
-        // метод, возвращающий порядковый номер Cookie во внутреннем списке
+        // РјРµС‚РѕРґ, РІРѕР·РІСЂР°С‰Р°СЋС‰РёР№ РїРѕСЂСЏРґРєРѕРІС‹Р№ РЅРѕРјРµСЂ Cookie РІРѕ РІРЅСѓС‚СЂРµРЅРЅРµРј СЃРїРёСЃРєРµ
         getCookieIndex : function(name)
         {
             var result = -1;
@@ -93,7 +93,7 @@ CookieClass = newClass(
             return result;
         },
         
-        // метод, очищающий внутренний список от null-значений
+        // РјРµС‚РѕРґ, РѕС‡РёС‰Р°СЋС‰РёР№ РІРЅСѓС‚СЂРµРЅРЅРёР№ СЃРїРёСЃРѕРє РѕС‚ null-Р·РЅР°С‡РµРЅРёР№
         updateList : function()
         {
             var oldList = this._list;
@@ -104,7 +104,7 @@ CookieClass = newClass(
                     this._list.push(oldList[i]);
         },
         
-        // метод, устанавливающий cookie
+        // РјРµС‚РѕРґ, СѓСЃС‚Р°РЅР°РІР»РёРІР°СЋС‰РёР№ cookie
         setCookie : function(name, value, isGlobal)
         {
             if ((typeof(name) == "string") && name.length)
@@ -129,7 +129,7 @@ CookieClass = newClass(
             }
         },
         
-        // метод, удаляющий cookie
+        // РјРµС‚РѕРґ, СѓРґР°Р»СЏСЋС‰РёР№ cookie
         deleteCookie : function(name)
         {
             if ((typeof(name) == "string") && name.length)
@@ -144,7 +144,7 @@ CookieClass = newClass(
             }
         },
         
-        // метод, возвращающий значение cookie
+        // РјРµС‚РѕРґ, РІРѕР·РІСЂР°С‰Р°СЋС‰РёР№ Р·РЅР°С‡РµРЅРёРµ cookie
         getCookie : function(name)
         {
             var result = null;
@@ -165,7 +165,7 @@ CookieClass = newClass(
             return result;
         },
         
-        // метод, удаляющий все cookie
+        // РјРµС‚РѕРґ, СѓРґР°Р»СЏСЋС‰РёР№ РІСЃРµ cookie
         clear : function()
         {
             for (var i=0; i<this._list.length; i++)
@@ -173,7 +173,7 @@ CookieClass = newClass(
             this.updateList();
         },
         
-        // метод, удаляющий все cookie, у которых имя включает указанную часть имени
+        // РјРµС‚РѕРґ, СѓРґР°Р»СЏСЋС‰РёР№ РІСЃРµ cookie, Сѓ РєРѕС‚РѕСЂС‹С… РёРјСЏ РІРєР»СЋС‡Р°РµС‚ СѓРєР°Р·Р°РЅРЅСѓСЋ С‡Р°СЃС‚СЊ РёРјРµРЅРё
         clearOnly : function(partNames)
         {
             if (! isArray(partNames))
@@ -186,7 +186,7 @@ CookieClass = newClass(
                             this.deleteCookie(this._list[i].name);
         },
         
-        // метод, удаляющий все cookie, кроме тех, у которых имя включает указанную часть имени
+        // РјРµС‚РѕРґ, СѓРґР°Р»СЏСЋС‰РёР№ РІСЃРµ cookie, РєСЂРѕРјРµ С‚РµС…, Сѓ РєРѕС‚РѕСЂС‹С… РёРјСЏ РІРєР»СЋС‡Р°РµС‚ СѓРєР°Р·Р°РЅРЅСѓСЋ С‡Р°СЃС‚СЊ РёРјРµРЅРё
         clearExcept : function(partNames)
         {
             if (! isArray(partNames))

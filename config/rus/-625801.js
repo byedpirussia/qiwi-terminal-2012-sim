@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"6258001","logo":"","sName":"64 MB","tag":"visible","small_logo":""},
 {"__type":"provider","id":"6258002","logo":"","sName":"128 MB","tag":"visible","small_logo":""},
 {"__type":"provider","id":"6258003","logo":"","sName":"256 MB","tag":"visible","small_logo":""},

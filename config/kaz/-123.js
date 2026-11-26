@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"group","id":"-811","logo":"-811.gif","name":"Жеңіңлдіктер мен Купондар","tag":"visible,ranges"},
 {"__type":"group","id":"-17","logo":"17.gif","name":"Хостинг","tag":"visible,ranges"},
 {"__type":"provider","id":"2682","tag":"visible","logo":"2682.gif","sName":"2Pay.kz","small_logo":""},

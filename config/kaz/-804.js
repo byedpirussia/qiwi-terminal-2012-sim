@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"4908","tag":"visible","logo":"4908.gif","sName":"Mary Kay","small_logo":""},
 {"__type":"provider","id":"997","tag":"visible","logo":"997.gif","sName":"Oriflame","small_logo":""},
 {"__type":"group","id":"-22","logo":"22.gif","name":"AVON","tag":"visible,ranges"},

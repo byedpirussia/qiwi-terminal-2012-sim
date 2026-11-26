@@ -1,4 +1,4 @@
 UIGroup=[
-{"__type":"provider","id":"4050","tag":"visible","logo":"icon_kazak_min.gif","sName":"√“÷","small_logo":""},
-{"__type":"provider","id":"4174","tag":"visible","logo":"icon_kazak_min.gif","sName":"Œƒ“","small_logo":""}
+{"__type":"provider","id":"4050","tag":"visible","logo":"icon_kazak_min.gif","sName":"–ì–¢–¶","small_logo":""},
+{"__type":"provider","id":"4174","tag":"visible","logo":"icon_kazak_min.gif","sName":"–û–î–¢","small_logo":""}
 ];

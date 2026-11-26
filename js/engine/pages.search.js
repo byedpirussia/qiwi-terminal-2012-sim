@@ -60,7 +60,7 @@
                 '               </tr>' +
                 '               <tr>' +
                 '                  <td style="height: 40px;">' +
-                '                    <div style="height: 40px; text-align: left; color: #fff; font-size: 22px; padding-top: 5px;">Введите название провайдера</div>' +
+                '                    <div style="height: 40px; text-align: left; color: #fff; font-size: 22px; padding-top: 5px;">Р’РІРµРґРёС‚Рµ РЅР°Р·РІР°РЅРёРµ РїСЂРѕРІР°Р№РґРµСЂР°</div>' +
                 '                  </td>' +
                 '               </tr>' +
                 '            </table>' +
@@ -143,7 +143,7 @@
 	    			if(pclass == 'dig')
 	    			{
 	    				$('returnBoard').className = this._activeBoard;
-	    				$('returnBoard').firstChild.innerHTML = this._activeBoard == 'rus' ? 'абв' : 'abc';
+	    				$('returnBoard').firstChild.innerHTML = this._activeBoard == 'rus' ? 'Р°Р±РІ' : 'abc';
 	    			}
 	    			this._drawKeyboard(pclass);
 	    		break;
@@ -212,7 +212,7 @@
 	        else {
 	            var sContent = "";
 	            if (!this._sSearchString.length) {
-	                sContent = '<div style="margin: 0; text-align: center; padding-top: 100px; font-size: 50px; font-weight: normal; color: #2268c6;">Выберите первую букву названия</div>';
+	                sContent = '<div style="margin: 0; text-align: center; padding-top: 100px; font-size: 50px; font-weight: normal; color: #2268c6;">Р’С‹Р±РµСЂРёС‚Рµ РїРµСЂРІСѓСЋ Р±СѓРєРІСѓ РЅР°Р·РІР°РЅРёСЏ</div>';
 	            }
 	            insertContent(sPlace, sContent);
 	            //insertContent(this.getInstance() + "_txt", "&nbsp;");
@@ -348,7 +348,7 @@
 	    },
 
 	    _makeText: function(nPage, nPages) {
-	        return '<span style="color: #2268c6; font-size: 18px;">' + nPage.toString(10) + ' страница из ' + nPages.toString(10) + '</span>';
+	        return '<span style="color: #2268c6; font-size: 18px;">' + nPage.toString(10) + ' СЃС‚СЂР°РЅРёС†Р° РёР· ' + nPages.toString(10) + '</span>';
 	    },
 
 	    _onButtonClick: function(sender, eargs) {
@@ -387,7 +387,7 @@
 	    },
 
 	    _menuButtonClick: function(sender, eargs) {
-	        document.location.href = "./index.html";
+	        document.location.href = "./terminal.html";
 	    },
 
 	    _forwardButtonClick: function(sender, eargs) {

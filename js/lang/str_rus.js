@@ -1,4 +1,4 @@
-﻿var strings_rus = 
+var strings_rus = 
 {
     "payment_entering" : "Make your payment",
     "attention" : "WARNING! PURCHASE AMOUNT MUST NOT BE LESS THAN",

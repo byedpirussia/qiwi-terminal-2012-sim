@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"2600","tag":"visible","logo":"2600.gif","sName":"Интернет Дома","small_logo":""},
 {"__type":"group","id":"-16","logo":"16.gif","name":"Digital TV","tag":"visible,ranges"},
 {"__type":"provider","id":"374","tag":"visible","logo":"374.gif","sName":"ICON","small_logo":""},

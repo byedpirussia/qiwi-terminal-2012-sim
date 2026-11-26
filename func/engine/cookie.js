@@ -1,4 +1,4 @@
-﻿function getcookie(name)
+function getcookie(name)
 {
 var RESULT;
 

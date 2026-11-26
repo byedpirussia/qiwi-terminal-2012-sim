@@ -1,4 +1,4 @@
-﻿var keyboard_shiftIsEnabled = 0;
+var keyboard_shiftIsEnabled = 0;
 var keyboard_currentLang = 'en';
 var keyboard_currentElement;
 var keyboard_imgpath = 'img/custom/netscore/keyboard/';

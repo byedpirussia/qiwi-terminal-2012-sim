@@ -3,7 +3,7 @@ UIProvider ={
   "id": "268283",
   "logo": "gladiator.gif",
   "receiptName": "",
-  "sName": "Гладиаторы",
+  "sName": "Р“Р»Р°РґРёР°С‚РѕСЂС‹",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -35,7 +35,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,24}>",
                   "name": "account",
                   "nobr": "false",

@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "korolevstvo.gif",
   "receiptName": "",
-  "sName": "Королевство",
+  "sName": "РљРѕСЂРѕР»РµРІСЃС‚РІРѕ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш номер счета",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРѕРјРµСЂ СЃС‡РµС‚Р°",
                   "mask": "<!^.+${1,10}>",
                   "name": "account",
                   "nobr": "false",

@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "26825057.gif",
   "receiptName": "",
-  "sName": "Территория 2",
+  "sName": "РўРµСЂСЂРёС‚РѕСЂРёСЏ 2",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,30}>",
                   "name": "account",
                   "nobr": "false",

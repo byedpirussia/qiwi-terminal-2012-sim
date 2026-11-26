@@ -1,4 +1,4 @@
-﻿CXMLDom = createClass(
+CXMLDom = createClass(
     CComponent,
     {
         ctor: function() {

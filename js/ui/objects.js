@@ -25,7 +25,7 @@ function showFlash(o){
 document.writeln(str);
 }
 
-//"Ì‡Á‡‰"
+//"–Ω–∞–∑–∞–¥"
 function button_back(){
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
 	document.write('<tr>');
@@ -36,7 +36,7 @@ function button_back(){
 	document.write('</table>');
 }
 
-//"‚ÔÂ∏‰"
+//"–≤–ø–µ—Ä—ë–¥"
 function button_forward() {
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
 	document.write('<tr>');
@@ -58,7 +58,7 @@ function button_pay() {
 	document.write('</table>');
 }
 
-//"‚ÔÂ∏‰"
+//"–≤–ø–µ—Ä—ë–¥"
 function button_forward_inactive() {
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
 	document.write('<tr>');
@@ -81,7 +81,7 @@ function button_back_inactive() {
 }
 
 
-//"‚ ÏÂÌ˛"
+//"–≤ –º–µ–Ω—é"
 function button_menu() {
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
 	document.write('<tr>');
@@ -93,7 +93,7 @@ function button_menu() {
 }
 
 
-//"‚ ÏÂÌ˛"
+//"–≤ –º–µ–Ω—é"
 function button_menu_inactive() {
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
 	document.write('<tr>');
@@ -105,7 +105,7 @@ function button_menu_inactive() {
 }
 
 
-//"Á‡‚Â¯ËÚ¸"
+//"–∑–∞–≤–µ—Ä—à–∏—Ç—å"
 function button_fin() {
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="51">');
 	document.write('<tr>');
@@ -184,9 +184,9 @@ function bottom_menu() {
 
 
 
-//ÛÒÚÓÈÒÚ‚‡ ‚‚Ó‰‡
+//—É—Å—Ç—Ä–æ–π—Å—Ç–≤–∞ –≤–≤–æ–¥–∞
 
-//ˆËÙÓ‚‡ˇ ÍÎ‡‚Ë‡ÚÛ‡, Ó·˚˜Ì‡ˇ
+//—Ü–∏—Ñ—Ä–æ–≤–∞—è –∫–ª–∞–≤–∏–∞—Ç—É—Ä–∞, –æ–±—ã—á–Ω–∞—è
 
 function get_keypad() {
 
@@ -237,7 +237,7 @@ function get_keypad() {
 }
 
 
-//·ÛÍ‚ÂÌÌ‡ˇ ÍÎ‡‚Ë‡ÚÛ‡, Ó·˚˜Ì‡ˇ
+//–±—É–∫–≤–µ–Ω–Ω–∞—è –∫–ª–∞–≤–∏–∞—Ç—É—Ä–∞, –æ–±—ã—á–Ω–∞—è
 
 function get_keyboard() {
 	document.write('<table cellpadding="0" cellspacing="0" border="0">');
@@ -253,10 +253,10 @@ function get_keyboard() {
 	document.write('</td></tr><tr><td>');
 		document.write('<table cellpadding="1" cellspacing="0" width="916">');
 		document.write('<tr>');
-		document.write('<td><img src="./img/ui/kboard/b_00.gif"  onClick="press(\'`~∏®\');" width="64" height="64" border="0"><img src="./img/ui/null.gif" alt="" width="2" height="1" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b_00.gif"  onClick="press(\'`~—ë–Å\');" width="64" height="64" border="0"><img src="./img/ui/null.gif" alt="" width="2" height="1" border="0"></td>');
 		document.write('<td><img src="./img/ui/kboard/b_1.gif"  onClick="press(\'1!1!\');" width="64" height="64" border="0"></td>');
 		document.write('<td><img src="./img/ui/kboard/b_2.gif"  onClick="press(\'2@2@\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b_3.gif"  onClick="press(\'3#3π\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b_3.gif"  onClick="press(\'3#3‚Ññ\');" width="64" height="64" border="0"></td>');
 		document.write('<td><img src="./img/ui/kboard/b_4.gif"  onClick="press(\'4$4;\');" width="64" height="64" border="0"></td>');
 		document.write('<td><img src="./img/ui/kboard/b_5.gif"  onClick="press(\'5%5%\');" width="64" height="64" border="0"></td>');
 		document.write('<td><img src="./img/ui/kboard/b_6.gif"  onClick="press(\'6^6:\');" width="64" height="64" border="0"></td>');
@@ -274,18 +274,18 @@ function get_keyboard() {
 		document.write('<table cellpadding="1" cellspacing="0" width="919">');
 		document.write('<tr>');
 		document.write('<td><img src="./img/ui/kboard/b2_empty.gif" border="0" onClick="tabs(\'1111\');"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_q.gif" onClick="press(\'qQÈ…\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_w.gif"  onClick="press(\'wWˆ÷\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_e.gif"  onClick="press(\'eEÛ”\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_r.gif"  onClick="press(\'rRÍ \');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_t.gif"  onClick="press(\'tTÂ≈\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_y.gif"  onClick="press(\'yYÌÕ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_u.gif"  onClick="press(\'uU„√\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_i.gif"  onClick="press(\'iI¯ÿ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_o.gif"  onClick="press(\'oO˘Ÿ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_p.gif"  onClick="press(\'pPÁ«\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b2_00.gif"  onClick="press(\'[{ı’\');" width="64" height="64" border="0"></td>');
-		document.write('<td ><img src="./img/ui/kboard/b2_01.gif"  onClick="press(\']}˙⁄\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_q.gif" onClick="press(\'qQ–π–ô\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_w.gif"  onClick="press(\'wW—Ü–¶\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_e.gif"  onClick="press(\'eE—É–£\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_r.gif"  onClick="press(\'rR–∫–ö\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_t.gif"  onClick="press(\'tT–µ–ï\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_y.gif"  onClick="press(\'yY–Ω–ù\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_u.gif"  onClick="press(\'uU–≥–ì\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_i.gif"  onClick="press(\'iI—à–®\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_o.gif"  onClick="press(\'oO—â–©\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_p.gif"  onClick="press(\'pP–∑–ó\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b2_00.gif"  onClick="press(\'[{—Ö–•\');" width="64" height="64" border="0"></td>');
+		document.write('<td ><img src="./img/ui/kboard/b2_01.gif"  onClick="press(\']}—ä–™\');" width="64" height="64" border="0"></td>');
 		document.write('<td align="left"><img onClick="press(\'enter\');" src="./img/ui/kboard/enter2.gif" border="0"></td>');
 		document.write('</tr>');
 		document.write('</table>');
@@ -293,17 +293,17 @@ function get_keyboard() {
 		document.write('<table cellpadding="1" cellspacing="0"  width="920">');
 		document.write('<tr>');
 		document.write('<td><img src="./img/ui/kboard/b3_caps_lock.gif" name="shift" onClick="press(\'shift\');" border="0"><img src="./img/ui/null.gif" width="2" height="1" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_a.gif"  onClick="press(\'aAÙ‘\');" width="64" height="64" border="0"></td>');
-	document.write('<td><img src="./img/ui/kboard/b3_s.gif"  onClick="press(\'sS˚€\');" width="64" height="64" border="0"></td>');
-	document.write('<td><img src="./img/ui/kboard/b3_d.gif"  onClick="press(\'dD‚¬\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_f.gif"  onClick="press(\'fF‡¿\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_g.gif"  onClick="press(\'gGÔœ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_h.gif"  onClick="press(\'hH–\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_j.gif"  onClick="press(\'jJÓŒ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_k.gif"  onClick="press(\'kKÎÀ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_l.gif"  onClick="press(\'lL‰ƒ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_00.gif"  onClick="press(\';:Ê∆\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b3_01.gif"  onClick="press(\'˝›˝›\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_a.gif"  onClick="press(\'aA—Ñ–§\');" width="64" height="64" border="0"></td>');
+	document.write('<td><img src="./img/ui/kboard/b3_s.gif"  onClick="press(\'sS—ã–´\');" width="64" height="64" border="0"></td>');
+	document.write('<td><img src="./img/ui/kboard/b3_d.gif"  onClick="press(\'dD–≤–í\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_f.gif"  onClick="press(\'fF–∞–ê\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_g.gif"  onClick="press(\'gG–ø–ü\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_h.gif"  onClick="press(\'hH—Ä–†\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_j.gif"  onClick="press(\'jJ–æ–û\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_k.gif"  onClick="press(\'kK–ª–õ\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_l.gif"  onClick="press(\'lL–¥–î\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_00.gif"  onClick="press(\';:–∂–ñ\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b3_01.gif"  onClick="press(\'—ç–≠—ç–≠\');" width="64" height="64" border="0"></td>');
 		document.write('<td align="left"><img src="./img/ui/kboard/enter.gif"  onClick="press(\'enter\');" border="0"></td>');
 		document.write('</tr>');
 		document.write('</table>');
@@ -311,15 +311,15 @@ function get_keyboard() {
 		document.write('<table cellpadding="1" cellspacing="0"  width="915">');
 		document.write('<tr>');
 		document.write('<td><img src="./img/ui/kboard/b4_shift.gif" name="shiftflagn" onClick="shiftflag(\'1\');" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_z.gif"  onClick="press(\'zZˇﬂ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_x.gif"  onClick="press(\'xX˜◊\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_c.gif"  onClick="press(\'cCÒ—\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_v.gif"  onClick="press(\'vVÏÃ\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_b.gif"  onClick="press(\'bBË»\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_n.gif"  onClick="press(\'nNÚ“\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_m.gif"  onClick="press(\'mM¸‹\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_00.gif"  onClick="press(\',<·¡\');" width="64" height="64" border="0"></td>');
-		document.write('<td><img src="./img/ui/kboard/b4_01.gif"  onClick="press(\'.>˛ﬁ\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_z.gif"  onClick="press(\'zZ—è–Ø\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_x.gif"  onClick="press(\'xX—á–ß\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_c.gif"  onClick="press(\'cC—Å–°\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_v.gif"  onClick="press(\'vV–º–ú\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_b.gif"  onClick="press(\'bB–∏–ò\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_n.gif"  onClick="press(\'nN—Ç–¢\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_m.gif"  onClick="press(\'mM—å–¨\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_00.gif"  onClick="press(\',<–±–ë\');" width="64" height="64" border="0"></td>');
+		document.write('<td><img src="./img/ui/kboard/b4_01.gif"  onClick="press(\'.>—é–Æ\');" width="64" height="64" border="0"></td>');
 		document.write('<td><img src="./img/ui/kboard/b4_02.gif"  onClick="press(\'/?.,\');" width="64" height="64" border="0"></td>');
 		document.write('<td align="right"><img src="./img/ui/kboard/b4_empty.gif" border="0"></td>');
 		document.write('</tr>');

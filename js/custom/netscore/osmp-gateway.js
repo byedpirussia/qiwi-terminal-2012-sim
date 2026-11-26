@@ -1,4 +1,4 @@
-﻿/** XHConn - Simple XMLHTTP Interface - bfults@gmail.com - 2005-04-08        **
+/** XHConn - Simple XMLHTTP Interface - bfults@gmail.com - 2005-04-08        **
 ** Code licensed under Creative Commons Attribution-ShareAlike License      **
 ** http://creativecommons.org/licenses/by-sa/2.0/                           **/
 function XMLHTTP() {

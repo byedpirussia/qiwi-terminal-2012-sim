@@ -52,7 +52,7 @@ function checkUsageStep()
 {
 	var now = +(new Date()),
 	    diff = Math.round((now - window.lastAction) / 1000);
-	if(diff > 180) top.location.href = './index.html';
+	if(diff > 180) top.location.href = './terminal.html';
 };
 
 // Расширение типа 'Object'

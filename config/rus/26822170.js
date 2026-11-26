@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "historyroad.gif",
   "receiptName": "",
-  "sName": "Пути истории",
+  "sName": "РџСѓС‚Рё РёСЃС‚РѕСЂРёРё",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ID",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ ID",
                   "mask": "<!^.+${1,9}>",
                   "name": "account",
                   "nobr": "false",

@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"group","id":"-48","logo":"16.gif","name":"Digital TV","tag":"visible,ranges"},
 {"__type":"provider","id":"374","tag":"visible","logo":"374.gif","sName":"ICON","small_logo":""},
 {"__type":"provider","id":"915","tag":"visible","logo":"915.gif","sName":"43 канал","small_logo":""},

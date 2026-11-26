@@ -1,4 +1,4 @@
-﻿UIProvider={
+UIProvider={
   "charity_logo": "",
   "grpId": "810",
   "id": "1788",

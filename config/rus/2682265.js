@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "sadimpair.gif",
   "receiptName": "",
-  "sName": "Садовая империя",
+  "sName": "РЎР°РґРѕРІР°СЏ РёРјРїРµСЂРёСЏ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ID",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ ID",
                   "mask": "<!^.+${1,14}>",
                   "name": "account",
                   "nobr": "false",

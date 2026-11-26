@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"388","tag":"visible","logo":"16.gif","sName":"Алматы","small_logo":""},
 {"__type":"provider","id":"4785","tag":"visible","logo":"16.gif","sName":"Астана","small_logo":""},
 {"__type":"provider","id":"5550","tag":"visible","logo":"16.gif","sName":"Караганда","small_logo":""},

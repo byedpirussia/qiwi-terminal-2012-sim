@@ -132,7 +132,7 @@ function goSearch(){
             poisk.append($('<div>').addClass('line').append($('<img>').attr('src','./img/custom/flight.kz/preload.gif')));
             var need = $('<div>').addClass('need').append(head).append(poisk);
             var footer = $('<div>').addClass('footer grad');
-            footer.append($('<a>').attr("href","index.html").append($("<div>").addClass("button_menu super_menu_button").html("В меню")));
+            footer.append($('<a>').attr("href","terminal.html").append($("<div>").addClass("button_menu super_menu_button").html("В меню")));
             footer.append($('<div>').addClass('button_menu').html('&larr; Назад').click(function(){showMain();})).append($('<div>').addClass('clearfix'));
             $('body').html('').append($('<div>').addClass('bg2').append($('<div>').addClass('centermap').append(need).append(footer)));
             interval = setInterval(function(){checkHash(hash.hash);}, 3000);

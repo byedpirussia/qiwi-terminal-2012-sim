@@ -1,10 +1,10 @@
-adv_array.push(['index_page_2',[['flash2','kcell_comis/banner.swf', []]]]);// 		Главная страница. Правый маленький баннер
-adv_array.push(['index_page_3',[['flash2','cmtkz/banner.swf', []]]]);// 			Главная страница. Правый маленький баннер
-adv_array.push(['index_page_4',[['flash2','qw/banner.swf', [0]]]]);// 				Правый нижний угол
-adv_array.push(['index_page_5',[['flash2','super_loto_new/banner.swf', []]]]);//	Левый нижний угол
-//adv_array.push(['main_page',[['flash2','iskra/banner.swf', []]]]);// 				Вторая страница
-//adv_array.push(['adv_cellular_3',[['flash2','gtm_banner.swf', [643,644]]]]);		Правый нижний для сотовых
-adv_array.push(['enter_account',[['flash2','banner.swf', [643,644]]]]);// 	 		Верхний баннер для сотовых
+adv_array.push(['index_page_2',[['flash2','kcell_comis/banner.swf', []]]]);// 		Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°. РџСЂР°РІС‹Р№ РјР°Р»РµРЅСЊРєРёР№ Р±Р°РЅРЅРµСЂ
+adv_array.push(['index_page_3',[['flash2','cmtkz/banner.swf', []]]]);// 			Р“Р»Р°РІРЅР°СЏ СЃС‚СЂР°РЅРёС†Р°. РџСЂР°РІС‹Р№ РјР°Р»РµРЅСЊРєРёР№ Р±Р°РЅРЅРµСЂ
+adv_array.push(['index_page_4',[['flash2','qw/banner.swf', [0]]]]);// 				РџСЂР°РІС‹Р№ РЅРёР¶РЅРёР№ СѓРіРѕР»
+adv_array.push(['index_page_5',[['flash2','super_loto_new/banner.swf', []]]]);//	Р›РµРІС‹Р№ РЅРёР¶РЅРёР№ СѓРіРѕР»
+//adv_array.push(['main_page',[['flash2','iskra/banner.swf', []]]]);// 				Р’С‚РѕСЂР°СЏ СЃС‚СЂР°РЅРёС†Р°
+//adv_array.push(['adv_cellular_3',[['flash2','gtm_banner.swf', [643,644]]]]);		РџСЂР°РІС‹Р№ РЅРёР¶РЅРёР№ РґР»СЏ СЃРѕС‚РѕРІС‹С…
+adv_array.push(['enter_account',[['flash2','banner.swf', [643,644]]]]);// 	 		Р’РµСЂС…РЅРёР№ Р±Р°РЅРЅРµСЂ РґР»СЏ СЃРѕС‚РѕРІС‹С…
 
 addDatedAdvert(['index_page_4',[['flash2','nurotan/banner.swf', [0]]]],2011,12,8,2011,12,20);
 addDatedAdvert(['index_page_5',[['flash2','super_loto/banner.swf', [0]]]],2011,12,15,2012,1,1);

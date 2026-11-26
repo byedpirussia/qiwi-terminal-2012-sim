@@ -307,7 +307,7 @@ CMainPage = createClass
 //	        }
 //	        else if (group && group.tag.indexOf('lottery') > -1) {
 //	            top.storage.put("last_page", document.location.href);
-//	            top.location.href = "./loto_index.html";
+//	            top.location.href = "./loto_terminal.html";
 //	        }
 //	        else {
 	            var h = hash;
@@ -391,7 +391,7 @@ if (oProvider.tag && oProvider.tag.indexOf('charity') > -1) {
 	            }
 	            else 
 	            
-//	            ================Òåñò Áëàãîòâîðèòåëüíîñòü==================
+//	            ================Ð¢ÐµÑÑ‚ Ð‘Ð»Ð°Ð³Ð¾Ñ‚Ð²Ð¾Ñ€Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾ÑÑ‚ÑŒ==================
 	            
 	            if (oProvider.tag && oProvider.tag.indexOf('charity_dom') > -1) {
 	                top.storage.put("last_page", document.location.href);
@@ -405,13 +405,13 @@ if (oProvider.tag && oProvider.tag.indexOf('charity') > -1) {
 	                    this._postData(oProvider["prvPage"], oProvider);
 	                }
 	                else
-//                    ================Ïåðåõîä íà cellular.html èç top5================
+//                    ================ÐŸÐµÑ€ÐµÑ…Ð¾Ð´ Ð½Ð° cellular.html Ð¸Ð· top5================
 	                    if (oProvider.tag && oProvider.tag.indexOf('cellular') > -1) {
 	                    top.location.href = "./cellular.html";
 	                }
 //                    ================================================================
 	                else
-//                    ================Ïåðåõîä íà cellular.gsm.html èç top5================
+//                    ================ÐŸÐµÑ€ÐµÑ…Ð¾Ð´ Ð½Ð° cellular.gsm.html Ð¸Ð· top5================
 	                    if (oProvider.tag && oProvider.tag.indexOf('gsm') > -1) {
 	                    top.location.href = "./cellular.gsm.html";
 	                }
@@ -450,7 +450,7 @@ if (oProvider.tag && oProvider.tag.indexOf('charity') > -1) {
 	    	        top.location.href = "./epa.html";
 	    	    },
 	    _menuButtonClick: function(sender, eargs) {
-	        top.location.href = "./index.html";
+	        top.location.href = "./terminal.html";
 	    }
 
 	    //	    _searchButtonClick: function(sender, eargs) {

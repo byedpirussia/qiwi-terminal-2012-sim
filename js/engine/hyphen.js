@@ -3,10 +3,10 @@
 autohyphen = {
 	tshy:         "&shy;",
 	shy:          "&shy;", //null,
-	x:            '[éüú]',
-	g:            '[àå¸èîóûışÿaeiouy]',
-	s:            '(?:sh|ch|qu|[áâãäæçêëìíïğñòôõö÷øùbcdfghjklmnpqrstvwxz])',
-	l:            '[üúéàå¸èîóûışÿáâãäæçéêëìíïğñòôõö÷øùúüaeiouybcdfghjklmnpqrstvwxz]',
+	x:            '[Ğ¹ÑŒÑŠ]',
+	g:            '[Ğ°ĞµÑ‘Ğ¸Ğ¾ÑƒÑ‹ÑÑÑaeiouy]',
+	s:            '(?:sh|ch|qu|[Ğ±Ğ²Ğ³Ğ´Ğ¶Ğ·ĞºĞ»Ğ¼Ğ½Ğ¿Ñ€ÑÑ‚Ñ„Ñ…Ñ†Ñ‡ÑˆÑ‰bcdfghjklmnpqrstvwxz])',
+	l:            '[ÑŒÑŠĞ¹Ğ°ĞµÑ‘Ğ¸Ğ¾ÑƒÑ‹ÑÑÑĞ±Ğ²Ğ³Ğ´Ğ¶Ğ·Ğ¹ĞºĞ»Ğ¼Ğ½Ğ¿Ñ€ÑÑ‚Ñ„Ñ…Ñ†Ñ‡ÑˆÑ‰ÑŠÑŒaeiouybcdfghjklmnpqrstvwxz]',
 	rules:        null,
 
 	hyphenizeText: function(text){

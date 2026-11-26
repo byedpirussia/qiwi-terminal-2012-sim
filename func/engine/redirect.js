@@ -78,7 +78,7 @@ function redirect(prv_value,account,form_account,prv_folder) {
 	if (prv_folder == "internet") 
 	{
 
-		//Страница перехода по умолчанию.
+		//РЎС‚СЂР°РЅРёС†Р° РїРµСЂРµС…РѕРґР° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ.
 		document.ff.action = value[prv_value]["prv_page"];
 
 		if (prv_value == '238') 

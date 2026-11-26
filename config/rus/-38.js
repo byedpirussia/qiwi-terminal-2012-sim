@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"62260001","tag":"visible","logo":"62260001.gif","sName":"РЕМЕНЬ КИРБИ","small_logo":""},
 {"__type":"provider","id":"62260002","tag":"visible","logo":"62260002.gif","sName":"Мешки упаковка 2 шт.","small_logo":""},
 {"__type":"provider","id":"62260003","tag":"visible","logo":"62260003.gif","sName":"Мешки упаковка 6 шт.","small_logo":""},

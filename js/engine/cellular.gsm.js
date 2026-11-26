@@ -68,14 +68,14 @@ function loadProvider() {
 var printTimer;
 function press(digit)
 {
-    // удаление
+    // СѓРґР°Р»РµРЅРёРµ
     if(digit == 'c')
     {
         flag = true;
        // clearProviderButton();
         realnumber = realnumber.substr(0, realnumber.length - 1);
     }
-    // добавление
+    // РґРѕР±Р°РІР»РµРЅРёРµ
     else if(realnumber !== false && realnumber.length < 10)
     {
 //    	if(realnumber == '7' || (realnumber == '8' && digit == '9'))
@@ -106,7 +106,7 @@ function clearProviderButton()
 function print()
 {
     if(printTimer) clearTimeout(printTimer);
-    // форматирование
+    // С„РѕСЂРјР°С‚РёСЂРѕРІР°РЅРёРµ
     var s = parser.spliceNumber(realnumber),
         r = ['8'];
     if(s.str.prefix != '')
@@ -132,7 +132,7 @@ function print()
 
 function preTest()
 {
-    // проверка    
+    // РїСЂРѕРІРµСЂРєР°    
     if(realnumber !== false && realnumber.length == 10 && gsmRegEx.test(realnumber))
     {
         if(flag)
@@ -196,11 +196,11 @@ if(sLang == "rus"){
     var oProvider = {};
     var sRegion = "";
     var sTxt =
-        "Проверьте, не ошиблись ли Вы при вводе номера<br /><br />" +
-        "Если номер набран верно, нажмите \"Вперед\" для выбора оператора";
-    var sNoPrv = "Невозможно оплатить данного провайдера";
-    var sNoRegion = "Регион не определен";
-    var sCellularProvider = "Сотовая связь";
+        "РџСЂРѕРІРµСЂСЊС‚Рµ, РЅРµ РѕС€РёР±Р»РёСЃСЊ Р»Рё Р’С‹ РїСЂРё РІРІРѕРґРµ РЅРѕРјРµСЂР°<br /><br />" +
+        "Р•СЃР»Рё РЅРѕРјРµСЂ РЅР°Р±СЂР°РЅ РІРµСЂРЅРѕ, РЅР°Р¶РјРёС‚Рµ \"Р’РїРµСЂРµРґ\" РґР»СЏ РІС‹Р±РѕСЂР° РѕРїРµСЂР°С‚РѕСЂР°";
+    var sNoPrv = "РќРµРІРѕР·РјРѕР¶РЅРѕ РѕРїР»Р°С‚РёС‚СЊ РґР°РЅРЅРѕРіРѕ РїСЂРѕРІР°Р№РґРµСЂР°";
+    var sNoRegion = "Р РµРіРёРѕРЅ РЅРµ РѕРїСЂРµРґРµР»РµРЅ";
+    var sCellularProvider = "РЎРѕС‚РѕРІР°СЏ СЃРІСЏР·СЊ";
     var bIsFoundProvider = false;}
     
     else{
@@ -212,9 +212,9 @@ if(sLang == "rus"){
     var sTxt =
         "Prover'te, ne oshiblis' li Vy pri vvode nomera<br /><br />" +
         "Esli nomer nabran verno, najmite \"Vpered\" dlya vybora operatora";
-    var sNoPrv = "Невозможно оплатить данного провайдера";
-    var sNoRegion = "Регион не определен";
-    var sCellularProvider = "Сотовая связь";
+    var sNoPrv = "РќРµРІРѕР·РјРѕР¶РЅРѕ РѕРїР»Р°С‚РёС‚СЊ РґР°РЅРЅРѕРіРѕ РїСЂРѕРІР°Р№РґРµСЂР°";
+    var sNoRegion = "Р РµРіРёРѕРЅ РЅРµ РѕРїСЂРµРґРµР»РµРЅ";
+    var sCellularProvider = "РЎРѕС‚РѕРІР°СЏ СЃРІСЏР·СЊ";
     var bIsFoundProvider = false;
     }
 
@@ -239,7 +239,7 @@ if(sLang == "rus"){
 		nPrvId = result.provider.id;
 		if (nPrvId == 2 && result.priority == BEELINE_INTERNET_VALUE)
 		{
-			sPrv = "Билайн Интернет";
+			sPrv = "Р‘РёР»Р°Р№РЅ РРЅС‚РµСЂРЅРµС‚";
 		}
 		else
 		{

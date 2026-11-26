@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "2682150.gif",
   "receiptName": "",
-  "sName": "Звездные Бои",
+  "sName": "Р—РІРµР·РґРЅС‹Рµ Р‘РѕРё",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите номер счета",
+                  "header": "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ СЃС‡РµС‚Р°",
                   "mask": "<!^.+${1,29}>",
                   "name": "account",
                   "nobr": "false",

@@ -10,7 +10,7 @@ CProviderPage = createClass
                 { name: "oProvider", type: Object }
             ]);
 	        if (!this._isValidProvider(oProvider)) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
 	        CProviderPage.base.ctor.call(this, oParent, sInstance, sCtrlPlace);
 	        this._oProvider = oProvider;
@@ -317,7 +317,7 @@ CProviderPage = createClass
 	            if (this.oTab)
 	                this.oTab.render();
 	            else
-	                document.location.href = "./index.html";
+	                document.location.href = "./terminal.html";
 	        }
 	    },
 
@@ -613,7 +613,7 @@ CProviderPage = createClass
 	            }
 	        }
 	        if (!bIsSearchComplete) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
 	    },
 
@@ -636,7 +636,7 @@ CProviderPage = createClass
 	    },
 
 	    _menuButtonClick: function(sender, eargs) {
-	        document.location.href = "./index.html";
+	        document.location.href = "./terminal.html";
 	    },
 
 	    _forwardButtonClick: function(sender, eargs) {

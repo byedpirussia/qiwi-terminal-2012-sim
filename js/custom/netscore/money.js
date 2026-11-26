@@ -1,4 +1,4 @@
-﻿var money_mode = '';
+var money_mode = '';
 function money_formsubmit(mode) {
 
     try {

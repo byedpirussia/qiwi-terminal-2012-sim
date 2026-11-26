@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите реферальный номер",
+                  "header": "Р’РІРµРґРёС‚Рµ СЂРµС„РµСЂР°Р»СЊРЅС‹Р№ РЅРѕРјРµСЂ",
                   "mask": "<!^.+${1,19}>",
                   "name": "account",
                   "nobr": "false",

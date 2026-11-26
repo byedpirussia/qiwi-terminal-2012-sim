@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "myvillage.gif",
   "receiptName": "",
-  "sName": "Моя деревня",
+  "sName": "РњРѕСЏ РґРµСЂРµРІРЅСЏ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ID",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ ID",
                   "mask": "<!^.+${1,16}>",
                   "name": "account",
                   "nobr": "false",

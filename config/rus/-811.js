@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"group","id":"-21","logo":"21.gif","name":"Chocolife.me","tag":"visible,ranges"},
 {"__type":"provider","id":"5104","tag":"visible","logo":"5104.gif","sName":"КупиКупон","small_logo":""},
 {"__type":"provider","id":"5445","tag":"visible","logo":"5445.gif","sName":"BeSmart","small_logo":""},

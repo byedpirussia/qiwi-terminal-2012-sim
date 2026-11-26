@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "djaggernaut.gif",
   "receiptName": "",
-  "sName": "Джаггернаут",
+  "sName": "Р”Р¶Р°РіРіРµСЂРЅР°СѓС‚",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,15}>",
                   "name": "account",
                   "nobr": "false",

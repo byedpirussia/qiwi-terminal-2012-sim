@@ -1,4 +1,4 @@
-﻿<div style="padding-left:20px; padding-right:20px;">
+<div style="padding-left:20px; padding-right:20px;">
 <div id="goto-prev"  onclick="goto('-1')" style="display: none; cursor:pointer;  position:absolute ; top: 870px; left:20px;   white-space:nowrap; color:#fff;  margin-right:45px; padding-left:150px; padding-right:30px;  background:url(img/custom/netscore/back_button_bg_l.png) no-repeat left top; float:left;height:125px;">
 <div langres="main.prev" style="font-size:50px; font-family:Arial; font-weight:bold;  line-height: 125px;">[main.prev]</div>
 <div style="position:absolute; right:-60px; top:0px; height:125px; width:60px; background:url(img/custom/netscore/back_button_bg_r.png) no-repeat 0px 1px;"></div>

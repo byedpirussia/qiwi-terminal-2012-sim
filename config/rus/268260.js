@@ -3,7 +3,7 @@ UIProvider ={
   "id": "268260",
   "logo": "granireal.gif",
   "receiptName": "",
-  "sName": "Грани реальности",
+  "sName": "Р“СЂР°РЅРё СЂРµР°Р»СЊРЅРѕСЃС‚Рё",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -35,7 +35,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,18}>",
                   "name": "account",
                   "nobr": "false",

@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Ник на портале ZZima.com ",
+                  "header": "РќРёРє РЅР° РїРѕСЂС‚Р°Р»Рµ ZZima.com ",
                   "mask": "<!^.+${1,29}>",
                   "name": "account",
                   "nobr": "false",

@@ -1,4 +1,4 @@
-﻿var db_lJobPosLevel = [
+var db_lJobPosLevel = [
  { 'id': 5, 'name': 'Все профессиональные области' }
 , { 'id': 3, 'name': 'Руководитель отдела' }
 , { 'id': 2, 'name': 'Специалист' }

@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "onexone.gif",
   "receiptName": "",
-  "sName": "11х11 футбольный менеджер",
+  "sName": "11С…11 С„СѓС‚Р±РѕР»СЊРЅС‹Р№ РјРµРЅРµРґР¶РµСЂ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,29}>",
                   "name": "account",
                   "nobr": "false",

@@ -1,4 +1,4 @@
-﻿var langres =
+var langres =
 [
 	{
 	    'code': 'main.next'

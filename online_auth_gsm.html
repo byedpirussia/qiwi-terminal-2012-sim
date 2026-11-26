@@ -1,9 +1,9 @@
 <html>
 <head>
     <title>Online_Auth_Error</title>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta http-equiv="pragma" content="no-cache" />
-    <meta http-equiv="refresh" content="60; URL=./index.html" />
+    <meta http-equiv="refresh" content="60; URL=./terminal.html" />
     <link rel="stylesheet" href="./css/online_auth.css" type="text/css" />
     <script type="text/javascript" src="./js/engine/utils.js"></script>
     <script type="text/javascript" src="./js/engine/storage.js"></script>
@@ -42,19 +42,19 @@
             var fnWhenDone = function (oXML) {
                 var oResponseText = oXML.responseText;
                 al("start " + oResponseText);
-                if (oResponseText == "0000")//0000 - можно проводить
+                if (oResponseText == "0000")//0000 - РјРѕР¶РЅРѕ РїСЂРѕРІРѕРґРёС‚СЊ
                 {
-                    al("можно проводить " + oResponseText);
+                    al("РјРѕР¶РЅРѕ РїСЂРѕРІРѕРґРёС‚СЊ " + oResponseText);
                     document.location.href = "./validate_confirm.html";
                 }
-                else if (oResponseText == "0010")//0010 - абонент не найден
+                else if (oResponseText == "0010")//0010 - Р°Р±РѕРЅРµРЅС‚ РЅРµ РЅР°Р№РґРµРЅ
                 {
-                    al(" абонент не найден " + oResponseText);
+                    al(" Р°Р±РѕРЅРµРЅС‚ РЅРµ РЅР°Р№РґРµРЅ " + oResponseText);
                     document.location.href = "./online_auth_error2.html";
                 }
-                else if (oResponseText == "0001")//0001 - временная ошибка, пвторить запрос
+                else if (oResponseText == "0001")//0001 - РІСЂРµРјРµРЅРЅР°СЏ РѕС€РёР±РєР°, РїРІС‚РѕСЂРёС‚СЊ Р·Р°РїСЂРѕСЃ
                 {
-                    al("временная ошибка, пвторить запрос " + oResponseText);
+                    al("РІСЂРµРјРµРЅРЅР°СЏ РѕС€РёР±РєР°, РїРІС‚РѕСЂРёС‚СЊ Р·Р°РїСЂРѕСЃ " + oResponseText);
 					i++;
 					if(i < 2)
 					{
@@ -65,19 +65,19 @@
 						document.location.href = "./online_auth_error300.html";
 					}
                 }
-                else if (oResponseText == "0002")//0002 - ошибка. не повторять запрос.
+                else if (oResponseText == "0002")//0002 - РѕС€РёР±РєР°. РЅРµ РїРѕРІС‚РѕСЂСЏС‚СЊ Р·Р°РїСЂРѕСЃ.
                 {
-                    al(" ошибка. не повторять запрос " + oResponseText);
+                    al(" РѕС€РёР±РєР°. РЅРµ РїРѕРІС‚РѕСЂСЏС‚СЊ Р·Р°РїСЂРѕСЃ " + oResponseText);
                     document.location.href = "./online_auth_error300.html";
                 }
-                else if (oResponseText == "0003")//0003 - использовать стандартную онлайн схему
+                else if (oResponseText == "0003")//0003 - РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃС‚Р°РЅРґР°СЂС‚РЅСѓСЋ РѕРЅР»Р°Р№РЅ СЃС…РµРјСѓ
                 {
-                    al("использовать стандартную онлайн схему " + oResponseText);
+                    al("РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃС‚Р°РЅРґР°СЂС‚РЅСѓСЋ РѕРЅР»Р°Р№РЅ СЃС…РµРјСѓ " + oResponseText);
                     document.location.href = "./validate_confirm.html";
                 }
-                else if (oResponseText == "0011")//0011 - отправлен запрос на актив, но абонент найден в кселл и на оборот
+                else if (oResponseText == "0011")//0011 - РѕС‚РїСЂР°РІР»РµРЅ Р·Р°РїСЂРѕСЃ РЅР° Р°РєС‚РёРІ, РЅРѕ Р°Р±РѕРЅРµРЅС‚ РЅР°Р№РґРµРЅ РІ РєСЃРµР»Р» Рё РЅР° РѕР±РѕСЂРѕС‚
                 {
-                    al("отправлен запрос на актив, но абонент найден в кселл и на оборот " + oResponseText);
+                    al("РѕС‚РїСЂР°РІР»РµРЅ Р·Р°РїСЂРѕСЃ РЅР° Р°РєС‚РёРІ, РЅРѕ Р°Р±РѕРЅРµРЅС‚ РЅР°Р№РґРµРЅ РІ РєСЃРµР»Р» Рё РЅР° РѕР±РѕСЂРѕС‚ " + oResponseText);
                     replaceId();
                     document.location.href = "./validate_confirm.html";
                 }
@@ -100,9 +100,9 @@
 </form>
     <div id="content">
         <div class="txt t_l f_e">
-            Один момент</div>
+            РћРґРёРЅ РјРѕРјРµРЅС‚</div>
         <div class="txt t_l">
-            Идет проверка данных</div>
+            РРґРµС‚ РїСЂРѕРІРµСЂРєР° РґР°РЅРЅС‹С…</div>
         <div id="progress_bar">
         </div>
     </div>

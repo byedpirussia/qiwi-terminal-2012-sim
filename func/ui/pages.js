@@ -28,7 +28,7 @@ DataCollectorClass = newClass
 		{
 			if (fieldsMode == 'multi')
 			{
-				// формирование дерева полей
+				// С„РѕСЂРјРёСЂРѕРІР°РЅРёРµ РґРµСЂРµРІР° РїРѕР»РµР№
 				var fieldsArr = new Array();
 				var arrItem = 0;	
 				for (var f=0; f<this.template.fields.length; f++)

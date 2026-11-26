@@ -1,5 +1,5 @@
 
-//"назад"
+//"РЅР°Р·Р°Рґ"
 function button_back(){
 
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
@@ -15,7 +15,7 @@ function button_back(){
 	document.write('</table>');
 
 }
-//"вперёд"
+//"РІРїРµСЂС‘Рґ"
 function button_forward() {
 
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="124">');
@@ -30,7 +30,7 @@ function button_forward() {
 
 
 
-//"вперёд"
+//"РІРїРµСЂС‘Рґ"
 function button_forward_inactive() {
 
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="51">');
@@ -68,7 +68,7 @@ function button_back_inactive() {
 }
 
 
-//"в меню"
+//"РІ РјРµРЅСЋ"
 function button_menu() {
 
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="51">');
@@ -89,7 +89,7 @@ function button_menu() {
 }
 
 
-//"в меню"
+//"РІ РјРµРЅСЋ"
 function button_menu_inactive() {
 
 	document.write('<table cellpadding="0" cellspacing="0" border="0" width="100%" height="51">');

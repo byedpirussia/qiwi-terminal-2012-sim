@@ -1,4 +1,4 @@
-﻿CLawMotion = createClass
+CLawMotion = createClass
 (
 	null,
 	{

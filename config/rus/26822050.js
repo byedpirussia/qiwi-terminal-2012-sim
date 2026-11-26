@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "geroivid.gif",
   "receiptName": "",
-  "sName": "Герои войны и денег",
+  "sName": "Р“РµСЂРѕРё РІРѕР№РЅС‹ Рё РґРµРЅРµРі",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Имя персонажа",
+                  "header": "РРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р°",
                   "mask": "<!^.+${1,17}>",
                   "name": "account",
                   "nobr": "false",

@@ -1,4 +1,4 @@
-﻿UIProvider ={
+UIProvider ={
   "grpId": "7470",
   "id": "7470001",
   "logo": "7470.gif",

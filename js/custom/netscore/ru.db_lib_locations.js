@@ -1,4 +1,4 @@
-﻿var db_lib_locations = [
+var db_lib_locations = [
   // city
   {'id': 633, 'name': 'Астана', 'region_id': 10933, 'type_city': true }
 , { 'id': 5500, 'name': 'Алматы', 'region_id': 10939, 'type_city': true }

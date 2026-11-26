@@ -1,4 +1,4 @@
-﻿CFieldChunk = createClass
+CFieldChunk = createClass
 (
 	CControl,
 	{

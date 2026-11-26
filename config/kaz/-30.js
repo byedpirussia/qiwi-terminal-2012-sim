@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"2081030","tag":"visible","logo":"2081.gif","sName":"Оскемен","small_logo":""},
 {"__type":"provider","id":"2081140","tag":"visible","logo":"2081.gif","sName":"Левый берег","small_logo":""},
 {"__type":"provider","id":"2081020","tag":"visible","logo":"2081.gif","sName":"Зайсан","small_logo":""},

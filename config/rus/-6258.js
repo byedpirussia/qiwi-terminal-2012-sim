@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"group","id":"-625801","logo":"","name":"Хостинг","tag":"visible,ranges"},
 {"__type":"group","id":"-625802","logo":"","name":"VPS/VDS","tag":"visible,ranges"},
 {"__type":"provider","id":"6258018","tag":"visible","logo":"","sName":"Регистрация домена","small_logo":""},

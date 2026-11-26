@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "lfp.gif",
   "receiptName": "",
-  "sName": "Легенда: Наследие драконов (фэо-прайм)",
+  "sName": "Р›РµРіРµРЅРґР°: РќР°СЃР»РµРґРёРµ РґСЂР°РєРѕРЅРѕРІ (С„СЌРѕ-РїСЂР°Р№Рј)",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,17}>",
                   "name": "account",
                   "nobr": "false",

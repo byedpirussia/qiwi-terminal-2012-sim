@@ -1,5 +1,5 @@
 UIGroup=[
-{"__type":"provider","id":"5083","tag":"visible","logo":"icon_kazak_min.gif","sName":"Оплата по номеру телефона","small_logo":""},
-{"__type":"group","id":"-802","logo":"icon_kazak_min.gif","name":"Оплата по номеру лицевого счета","tag":"visible,ranges"}
+{"__type":"provider","id":"5083","tag":"visible","logo":"icon_kazak_min.gif","sName":"РћРїР»Р°С‚Р° РїРѕ РЅРѕРјРµСЂСѓ С‚РµР»РµС„РѕРЅР°","small_logo":""},
+{"__type":"group","id":"-802","logo":"icon_kazak_min.gif","name":"РћРїР»Р°С‚Р° РїРѕ РЅРѕРјРµСЂСѓ Р»РёС†РµРІРѕРіРѕ СЃС‡РµС‚Р°","tag":"visible,ranges"}
 
 ];

@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "26823841.gif",
   "receiptName": "",
-  "sName": "Mgates онлайн игры",
+  "sName": "Mgates РѕРЅР»Р°Р№РЅ РёРіСЂС‹",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите ID игрока",
+                  "header": "Р’РІРµРґРёС‚Рµ ID РёРіСЂРѕРєР°",
                   "mask": "<!^.+${1,9}>",
                   "name": "account",
                   "nobr": "false",

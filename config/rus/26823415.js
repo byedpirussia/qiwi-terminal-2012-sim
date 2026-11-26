@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "26823415.gif",
   "receiptName": "",
-  "sName": "Варвары",
+  "sName": "Р’Р°СЂРІР°СЂС‹",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите ник или ID",
+                  "header": "Р’РІРµРґРёС‚Рµ РЅРёРє РёР»Рё ID",
                   "mask": "<!^.+${1,16}>",
                   "name": "account",
                   "nobr": "false",

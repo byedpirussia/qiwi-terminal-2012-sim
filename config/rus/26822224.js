@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "26822224.gif",
   "receiptName": "",
-  "sName": "Поднебесье",
+  "sName": "РџРѕРґРЅРµР±РµСЃСЊРµ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите логин в игре",
+                  "header": "Р’РІРµРґРёС‚Рµ Р»РѕРіРёРЅ РІ РёРіСЂРµ",
                   "mask": "<!^.+${1,29}>",
                   "name": "account",
                   "nobr": "false",

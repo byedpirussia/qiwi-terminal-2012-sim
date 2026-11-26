@@ -1,8 +1,8 @@
 <html>
 <head>
 	<title>Groups/Providers</title>
-	<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
-	<meta http-equiv="refresh" content="180; URL=./index.html" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="refresh" content="180; URL=./terminal.html" />
 	<link rel="stylesheet" href="./css/gr_prv.css?{VERSION}" type="text/css" />
 	<script src="./js/engine/utils.js?{VERSION}" type="text/javascript"></script>
 	<script src="./js/engine/storage.js?{VERSION}" type="text/javascript"></script>
@@ -31,7 +31,7 @@ var prvId = storage.get("provider");
 	}
 	else
 	{
-		top.location.href = "./index.html";
+		top.location.href = "./terminal.html";
 	}
 }
 
@@ -50,7 +50,7 @@ function start() {
         head.removeChild(js);
     
     if ($isNoU(oProvider)) {
-        document.location.href = "./index.html";
+        document.location.href = "./terminal.html";
     }
     else {
         var page = newObject(CProviderPage, null, null, null, "page", "content", oProvider);

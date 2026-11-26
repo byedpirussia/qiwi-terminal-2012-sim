@@ -415,7 +415,7 @@ Epoch.prototype.resetSelections = function (returnToDefaultMonth)  //PRIVATE: re
         }
     }
         var today = new Date();
-	var MONTH_NAMES = new Array('Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь');
+	var MONTH_NAMES = new Array('РЇРЅРІР°СЂСЊ','Р¤РµРІСЂР°Р»СЊ','РњР°СЂС‚','РђРїСЂРµР»СЊ','РњР°Р№','РСЋРЅСЊ','РСЋР»СЊ','РђРІРіСѓСЃС‚','РЎРµРЅС‚СЏР±СЂСЊ','РћРєС‚СЏР±СЂСЊ','РќРѕСЏР±СЂСЊ','Р”РµРєР°Р±СЂСЊ');
 	showMonth.innerHTML = MONTH_NAMES[today.getMonth()] + ' ' + today.getFullYear();
 	
   
@@ -572,7 +572,7 @@ Epoch.prototype.nextMonth = function () //PUBLIC: go to the next month.  if the 
 	}
 	//assign the currently displaying month/year values
 	
-	var MONTH_NAMES = new Array('Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь');
+	var MONTH_NAMES = new Array('РЇРЅРІР°СЂСЊ','Р¤РµРІСЂР°Р»СЊ','РњР°СЂС‚','РђРїСЂРµР»СЊ','РњР°Р№','РСЋРЅСЊ','РСЋР»СЊ','РђРІРіСѓСЃС‚','РЎРµРЅС‚СЏР±СЂСЊ','РћРєС‚СЏР±СЂСЊ','РќРѕСЏР±СЂСЊ','Р”РµРєР°Р±СЂСЊ');
 	showMonth.innerHTML = MONTH_NAMES[this.monthSelect.value] + ' ' + this.yearSelect.value;
 	
 
@@ -604,7 +604,7 @@ Epoch.prototype.prevMonth = function () //PUBLIC: go to the previous month.  if 
 	
 	//assign the currently displaying month/year values
 	
-	var MONTH_NAMES = new Array('Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь');
+	var MONTH_NAMES = new Array('РЇРЅРІР°СЂСЊ','Р¤РµРІСЂР°Р»СЊ','РњР°СЂС‚','РђРїСЂРµР»СЊ','РњР°Р№','РСЋРЅСЊ','РСЋР»СЊ','РђРІРіСѓСЃС‚','РЎРµРЅС‚СЏР±СЂСЊ','РћРєС‚СЏР±СЂСЊ','РќРѕСЏР±СЂСЊ','Р”РµРєР°Р±СЂСЊ');
 	showMonth.innerHTML = MONTH_NAMES[this.monthSelect.value] + ' ' + this.yearSelect.value;
 	
 	this.displayMonth = this.monthSelect.value;
@@ -796,7 +796,7 @@ function CalCell(owner,tableCell,dateObj,row)
 	//and set the CSS class of the table cell
 	this.setClass();
 }
-//Прототайпим наследование
+//РџСЂРѕС‚РѕС‚Р°Р№РїРёРј РЅР°СЃР»РµРґРѕРІР°РЅРёРµ
 //-----------------------------------------------------------------------------
 CalCell.prototype.onmouseover = function () //replicate CSS :hover effect for non-supporting browsers <iehack>
 {
@@ -952,7 +952,7 @@ Date.prototype.dateFormat = function(format)
 		format = 'd.m.Y';
 	}
 	LZ = function(x) {return(x < 0 || x > 9 ? '' : '0') + x};
-	var MONTH_NAMES = new Array('Январь','Февраль','Март','Апрель','Май','Июнь','Июль','Август','Сентябрь','Октябрь','Ноябрь','Декабрь','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');
+	var MONTH_NAMES = new Array('РЇРЅРІР°СЂСЊ','Р¤РµРІСЂР°Р»СЊ','РњР°СЂС‚','РђРїСЂРµР»СЊ','РњР°Р№','РСЋРЅСЊ','РСЋР»СЊ','РђРІРіСѓСЃС‚','РЎРµРЅС‚СЏР±СЂСЊ','РћРєС‚СЏР±СЂСЊ','РќРѕСЏР±СЂСЊ','Р”РµРєР°Р±СЂСЊ','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec');
 	var DAY_NAMES = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sun','Mon','Tue','Wed','Thu','Fri','Sat');
 	format = format + "";
 	var result="";

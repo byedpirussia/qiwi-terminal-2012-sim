@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "26822062.gif",
   "receiptName": "",
-  "sName": "Лордмансер",
+  "sName": "Р›РѕСЂРґРјР°РЅСЃРµСЂ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите логин",
+                  "header": "Р’РІРµРґРёС‚Рµ Р»РѕРіРёРЅ",
                   "mask": "<!^.+${1,30}>",
                   "name": "account",
                   "nobr": "false",

@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"group","id":"-67504","logo":"","name":"Акмолинская область","tag":"visible,ranges"},
 {"__type":"group","id":"-67505","logo":"","name":"Актюбинская область","tag":"visible,ranges"},
 {"__type":"group","id":"-67506","logo":"","name":"Алматинская область","tag":"visible,ranges"},

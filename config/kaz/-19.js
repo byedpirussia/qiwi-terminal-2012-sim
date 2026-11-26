@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"1609","tag":"visible","logo":"1609.gif","sName":"OLIMP KZ","small_logo":""},
 {"__type":"provider","id":"3202","tag":"visible","logo":"3202.gif","sName":"ZENIT.KZ ","small_logo":""},
 {"__type":"provider","id":"1103","tag":"visible","logo":"1103.gif","sName":"Букмекерская контора ГОЛ+ПАС","small_logo":""},

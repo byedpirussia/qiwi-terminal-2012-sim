@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"5245","tag":"visible","logo":"5245.gif","sName":"Rotaract club of Almaty","small_logo":""},
 {"__type":"provider","id":"4933","tag":"visible","logo":"4933.gif","sName":"Дара","small_logo":""},
 {"__type":"provider","id":"1788","tag":"visible","logo":"1788.gif","sName":"Добровольное Общество Милосердие","small_logo":""},

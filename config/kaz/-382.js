@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"5083","tag":"visible","logo":"5083.gif","sName":"Казахтелеком","small_logo":""},
 {"__type":"provider","id":"5010","tag":"visible","logo":"5010.gif","sName":"АлматыЭнергоСбыт","small_logo":""},
 {"__type":"provider","id":"4553","tag":"visible","logo":"4553.gif","sName":"ALSECO","small_logo":""},

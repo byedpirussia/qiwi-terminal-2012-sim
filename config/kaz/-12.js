@@ -1,4 +1,4 @@
-﻿UIGroup=[
+UIGroup=[
 {"__type":"provider","id":"4355","tag":"visible","logo":"4355.gif","sName":"СМС - Дневник (Караганда)","small_logo":""},
 {"__type":"provider","id":"2717","tag":"visible","logo":"2717.gif","sName":"СМС – Дневник (Уральск)","small_logo":""},
 {"__type":"provider","id":"2599","tag":"visible","logo":"2599.gif","sName":"СМС – Дневник (Шымкент)","small_logo":""},

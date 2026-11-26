@@ -1,7 +1,7 @@
 <html>
 <head>
 	<title>Enter_Summ</title>
-	<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="pragma" content="no-cache" />
 	<link rel="stylesheet" href="./css/enter_summ.css" type="text/css" />
 	<script type="text/javascript" src="./js/engine/utils.js"></script>
@@ -44,7 +44,7 @@
 		oPayInfo = Object.deserialize(storage.get("pay_info"));
 		if ($isNoU(oPayInfo))
 		{
-			document.location.href = "./index.html";
+			oPayInfo = { prvId: 1, prvName: "РћРїР»Р°С‚Р° СѓСЃР»СѓРі", account: "7777777777", minCashSum: 100, minSum: 100, maxSum: 100000, summ: 0 };
 		}
 		var sLang = storage.get("language");
 		if (sLang == "rus"){
@@ -124,10 +124,10 @@
                     break;
                 case "Prv2Type":
                     if ($("Prv2Type").value == "1") {
-                        $("dc_header").innerHTML = "Перечисление сдачи";
+                        $("dc_header").innerHTML = "РџРµСЂРµС‡РёСЃР»РµРЅРёРµ СЃРґР°С‡Рё";
                     }
                     else if ($("Prv2Type").value == "2") {
-                        $("dc_header").innerHTML = "Второй провайдер";
+                        $("dc_header").innerHTML = "Р’С‚РѕСЂРѕР№ РїСЂРѕРІР°Р№РґРµСЂ";
                     }
                     else {
                         $("dc_header").innerHTML = "";
@@ -135,11 +135,11 @@
                     break;
                 case "SecondPrvComm":
                     if ($("SecondPrvComm").value.toLowerCase() == "true") {
-                        $("red_line_txt").innerHTML = "Автомат сдачи наличными не выдает!";
+                        $("red_line_txt").innerHTML = "РђРІС‚РѕРјР°С‚ СЃРґР°С‡Рё РЅР°Р»РёС‡РЅС‹РјРё РЅРµ РІС‹РґР°РµС‚!";
                         $("info_2").style.display = "block";
                     }
                     else {
-                        $("red_line_txt").innerHTML = "Автомат сдачи не выдает!";
+                        $("red_line_txt").innerHTML = "РђРІС‚РѕРјР°С‚ СЃРґР°С‡Рё РЅРµ РІС‹РґР°РµС‚!";
                         $("info_2").style.display = "none";
                     }
                     break;
@@ -207,7 +207,7 @@
     <table id="commission_info" cellpadding="20" cellspacing="1">
         <tr>
             <td id="commission_txt">
-                <strong>Нет дополнительной информации</strong>
+                <strong>РќРµС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё</strong>
             </td>
         </tr>
     </table>
@@ -226,11 +226,11 @@
                         <div style="width: 43px; height: 101px; background: url('./img/ui/es/left.gif') no-repeat; float: left;"></div>
                         <div style="width: 894px; height: 101px; background: url('./img/ui/es/center.gif') repeat-x; float: left;">
                             <div class="min_summ" align="left" style=" height: 30px;">
-                                <div id="min_summ_txt">Внимание, вносимая сумма должна быть не меньше</div>
+                                <div id="min_summ_txt">Р’РЅРёРјР°РЅРёРµ, РІРЅРѕСЃРёРјР°СЏ СЃСѓРјРјР° РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РЅРµ РјРµРЅСЊС€Рµ</div>
                                 <div id="min_summ_div" align="right">
                                     <input id="min_summ" name="min_summ" class="inp" type="text" value="" />
                                 </div>
-                                <div id="min_summ_um">Тг.</div>
+                                <div id="min_summ_um">РўРі.</div>
                             </div>
                         </div>
                         <div style="width: 43px; height: 101px; background: url('./img/ui/es/right.gif') no-repeat; float: left;"></div>
@@ -240,7 +240,7 @@
                                 <td style="width: 976px; background: #2c68b3;">
                                     <div style="margin: 20px; overflow: hidden">
                                         <div style="height: 110px;">
-                                            <div style="width: 465px; height: 100%; margin-top: 35px; color: #fff; font-size: 50px; float: left;">Внесенная сумма</div>
+                                            <div style="width: 465px; height: 100%; margin-top: 35px; color: #fff; font-size: 50px; float: left;">Р’РЅРµСЃРµРЅРЅР°СЏ СЃСѓРјРјР°</div>
                                             <div style="width: 468px; height: 100%; float: left;">
                                                 <div style="width: 16px; height: 100%; background: url('./img/ui/es/vnesen_left.gif') no-repeat; float: left;"></div>
                                                 <div style="width: 436px; height: 100%; background: url('./img/ui/es/vnesen_1px.gif') repeat-x; float: left;">
@@ -251,7 +251,7 @@
                                         </div>
                                         <div class="w_100" style="margin-top: 20px;">
                                             <div class="c_fff f_l l_u_l">
-                                                <span id="komisswarn_span" class="i_s">Комиссия </span>
+                                                <span id="komisswarn_span" class="i_s">РљРѕРјРёСЃСЃРёСЏ </span>
                                             </div>
                                             <div class="c_fff f_r">
                                                 <input id="komissprop" name="komissprop" class="c_fff inp" type="text" value="" />
@@ -265,10 +265,10 @@
                                         </div>
                                         <div class="w_100">
                                             <div class="c_fff f_l l_u_l">
-                                                <span id="really_summ_span" class="i_s">К зачислению на счет абонента </span>
+                                                <span id="really_summ_span" class="i_s">Рљ Р·Р°С‡РёСЃР»РµРЅРёСЋ РЅР° СЃС‡РµС‚ Р°Р±РѕРЅРµРЅС‚Р° </span>
                                             </div>
                                             <div class="c_fff f_r">
-                                                <input id="really_summ_prop" name="really_summ_prop" class="c_fff inp" type="text" value="Тг." />
+                                                <input id="really_summ_prop" name="really_summ_prop" class="c_fff inp" type="text" value="РўРі." />
                                             </div>
                                             <div class="c_fff f_r">
                                                 <input id="really_summ" name="really_summ" class="c_fff inp" type="text" value="" />
@@ -276,10 +276,10 @@
                                         </div>
                                         <div id="delivery_div" class="w_100">
                                             <div class="c_fff f_l l_u_l">
-                                                <span id="change_span" class="i_s">Сдача </span>
+                                                <span id="change_span" class="i_s">РЎРґР°С‡Р° </span>
                                             </div>
                                             <div class="c_fff f_r">
-                                                <input id="changeprop" name="changeprop" class="c_fff inp" type="text" value="Тг." />
+                                                <input id="changeprop" name="changeprop" class="c_fff inp" type="text" value="РўРі." />
                                             </div>
                                             <div class="c_888 f_r">
                                                 <input id="change" name="change" class="c_fff inp" type="text" value="" />
@@ -293,7 +293,7 @@
                                             </div>
                                             <div class="w_100">
                                                 <div class="c_fff f_l l_u_l">
-                                                    <span id="komisswarn2_span" class="i_s">Комиссия </span>
+                                                    <span id="komisswarn2_span" class="i_s">РљРѕРјРёСЃСЃРёСЏ </span>
                                                 </div>
                                                 <div class="c_fff f_r">
                                                     <input id="komissprop2" name="komissprop2" class="c_fff inp" type="text" value="" />
@@ -307,10 +307,10 @@
                                             </div>
                                             <div class="w_100">
                                                 <div class="c_fff f_l l_u_l">
-                                                    <span id="really_summ_span2" class="i_s">К зачислению на счет абонента </span>
+                                                    <span id="really_summ_span2" class="i_s">Рљ Р·Р°С‡РёСЃР»РµРЅРёСЋ РЅР° СЃС‡РµС‚ Р°Р±РѕРЅРµРЅС‚Р° </span>
                                                 </div>
                                                 <div class="c_fff f_r">
-                                                    <input id="really_summ_prop2" name="really_summ_prop2" class="c_fff inp" type="text" value="Тг." />
+                                                    <input id="really_summ_prop2" name="really_summ_prop2" class="c_fff inp" type="text" value="РўРі." />
                                                 </div>
                                                 <div class="c_fff f_r">
                                                     <input id="really_summ2" name="really_summ2" class="c_fff inp" type="text" value="" />
@@ -320,11 +320,11 @@
                                     </div>
                                     <div id="red_line" style="margin: 10px; height: 96px; clear: both">
                                         <div style="width: 18px; height: 100%; background: url('./img/ui/es/left_uho_b_warning.gif') no-repeat; float: left;"></div>
-                                        <div id="red_line_txt" style="width: 920px; height: 100%; text-align: center; color: #fff; font-size: 45px; padding-top: 20px; background: url('./img/ui/es/bg_b_warning.gif') repeat-x; float: left;">Автомат сдачи не выдает!</div>
+                                        <div id="red_line_txt" style="width: 920px; height: 100%; text-align: center; color: #fff; font-size: 45px; padding-top: 20px; background: url('./img/ui/es/bg_b_warning.gif') repeat-x; float: left;">РђРІС‚РѕРјР°С‚ СЃРґР°С‡Рё РЅРµ РІС‹РґР°РµС‚!</div>
                                         <div style="width: 18px; height: 100%; background: url('./img/ui/es/right_uho_b_warning.gif') no-repeat; float: left;"></div>
                                     </div>
-                                    <div style="margin: 5px 0px 0px 25px; color: #fff;">Вставьте купюры в купюроприемник.</div>
-                                    <div style="margin: 5px 0px 0px 25px; color: #fff;">Дождитесь, пока в поле "Внесенная сумма" появится сумма внесенных вами денег.</div>
+                                    <div style="margin: 5px 0px 0px 25px; color: #fff;">Р’СЃС‚Р°РІСЊС‚Рµ РєСѓРїСЋСЂС‹ РІ РєСѓРїСЋСЂРѕРїСЂРёРµРјРЅРёРє.</div>
+                                    <div style="margin: 5px 0px 0px 25px; color: #fff;">Р”РѕР¶РґРёС‚РµСЃСЊ, РїРѕРєР° РІ РїРѕР»Рµ "Р’РЅРµСЃРµРЅРЅР°СЏ СЃСѓРјРјР°" РїРѕСЏРІРёС‚СЃСЏ СЃСѓРјРјР° РІРЅРµСЃРµРЅРЅС‹С… РІР°РјРё РґРµРЅРµРі.</div>
                                 </td>
                                 <td style="width: 2px; background: url('./img/ui/es/right_border_blue.gif') repeat-y;"></td>
                             </tr>
@@ -333,9 +333,9 @@
                         <div style="width: 946px; height: 16px; background: #2c68b3; float: left;"></div>
                         <div style="width: 17px; height: 16px; background: url('./img/ui/es/darkblue_circle.gif') 17px -16px; float: left;"></div>
                         <div align="center" class="max_summ">
-                            <div class="f_l" style="font-size: 18px; color: #F2692B;">Максимальная сумма платежа для данного провайдера:</div>
+                            <div class="f_l" style="font-size: 18px; color: #F2692B;">РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ СЃСѓРјРјР° РїР»Р°С‚РµР¶Р° РґР»СЏ РґР°РЅРЅРѕРіРѕ РїСЂРѕРІР°Р№РґРµСЂР°:</div>
                             <div class="f_l">
-                                <input id="max_cash_summ" name="max_cash_summ" class="inp" type="text" value="не ограничена" />
+                                <input id="max_cash_summ" name="max_cash_summ" class="inp" type="text" value="РЅРµ РѕРіСЂР°РЅРёС‡РµРЅР°" />
                             </div>    
                         </div>
                     </div>

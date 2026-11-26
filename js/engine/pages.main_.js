@@ -309,7 +309,7 @@ CMainPage = createClass
 //	        }
 //	        else if (group && group.tag.indexOf('lottery') > -1) {
 //	            top.storage.put("last_page", document.location.href);
-//	            top.location.href = "./loto_index.html";
+//	            top.location.href = "./loto_terminal.html";
 //	        }
 //	        else {
 	            var h = hash;
@@ -421,7 +421,7 @@ if (oProvider.tag && oProvider.tag.indexOf('charity') > -1) {
 	    //	        top.location.href = "./epa.html";
 	    //	    },
 	    _menuButtonClick: function(sender, eargs) {
-	        top.location.href = "./index.html";
+	        top.location.href = "./terminal.html";
 	    }
 
 	    //	    _searchButtonClick: function(sender, eargs) {

@@ -1,4 +1,4 @@
-﻿var debugCalls = 0;
+var debugCalls = 0;
 var warnings = 0;
 
 function newClass(parent, prop) {

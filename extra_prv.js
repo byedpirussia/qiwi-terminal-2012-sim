@@ -28,7 +28,7 @@ function getExtraRecord(i)
 	addVal.prv_title = extraPrv[i][1][4];
 	addVal.prv_caption = extraPrv[i][1][5];
 	addVal.prv_alert = '<font weight=bold size=5>'+addVal.prv_name+'</font>'+
-	  '<br><br><font size=4 color=red>Внимание!<br>По вопросам зачисления платежей обращайтесь к владельцу автомата!</font>';
+	  '<br><br><font size=4 color=red>Р’РЅРёРјР°РЅРёРµ!<br>РџРѕ РІРѕРїСЂРѕСЃР°Рј Р·Р°С‡РёСЃР»РµРЅРёСЏ РїР»Р°С‚РµР¶РµР№ РѕР±СЂР°С‰Р°Р№С‚РµСЃСЊ Рє РІР»Р°РґРµР»СЊС†Сѓ Р°РІС‚РѕРјР°С‚Р°!</font>';
 	addVal.prv_is_extra = 1;
 	return addVal;
 }

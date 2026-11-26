@@ -85,7 +85,7 @@
 	    },
 
 	    _menuButtonClick: function(sender, eargs) {
-	        document.location.href = "./index.html";
+	        document.location.href = "./terminal.html";
 	    },
 
 	    _forwardButtonClick: function(sender, eargs) {
@@ -190,7 +190,7 @@
 	            }
 	        }
 	        if (!bIsSearchComplete) {
-	            document.location.href = "./index.html";
+	            document.location.href = "./terminal.html";
 	        }
 	    },
 	    
@@ -293,7 +293,7 @@
 	                oTab.render();
 	            }
 	            else
-	                document.location.href = "./index.html";
+	                document.location.href = "./terminal.html";
 	        }
 	    }
 	}

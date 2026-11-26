@@ -1,4 +1,4 @@
-﻿UIProvider = {
+UIProvider = {
     "tag": "change",
     "grpId": "123",
     "id": "5066",

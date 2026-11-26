@@ -1,4 +1,4 @@
-﻿(function ($) {
+(function ($) {
 	// jQuery plugin definition
 	$.fn.jsinclude = function (params) {
 		// merge default and user parameters

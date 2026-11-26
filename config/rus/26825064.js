@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите платежный ID",
+                  "header": "Р’РІРµРґРёС‚Рµ РїР»Р°С‚РµР¶РЅС‹Р№ ID",
                   "mask": "<!^.+${1,16}>",
                   "name": "account",
                   "nobr": "false",

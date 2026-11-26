@@ -3,7 +3,7 @@ UIProvider ={
   "id": "2682",
   "logo": "osada.gif",
   "receiptName": "",
-  "sName": "Осада Онлайн",
+  "sName": "РћСЃР°РґР° РћРЅР»Р°Р№РЅ",
   "small_logo": "",
   "tag": "visible",
   "prvPage":"embed_flash_2Pay.html",
@@ -36,7 +36,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш имя персонажа",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РёРјСЏ РїРµСЂСЃРѕРЅР°Р¶Р°",
                   "mask": "<!^.+${1,21}>",
                   "name": "account",
                   "nobr": "false",

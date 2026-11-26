@@ -3,7 +3,7 @@ UIProvider ={
   "id": "268220",
   "logo": "ganzda.gif",
   "receiptName": "",
-  "sName": "Ганджубасовые войны",
+  "sName": "Р“Р°РЅРґР¶СѓР±Р°СЃРѕРІС‹Рµ РІРѕР№РЅС‹",
   "small_logo": "",
   "tag": "visible",
   "__objects": [
@@ -35,7 +35,7 @@ UIProvider ={
               "__type": "controls",
               "__objects": [
                 {
-                  "header": "Введите Ваш ник",
+                  "header": "Р’РІРµРґРёС‚Рµ Р’Р°С€ РЅРёРє",
                   "mask": "<!^.+${1,24}>",
                   "name": "account",
                   "nobr": "false",

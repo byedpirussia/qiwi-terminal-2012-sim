@@ -1,4 +1,4 @@
-﻿var strings_rus = 
+var strings_rus = 
 {
     "callsign" : "Введите Ваш позывной",
     "attention" : "ВНИМАНИЕ! ВНОСИМАЯ СУММА НЕ ДОЛЖНА БЫТЬ МЕНЬШЕ",

@@ -1,4 +1,4 @@
-﻿var gotohistory = [{ 'title': 'Netscore', 'name': 'index'}];
+var gotohistory = [{ 'title': 'Netscore', 'name': 'index'}];
 
 function goto(n) {
     if (n == '-1') {

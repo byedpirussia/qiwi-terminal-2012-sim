@@ -1,4 +1,4 @@
-﻿var db_lJobPosLevel = [
+var db_lJobPosLevel = [
  { 'id': 1, 'name': 'Newbie' }
 , { 'id': 2, 'name': 'Specialist' }
 , { 'id': 4, 'name': 'Top manager' }

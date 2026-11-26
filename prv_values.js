@@ -896,7 +896,7 @@ value["894a"] = new Array ();
 
 value["894a"]["prv_id"]="894";
 
-value["894a"]["prv_name"]= "AVON - Товары";
+value["894a"]["prv_name"]= "AVON - РўРѕРІР°СЂС‹";
 
 value["894a"]["prv_folder"]="other";
 
@@ -904,7 +904,7 @@ value["894a"]["prv_image"]="./img/ui_item/avon_tovar.gif";
 
 value["894a"]["prv_page"]="./p_avon_tovar.html";
 
-value["894a"]["prv_alert"]="Уважаемые Представители!<br>Обращаем Ваше внимание, что в момент зачисления суммы платежа на ваш счет, будет удержана комиссия в размере 1% от суммы платежа.";
+value["894a"]["prv_alert"]="РЈРІР°Р¶Р°РµРјС‹Рµ РџСЂРµРґСЃС‚Р°РІРёС‚РµР»Рё!<br>РћР±СЂР°С‰Р°РµРј Р’Р°С€Рµ РІРЅРёРјР°РЅРёРµ, С‡С‚Рѕ РІ РјРѕРјРµРЅС‚ Р·Р°С‡РёСЃР»РµРЅРёСЏ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р° РЅР° РІР°С€ СЃС‡РµС‚, Р±СѓРґРµС‚ СѓРґРµСЂР¶Р°РЅР° РєРѕРјРёСЃСЃРёСЏ РІ СЂР°Р·РјРµСЂРµ 1% РѕС‚ СЃСѓРјРјС‹ РїР»Р°С‚РµР¶Р°.";
 
 //AVON
 
@@ -912,7 +912,7 @@ value["991"] = new Array ();
 
 value["991"]["prv_id"]="991";
 
-value["991"]["prv_name"]= "AVON - оплата за тренинг";
+value["991"]["prv_name"]= "AVON - РѕРїР»Р°С‚Р° Р·Р° С‚СЂРµРЅРёРЅРі";
 
 value["991"]["prv_folder"]="other";
 
@@ -955,7 +955,7 @@ value["1104"]["prv_page"]="./p_metronet.html";
 
 value["1104"]["prv_alert"]="";
 
-//Букмекерская контора
+//Р‘СѓРєРјРµРєРµСЂСЃРєР°СЏ РєРѕРЅС‚РѕСЂР°
 value["bookmaker"] = new Array();
 value["bookmaker"]["prv_image"] = "./img/ui_item/bookmaker.gif";
 //GOLPAS
@@ -964,7 +964,7 @@ value["1103"] = new Array ();
 
 value["1103"]["prv_id"]="1103";
 
-value["1103"]["prv_name"]= "Букмекерская контора Гол+Пас";
+value["1103"]["prv_name"]= "Р‘СѓРєРјРµРєРµСЂСЃРєР°СЏ РєРѕРЅС‚РѕСЂР° Р“РѕР»+РџР°СЃ";
 
 value["1103"]["prv_folder"]="other";
 
@@ -1212,11 +1212,11 @@ value["9999a"]["prv_alert"]="";
 
 value["1643"] = new Array ();
 
-//Олимп
+//РћР»РёРјРї
 value["olimp"] = new Array();
 value["olimp"]["prv_image"] = "./img/ui_item/button_olimp.gif";
 
-//OLIMP пополнение счета
+//OLIMP РїРѕРїРѕР»РЅРµРЅРёРµ СЃС‡РµС‚Р°
 value["OLIMPPAY"] = new Array ();
 value["OLIMPPAY"]["prv_id"]="1609";
 value["OLIMPPAY"]["prv_name"]= "OLIMP";
@@ -1225,7 +1225,7 @@ value["OLIMPPAY"]["prv_image"]="./img/ui_item/olimp_pay.gif";
 value["OLIMPPAY"]["prv_page"]="./p_olimp_pay.html";
 value["OLIMPPAY"]["prv_alert"]="";
 
-//OLIMP регистрация
+//OLIMP СЂРµРіРёСЃС‚СЂР°С†РёСЏ
 value["OLIMPREG"] = new Array ();
 value["OLIMPREG"]["prv_folder"]="other";
 value["OLIMPREG"]["prv_image"]="./img/ui_item/olimp_reg.gif";
@@ -1261,7 +1261,7 @@ value["1631"] = new Array ();
 
 value["1631"]["prv_id"]="1631";
 
-value["1631"]["prv_name"]= "ПГК";
+value["1631"]["prv_name"]= "РџР“Рљ";
 
 value["1631"]["prv_folder"]="other";
 
@@ -1285,7 +1285,7 @@ value["2079"] = new Array ();
 
 value["2079"]["prv_id"]="2079";
 
-value["2079"]["prv_name"]= "ШыгысЭнерго-Электроэнергия";
+value["2079"]["prv_name"]= "РЁС‹РіС‹СЃР­РЅРµСЂРіРѕ-Р­Р»РµРєС‚СЂРѕСЌРЅРµСЂРіРёСЏ";
 
 value["2079"]["prv_folder"]="zkh";
 
@@ -1301,7 +1301,7 @@ value["2080"] = new Array ();
 
 value["2080"]["prv_id"]="2080";
 
-value["2080"]["prv_name"]= "ШыгысЭнерго-За акты";
+value["2080"]["prv_name"]= "РЁС‹РіС‹СЃР­РЅРµСЂРіРѕ-Р—Р° Р°РєС‚С‹";
 
 value["2080"]["prv_folder"]="zkh";
 
@@ -1317,7 +1317,7 @@ value["2081"] = new Array ();
 
 value["2081"]["prv_id"]="2081";
 
-value["2081"]["prv_name"]= "ШыгысЭнерго-Штрафная не устойка";
+value["2081"]["prv_name"]= "РЁС‹РіС‹СЃР­РЅРµСЂРіРѕ-РЁС‚СЂР°С„РЅР°СЏ РЅРµ СѓСЃС‚РѕР№РєР°";
 
 value["2081"]["prv_folder"]="zkh";
 
@@ -1333,7 +1333,7 @@ value["2082"] = new Array ();
 
 value["2082"]["prv_id"]="2082";
 
-value["2082"]["prv_name"]= "ШыгысЭнерго-Подключение";
+value["2082"]["prv_name"]= "РЁС‹РіС‹СЃР­РЅРµСЂРіРѕ-РџРѕРґРєР»СЋС‡РµРЅРёРµ";
 
 value["2082"]["prv_folder"]="zkh";
 
@@ -1344,13 +1344,13 @@ value["2082"]["prv_page"]="./p_podkluch.html";
 value["2082"]["prv_alert"]="";
 
 
-//КЭЦ
+//РљР­Р¦
 
 value["2083"] = new Array ();
 
 value["2083"]["prv_id"]="2083";
 
-value["2083"]["prv_name"]= "КЭЦ";
+value["2083"]["prv_name"]= "РљР­Р¦";
 
 value["2083"]["prv_folder"]="zkh";
 
@@ -1381,13 +1381,13 @@ value["2167"]["prv_page_conf"]="./validate_confirm.html";
 
 value["2167"]["prv_alert"]="";
 
-//ЖКХ (Спецмашин, вывоз мусора г.Павлодар) Кукурузкин
+//Р–РљРҐ (РЎРїРµС†РјР°С€РёРЅ, РІС‹РІРѕР· РјСѓСЃРѕСЂР° Рі.РџР°РІР»РѕРґР°СЂ) РљСѓРєСѓСЂСѓР·РєРёРЅ
 
 value["3154"] = new Array ();
 
 value["3154"]["prv_id"]="3154";
 
-value["3154"]["prv_name"]= "ЖКХ (Спецмашин, вывоз мусора г.Павлодар)";
+value["3154"]["prv_name"]= "Р–РљРҐ (РЎРїРµС†РјР°С€РёРЅ, РІС‹РІРѕР· РјСѓСЃРѕСЂР° Рі.РџР°РІР»РѕРґР°СЂ)";
 
 value["3154"]["prv_folder"]="zkh";
 
@@ -1399,12 +1399,12 @@ value["3154"]["prv_page_conf"]="./validate_confirm.html";
 
 value["3154"]["prv_alert"]="";
 
-//Шымкент онлайн
+//РЁС‹РјРєРµРЅС‚ РѕРЅР»Р°Р№РЅ
 value["3156"] = new Array ();
 
 value["3156"]["prv_id"]="3156";
 
-value["3156"]["prv_name"]= "Шымкент онлайн";
+value["3156"]["prv_name"]= "РЁС‹РјРєРµРЅС‚ РѕРЅР»Р°Р№РЅ";
 
 value["3156"]["prv_folder"]="other";
 
@@ -1418,13 +1418,13 @@ value["3154"]["prv_alert"]="";
 
 
 
-//В контакте
+//Р’ РєРѕРЅС‚Р°РєС‚Рµ
 
 value["2264"] = new Array ();
 
 value["2264"]["prv_id"]="2264";
 
-value["2264"]["prv_name"]= "В контакте ";
+value["2264"]["prv_name"]= "Р’ РєРѕРЅС‚Р°РєС‚Рµ ";
 
 value["2264"]["prv_folder"]="other","internet","ecommerce";
 
@@ -1454,7 +1454,7 @@ value["2826"]["prv_page_conf"]="./validate_confirm.html";
 
 value["2826"]["prv_alert"]="";
 
-//Pin провайдеры
+//Pin РїСЂРѕРІР°Р№РґРµСЂС‹
 //=====================================================================================================
 //ASTEL
 
@@ -1478,7 +1478,7 @@ value["2130"] = new Array ();
 
 value["2130"]["prv_id"]="2130";
 
-value["2130"]["prv_name"]= "Ивентис Телеком";
+value["2130"]["prv_name"]= "РРІРµРЅС‚РёСЃ РўРµР»РµРєРѕРј";
 
 value["2130"]["prv_folder"]="internet";
 
@@ -1568,16 +1568,16 @@ value["2387"]["prv_page"]="./p_mamba.html";
 
 value["2387"]["prv_page_conf"]="./validate_confirm.html";
 
-value["2387"]["prv_alert"]="<span class='inp'>Внимание, минимальная сумма для данного провайдера, 300 тенге!</span>";
+value["2387"]["prv_alert"]="<span class='inp'>Р’РЅРёРјР°РЅРёРµ, РјРёРЅРёРјР°Р»СЊРЅР°СЏ СЃСѓРјРјР° РґР»СЏ РґР°РЅРЅРѕРіРѕ РїСЂРѕРІР°Р№РґРµСЂР°, 300 С‚РµРЅРіРµ!</span>";
 
 
-//Интернет дома
+//РРЅС‚РµСЂРЅРµС‚ РґРѕРјР°
 
 value["2600"] = new Array ();
 
 value["2600"]["prv_id"]="2600";
 
-value["2600"]["prv_name"]= "Интернет дома";
+value["2600"]["prv_name"]= "РРЅС‚РµСЂРЅРµС‚ РґРѕРјР°";
 
 value["2600"]["prv_folder"]="other";
 
@@ -1613,13 +1613,13 @@ value["eshko"] = new Array ();
 
 value["eshko"]["prv_image"]="./img/ui_item/button_eshko.gif";
 
-//Ешко за обучение
+//Р•С€РєРѕ Р·Р° РѕР±СѓС‡РµРЅРёРµ
 
 value["2720"] = new Array ();
 
 value["2720"]["prv_id"]="2720";
 
-value["2720"]["prv_name"]= "Ешко за обучение";
+value["2720"]["prv_name"]= "Р•С€РєРѕ Р·Р° РѕР±СѓС‡РµРЅРёРµ";
 
 value["2720"]["prv_folder"]="other";
 
@@ -1629,13 +1629,13 @@ value["2720"]["prv_page"]="p_eshko1.html";
 
 value["2720"]["prv_alert"]="";
 
-//Ешко за итоговый тест 
+//Р•С€РєРѕ Р·Р° РёС‚РѕРіРѕРІС‹Р№ С‚РµСЃС‚ 
 
 value["2722"] = new Array ();
 
 value["2722"]["prv_id"]="2722";
 
-value["2722"]["prv_name"]= "Ешко за итоговый тест";
+value["2722"]["prv_name"]= "Р•С€РєРѕ Р·Р° РёС‚РѕРіРѕРІС‹Р№ С‚РµСЃС‚";
 
 value["2722"]["prv_folder"]="other";
 
@@ -1645,13 +1645,13 @@ value["2722"]["prv_page"]="./p_eshko2.html";
 
 value["2722"]["prv_alert"]="";
 
-//Ешко за дополнительные материалы
+//Р•С€РєРѕ Р·Р° РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РјР°С‚РµСЂРёР°Р»С‹
 
 value["2723"] = new Array ();
 
 value["2723"]["prv_id"]="2723";
 
-value["2723"]["prv_name"]= "Ешко за дополнительные материалы";
+value["2723"]["prv_name"]= "Р•С€РєРѕ Р·Р° РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РјР°С‚РµСЂРёР°Р»С‹";
 
 value["2723"]["prv_folder"]="other";
 
@@ -1678,20 +1678,20 @@ value["2681"]["prv_page"]="./p_sky_telecom.html";
 value["2681"]["prv_alert"]="";
 
 
-//СМС Дневник
+//РЎРњРЎ Р”РЅРµРІРЅРёРє
 //=====================================================================================================
 
 value["sms_dnevnik"] = new Array ();
 
 value["sms_dnevnik"]["prv_image"]="./img/ui_item/button_sms_dnevnik.gif";
 
-//Уральск
+//РЈСЂР°Р»СЊСЃРє
 
 value["2717"] = new Array ();
 
 value["2717"]["prv_id"]="2717";
 
-value["2717"]["prv_name"]= "СМС Дневник. Уральск";
+value["2717"]["prv_name"]= "РЎРњРЎ Р”РЅРµРІРЅРёРє. РЈСЂР°Р»СЊСЃРє";
 
 value["2717"]["prv_folder"]="other";
 
@@ -1701,13 +1701,13 @@ value["2717"]["prv_page"]="p_sms_dnevnik_uralsk.html";
 
 value["2717"]["prv_alert"]="";
 
-//Шымкент 
+//РЁС‹РјРєРµРЅС‚ 
 
 value["2599"] = new Array ();
 
 value["2599"]["prv_id"]="2599";
 
-value["2599"]["prv_name"]= "СМС Дневник. Шымкент ";
+value["2599"]["prv_name"]= "РЎРњРЎ Р”РЅРµРІРЅРёРє. РЁС‹РјРєРµРЅС‚ ";
 
 value["2599"]["prv_folder"]="other";
 
@@ -1717,13 +1717,13 @@ value["2599"]["prv_page"]="./p_sms_dnevnik_shymkent.html";
 
 value["2599"]["prv_alert"]="";
 
-//Алматы
+//РђР»РјР°С‚С‹
 
 value["2945"] = new Array ();
 
 value["2945"]["prv_id"]="2945";
 
-value["2945"]["prv_name"]= "СМС Дневник. Алматы ";
+value["2945"]["prv_name"]= "РЎРњРЎ Р”РЅРµРІРЅРёРє. РђР»РјР°С‚С‹ ";
 
 value["2945"]["prv_folder"]="other";
 
@@ -1733,13 +1733,13 @@ value["2945"]["prv_page"]="./p_sms_dnevnik_almaty.html";
 
 value["2945"]["prv_alert"]="";
 
-//Атырау
+//РђС‚С‹СЂР°Сѓ
 
 value["3050"] = new Array ();
 
 value["3050"]["prv_id"]="3050";
 
-value["3050"]["prv_name"]= "СМС Дневник. Атырау";
+value["3050"]["prv_name"]= "РЎРњРЎ Р”РЅРµРІРЅРёРє. РђС‚С‹СЂР°Сѓ";
 
 value["3050"]["prv_folder"]="other";
 
@@ -1749,13 +1749,13 @@ value["3050"]["prv_page"]="p_smsatyu.html";
 
 value["3050"]["prv_alert"]="";
 
-//Павлодар
+//РџР°РІР»РѕРґР°СЂ
 
 value["3007"] = new Array ();
 
 value["3007"]["prv_id"]="3007";
 
-value["3007"]["prv_name"]= "СМС Дневник. Павлодар";
+value["3007"]["prv_name"]= "РЎРњРЎ Р”РЅРµРІРЅРёРє. РџР°РІР»РѕРґР°СЂ";
 
 value["3007"]["prv_folder"]="other";
 
@@ -1767,20 +1767,20 @@ value["3007"]["prv_alert"]="";
 
 
 
-//Благотворительность 
+//Р‘Р»Р°РіРѕС‚РІРѕСЂРёС‚РµР»СЊРЅРѕСЃС‚СЊ 
 //=====================================================================================================
 
-//Благотворительность
+//Р‘Р»Р°РіРѕС‚РІРѕСЂРёС‚РµР»СЊРЅРѕСЃС‚СЊ
 value["charity"] = new Array();
 value["charity"]["prv_image"] = "./img/ui_item/charity.gif";
 
-//Дом
+//Р”РѕРј
 
 value["1788"] = new Array ();
 
 value["1788"]["prv_id"]="1788";
 
-value["1788"]["prv_name"]= "ДОМ";
+value["1788"]["prv_name"]= "Р”РћРњ";
 
 value["1788"]["prv_folder"]="other";
 
@@ -1788,7 +1788,7 @@ value["1788"]["prv_image"]="./img/ui_item/button_dom.gif";
 
 value["1788"]["prv_page"]="./p_dom.html";
 
-value["1788"]["prv_alert"]="Общественный фонд 'Милосердие' проводит  благотворительную акцию 'Подари детям жизнь',направленную на помощь детям в лечении болезней,которые невозможно вылечить в Казахстане.Помогая фонду 'Милосердие',вы помогаете спасти жизнь ребенку. Подробности на сайте www.detdom.kz"; 
+value["1788"]["prv_alert"]="РћР±С‰РµСЃС‚РІРµРЅРЅС‹Р№ С„РѕРЅРґ 'РњРёР»РѕСЃРµСЂРґРёРµ' РїСЂРѕРІРѕРґРёС‚  Р±Р»Р°РіРѕС‚РІРѕСЂРёС‚РµР»СЊРЅСѓСЋ Р°РєС†РёСЋ 'РџРѕРґР°СЂРё РґРµС‚СЏРј Р¶РёР·РЅСЊ',РЅР°РїСЂР°РІР»РµРЅРЅСѓСЋ РЅР° РїРѕРјРѕС‰СЊ РґРµС‚СЏРј РІ Р»РµС‡РµРЅРёРё Р±РѕР»РµР·РЅРµР№,РєРѕС‚РѕСЂС‹Рµ РЅРµРІРѕР·РјРѕР¶РЅРѕ РІС‹Р»РµС‡РёС‚СЊ РІ РљР°Р·Р°С…СЃС‚Р°РЅРµ.РџРѕРјРѕРіР°СЏ С„РѕРЅРґСѓ 'РњРёР»РѕСЃРµСЂРґРёРµ',РІС‹ РїРѕРјРѕРіР°РµС‚Рµ СЃРїР°СЃС‚Рё Р¶РёР·РЅСЊ СЂРµР±РµРЅРєСѓ. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё РЅР° СЃР°Р№С‚Рµ www.detdom.kz"; 
 
 //A2B
 
@@ -1806,13 +1806,13 @@ value["972"]["prv_page"]="./p_a2b.html";
 
 value["972"]["prv_alert"]="";
 
-//Зам - зам
+//Р—Р°Рј - Р·Р°Рј
 
 value["2488"] = new Array ();
 
 value["2488"]["prv_id"]="2488";
 
-value["2488"]["prv_name"]= "Зам - зам";
+value["2488"]["prv_name"]= "Р—Р°Рј - Р·Р°Рј";
 
 value["2488"]["prv_folder"]="other";
 
@@ -1820,15 +1820,15 @@ value["2488"]["prv_image"]="./img/ui_item/button_zam-zam.gif";
 
 value["2488"]["prv_page"]="./p_zam-zam.html";
 
-value["2488"]["prv_alert"]="<span class='inp'>Внимание, идет оплата за благотворительный фонд «Зам Зам»</span>"; 
+value["2488"]["prv_alert"]="<span class='inp'>Р’РЅРёРјР°РЅРёРµ, РёРґРµС‚ РѕРїР»Р°С‚Р° Р·Р° Р±Р»Р°РіРѕС‚РІРѕСЂРёС‚РµР»СЊРЅС‹Р№ С„РѕРЅРґ В«Р—Р°Рј Р—Р°РјВ»</span>"; 
 
-//Eiлдін камкорлыгы
+//EiР»РґС–РЅ РєР°РјРєРѕСЂР»С‹РіС‹
 
 value["2487"] = new Array ();
 
 value["2487"]["prv_id"]="2487";
 
-value["2487"]["prv_name"]= "Eiлдін камкорлыгы";
+value["2487"]["prv_name"]= "EiР»РґС–РЅ РєР°РјРєРѕСЂР»С‹РіС‹";
 
 value["2487"]["prv_folder"]="other";
 
@@ -1836,15 +1836,15 @@ value["2487"]["prv_image"]="./img/ui_item/button_eldin_kamkorlygy.gif";
 
 value["2487"]["prv_page"]="./p_eldin_kamkorlygy.html";
 
-value["2487"]["prv_alert"]="Основная цель Фонда'Eiлдін камкорлыгы' - осуществление благотворительной деятельности в поддержку и развитие таких направлений, инициированных государством и обществом, как создание достойных условий жизни, преодоление социального барьера, распространение здорового образа жизни и повышение грамотности для подрастающего поколения."; 
+value["2487"]["prv_alert"]="РћСЃРЅРѕРІРЅР°СЏ С†РµР»СЊ Р¤РѕРЅРґР°'EiР»РґС–РЅ РєР°РјРєРѕСЂР»С‹РіС‹' - РѕСЃСѓС‰РµСЃС‚РІР»РµРЅРёРµ Р±Р»Р°РіРѕС‚РІРѕСЂРёС‚РµР»СЊРЅРѕР№ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚Рё РІ РїРѕРґРґРµСЂР¶РєСѓ Рё СЂР°Р·РІРёС‚РёРµ С‚Р°РєРёС… РЅР°РїСЂР°РІР»РµРЅРёР№, РёРЅРёС†РёРёСЂРѕРІР°РЅРЅС‹С… РіРѕСЃСѓРґР°СЂСЃС‚РІРѕРј Рё РѕР±С‰РµСЃС‚РІРѕРј, РєР°Рє СЃРѕР·РґР°РЅРёРµ РґРѕСЃС‚РѕР№РЅС‹С… СѓСЃР»РѕРІРёР№ Р¶РёР·РЅРё, РїСЂРµРѕРґРѕР»РµРЅРёРµ СЃРѕС†РёР°Р»СЊРЅРѕРіРѕ Р±Р°СЂСЊРµСЂР°, СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёРµ Р·РґРѕСЂРѕРІРѕРіРѕ РѕР±СЂР°Р·Р° Р¶РёР·РЅРё Рё РїРѕРІС‹С€РµРЅРёРµ РіСЂР°РјРѕС‚РЅРѕСЃС‚Рё РґР»СЏ РїРѕРґСЂР°СЃС‚Р°СЋС‰РµРіРѕ РїРѕРєРѕР»РµРЅРёСЏ."; 
 
-//ОФ "Поддержка"
+//РћР¤ "РџРѕРґРґРµСЂР¶РєР°"
 
 value["2825"] = new Array ();
 
 value["2825"]["prv_id"]="2825";
 
-value["2825"]["prv_name"]= "ОФ Поддержка";
+value["2825"]["prv_name"]= "РћР¤ РџРѕРґРґРµСЂР¶РєР°";
 
 value["2825"]["prv_folder"]="other";
 
@@ -1933,40 +1933,40 @@ value["2878"]["prv_page_conf"]="./validate_confirm.html";
 
 value["2878"]["prv_alert"]="";
 
-//Коммунальные услуги
+//РљРѕРјРјСѓРЅР°Р»СЊРЅС‹Рµ СѓСЃР»СѓРіРё
 value["zkh_all"] = new Array ();
 value["zkh_all"]["prv_image"]="./img/ui_item/zkh.gif";
-//Телефония
+//РўРµР»РµС„РѕРЅРёСЏ
 value["phone_all"] = new Array ();
 value["phone_all"]["prv_image"]="./img/ui_item/phone.gif";
 //Promtell all
 value["promtell"] = new Array();
 value["promtell"]["prv_image"] = "./img/ui_item/button_promtell.gif";
 
-//promtell -пополнение телефонной карты
+//promtell -РїРѕРїРѕР»РЅРµРЅРёРµ С‚РµР»РµС„РѕРЅРЅРѕР№ РєР°СЂС‚С‹
 value["2827"] = new Array ();
 value["2827"]["prv_id"]="2827";
-value["2827"]["prv_name"]= "Promtell - пополнение телефонной карты";
+value["2827"]["prv_name"]= "Promtell - РїРѕРїРѕР»РЅРµРЅРёРµ С‚РµР»РµС„РѕРЅРЅРѕР№ РєР°СЂС‚С‹";
 value["2827"]["prv_folder"]="internet";
 value["2827"]["prv_image"]="./img/ui_item/button_promtell_1.gif";
 value["2827"]["prv_page"]="./p_promtell_1.html";
 value["2827"]["prv_page_conf"]="./validate_confirm.html";
 value["2827"]["prv_alert"]="";
 
-//Promtell - Услуги связи 
+//Promtell - РЈСЃР»СѓРіРё СЃРІСЏР·Рё 
 value["2828"] = new Array ();
 value["2828"]["prv_id"]="2828";
-value["2828"]["prv_name"]= "Promtell - Услуги связи";
+value["2828"]["prv_name"]= "Promtell - РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
 value["2828"]["prv_folder"]="internet";
 value["2828"]["prv_image"]="./img/ui_item/button_promtell_2.gif";
 value["2828"]["prv_page"]="./p_promtell_2.html";
 value["2828"]["prv_page_conf"]="./validate_confirm.html";
 value["2828"]["prv_alert"]="";
 
-//Promtell - Услуги связи за телефонный номер 
+//Promtell - РЈСЃР»СѓРіРё СЃРІСЏР·Рё Р·Р° С‚РµР»РµС„РѕРЅРЅС‹Р№ РЅРѕРјРµСЂ 
 value["2829"] = new Array ();
 value["2829"]["prv_id"]="2829";
-value["2829"]["prv_name"]= "Promtell - Услуги связи за телефонный номер";
+value["2829"]["prv_name"]= "Promtell - РЈСЃР»СѓРіРё СЃРІСЏР·Рё Р·Р° С‚РµР»РµС„РѕРЅРЅС‹Р№ РЅРѕРјРµСЂ";
 value["2829"]["prv_folder"]="internet";
 value["2829"]["prv_image"]="./img/ui_item/button_promtell_3.gif";
 value["2829"]["prv_page"]="./p_promtell_3.html";
@@ -1974,30 +1974,30 @@ value["2829"]["prv_page_conf"]="./validate_confirm.html";
 value["2829"]["prv_alert"]="";
 
 
-//Promtell - Услуги связи за телефонный номер 
+//Promtell - РЈСЃР»СѓРіРё СЃРІСЏР·Рё Р·Р° С‚РµР»РµС„РѕРЅРЅС‹Р№ РЅРѕРјРµСЂ 
 value["2879"] = new Array ();
 value["2879"]["prv_id"]="2879";
-value["2879"]["prv_name"]= "Улы асу";
+value["2879"]["prv_name"]= "РЈР»С‹ Р°СЃСѓ";
 value["2879"]["prv_folder"]="internet";
 value["2879"]["prv_image"]="./img/ui_item/button_uly_asu.gif";
 value["2879"]["prv_page"]="./p_uly_asu.html";
 value["2879"]["prv_page_conf"]="./validate_confirm.html";
 value["2879"]["prv_alert"]="";
 
-//Колеса
+//РљРѕР»РµСЃР°
 value["2887"] = new Array ();
 value["2887"]["prv_id"]="2887";
-value["2887"]["prv_name"]= "Колеса";
+value["2887"]["prv_name"]= "РљРѕР»РµСЃР°";
 value["2887"]["prv_folder"]="other";
 value["2887"]["prv_image"]="./img/ui_item/button_kolesa.gif";
 value["2887"]["prv_page"]="./p_kolesa.html";
 value["2887"]["prv_page_conf"]="./validate_confirm.html";
 value["2887"]["prv_alert"]="";
 
-//Крыша
+//РљСЂС‹С€Р°
 value["2888"] = new Array ();
 value["2888"]["prv_id"]="2888";
-value["2888"]["prv_name"]= "Крыша";
+value["2888"]["prv_name"]= "РљСЂС‹С€Р°";
 value["2888"]["prv_folder"]="other";
 value["2888"]["prv_image"]="./img/ui_item/button_krysha.gif";
 value["2888"]["prv_page"]="./p_krysha.html";
@@ -2036,15 +2036,15 @@ value["3202"]["prv_page"]="./p_zenitkz.html";
 value["3202"]["prv_page_conf"]="./validate_confirm.html";
 value["3202"]["prv_alert"]="www.zenitbet.com";
 
-//ТОО "INFO-TRADE-2030" 
+//РўРћРћ "INFO-TRADE-2030" 
 value["3456"] = new Array ();
 value["3456"]["prv_id"]="3456";
-value["3456"]["prv_name"]= "СМС – Дневник (г.Рудный)";
+value["3456"]["prv_name"]= "РЎРњРЎ вЂ“ Р”РЅРµРІРЅРёРє (Рі.Р СѓРґРЅС‹Р№)";
 value["3456"]["prv_folder"]="other";
 value["3456"]["prv_image"]="./img/ui_item/sms_rudnyiu.gif";
 value["3456"]["prv_page"] = "./p_sms_rudnyiu.html";
 value["3456"]["prv_alert"]="";
-//ТОО "Intelsoft Kazakhstan LTD"
+//РўРћРћ "Intelsoft Kazakhstan LTD"
 value["3457"] = new Array ();
 value["3457"]["prv_id"]="3457";
 value["3457"]["prv_name"]= "Qnet";
@@ -2053,7 +2053,7 @@ value["3457"]["prv_image"]="./img/ui_item/qnet.gif";
 value["3457"]["prv_page"] = "./p_qnet.html";
 value["3202"]["prv_alert"]="";
 
-//ТОО "A-System Group
+//РўРћРћ "A-System Group
 value["asystem"] = new Array();
 value["asystem"]["prv_image"] = "./img/ui_item/asystem.gif";
 //Kaspersky
@@ -2072,10 +2072,10 @@ value["2889b"]["prv_folder"]="other";
 value["2889b"]["prv_image"]="./img/ui_item/asdrweb.gif";
 value["2889b"]["prv_page"] = "./p_asdrweb.html";
 value["2889b"]["prv_alert"]="";
-//Астанателеком
+//РђСЃС‚Р°РЅР°С‚РµР»РµРєРѕРј
 value["3523"] = new Array ();
 value["3523"]["prv_id"]="3523";
-value["3523"]["prv_name"]= "Казактелеком";
+value["3523"]["prv_name"]= "РљР°Р·Р°РєС‚РµР»РµРєРѕРј";
 value["3523"]["prv_folder"]="zkh";
 value["3523"]["prv_image"]="./img/ui_item/astanatelecom2.gif";
 value["3523"]["prv_page"]="./p_astanatelecom.html";
@@ -2090,7 +2090,7 @@ value["3497"]["prv_image"]="./img/ui_item/faberlic.gif";
 value["3497"]["prv_page"]="./p_faberlic.html";
 value["3497"]["prv_page_conf"]="./validate_confirm.html";
 value["3497"]["prv_alert"]="";
-//АО  «НУРСАТ»
+//РђРћ  В«РќРЈР РЎРђРўВ»
 value["3571"] = new Array ();
 value["3571"]["prv_id"]="3571";
 value["3571"]["prv_name"]= "WiMax";
@@ -2099,7 +2099,7 @@ value["3571"]["prv_image"]="./img/ui_item/wimax.gif";
 value["3571"]["prv_page"]="./p_wimax.html";
 value["3571"]["prv_page_conf"]="./validate_confirm.html";
 value["3571"]["prv_alert"]="";
-//АО  «НУРСАТ»
+//РђРћ  В«РќРЈР РЎРђРўВ»
 value["3570"] = new Array ();
 value["3570"]["prv_id"]="3570";
 value["3570"]["prv_name"]= "I-Forward";
@@ -2108,28 +2108,28 @@ value["3570"]["prv_image"]="./img/ui_item/iforward.gif";
 value["3570"]["prv_page"]="./p_iforward.html";
 value["3570"]["prv_page_conf"]="./validate_confirm.html";
 value["3570"]["prv_alert"]="";
-//Коммунальные услуги
+//РљРѕРјРјСѓРЅР°Р»СЊРЅС‹Рµ СѓСЃР»СѓРіРё
 value["toomms_all"] = new Array ();
 value["toomms_all"]["prv_image"]="./img/ui_item/toomms.gif";
-//ТОО MMS
+//РўРћРћ MMS
 value["3573a"] = new Array ();
 value["3573a"]["prv_id"]="3573a";
-value["3573a"]["prv_name"]= "SMS подписка на гороскоп";
+value["3573a"]["prv_name"]= "SMS РїРѕРґРїРёСЃРєР° РЅР° РіРѕСЂРѕСЃРєРѕРї";
 value["3573a"]["prv_folder"]="other";
 value["3573a"]["prv_image"]="./img/ui_item/mms_goro.gif";
 value["3573a"]["prv_page"]="./p_toomms.html";
 value["3573a"]["prv_page_conf"]="./validate_confirm.html";
 value["3573a"]["prv_alert"]="";
-//ТОО MMS. Подписка на каждый день
+//РўРћРћ MMS. РџРѕРґРїРёСЃРєР° РЅР° РєР°Р¶РґС‹Р№ РґРµРЅСЊ
 value["3573b"] = new Array ();
 value["3573b"]["prv_id"]="3573b";
-value["3573b"]["prv_name"]= "Услуга SMS подписка";
+value["3573b"]["prv_name"]= "РЈСЃР»СѓРіР° SMS РїРѕРґРїРёСЃРєР°";
 value["3573b"]["prv_folder"]="other";
 value["3573b"]["prv_image"]="./img/ui_item/mms_podpiska.gif";
 value["3573b"]["prv_page"]="./p_toomms2.html";
 value["3573b"]["prv_page_conf"]="./validate_confirm.html";
 value["3573b"]["prv_alert"]="";
-//ТОО  «НПФ Сары-Арка»
+//РўРћРћ  В«РќРџР¤ РЎР°СЂС‹-РђСЂРєР°В»
 value["3717"] = new Array ();
 value["3717"]["prv_id"]="3717";
 value["3717"]["prv_name"]= "GSM - INFORM";
@@ -2138,7 +2138,7 @@ value["3717"]["prv_image"]="./img/ui_item/gsm-inform.gif";
 value["3717"]["prv_page"]="./p_gsm-inform.html";
 value["3717"]["prv_page_conf"]="./validate_confirm.html";
 value["3717"]["prv_alert"]="";
-//ТОО "IRICOM KZ
+//РўРћРћ "IRICOM KZ
 value["3718"] = new Array ();
 value["3718"]["prv_id"]="3718";
 value["3718"]["prv_name"]= "The Last City";
@@ -2147,7 +2147,7 @@ value["3718"]["prv_image"]="./img/ui_item/lastcity.gif";
 value["3718"]["prv_page"]="./p_lastcity.html";
 value["3718"]["prv_page_conf"]="./validate_confirm.html";
 value["3718"]["prv_alert"]="";
-//ТОО "Информационная служба "НабиМакс"
+//РўРћРћ "РРЅС„РѕСЂРјР°С†РёРѕРЅРЅР°СЏ СЃР»СѓР¶Р±Р° "РќР°Р±РёРњР°РєСЃ"
 value["3630"] = new Array ();
 value["3630"]["prv_id"]="3630";
 value["3630"]["prv_name"]= "Infinity TAXI";
@@ -2156,83 +2156,83 @@ value["3630"]["prv_image"]="./img/ui_item/infinity_taxi.gif";
 value["3630"]["prv_page"]="./p_infinity_taxi.html";
 value["3630"]["prv_page_conf"]="./validate_confirm.html";
 value["3630"]["prv_alert"]="";
-//ИП Кукурузкин
+//РРџ РљСѓРєСѓСЂСѓР·РєРёРЅ
 value["3646"] = new Array ();
 value["3646"]["prv_id"]="3646";
-value["3646"]["prv_name"]= "РЭМлифт";
+value["3646"]["prv_name"]= "Р Р­РњР»РёС„С‚";
 value["3646"]["prv_folder"]="zkh";
 value["3646"]["prv_image"]="./img/ui_item/lift_rm.gif";
 value["3646"]["prv_page"]="./p_liftpavl.html";
 value["3646"]["prv_page_conf"]="./validate_confirm.html";
 value["3646"]["prv_alert"]="";
-//ИП Кукурузкин
+//РРџ РљСѓРєСѓСЂСѓР·РєРёРЅ
 value["3647"] = new Array ();
 value["3647"]["prv_id"]="3647";
-value["3647"]["prv_name"]= "Павлодарлифт";
+value["3647"]["prv_name"]= "РџР°РІР»РѕРґР°СЂР»РёС„С‚";
 value["3647"]["prv_folder"]="zkh";
 value["3647"]["prv_image"]="./img/ui_item/lift_pavl.gif";
 value["3647"]["prv_page"]="./p_liftpavl.html";
 value["3647"]["prv_page_conf"]="./validate_confirm.html";
 value["3647"]["prv_alert"]="";
-//ТОО "Водоканал и К" и ТОО «Павлодар – Водоканал»
+//РўРћРћ "Р’РѕРґРѕРєР°РЅР°Р» Рё Рљ" Рё РўРћРћ В«РџР°РІР»РѕРґР°СЂ вЂ“ Р’РѕРґРѕРєР°РЅР°Р»В»
 value["3716"] = new Array ();
 value["3716"]["prv_id"]="3716";
-value["3716"]["prv_name"]= "Павлодар - Водоканал";
+value["3716"]["prv_name"]= "РџР°РІР»РѕРґР°СЂ - Р’РѕРґРѕРєР°РЅР°Р»";
 value["3716"]["prv_folder"]="zkh";
 value["3716"]["prv_image"]="./img/ui_item/vodokanal_pavl.gif";
 value["3716"]["prv_page"]="./p_vodocanal_pavl.html";
 value["3716"]["prv_page_conf"]="./validate_confirm.html";
 value["3716"]["prv_alert"]="";
-//Казактелеком
+//РљР°Р·Р°РєС‚РµР»РµРєРѕРј
 value["kazaktelecom"] = new Array();
 value["kazaktelecom"]["prv_image"] = "./img/ui_item/kazaktelecom.gif";
-//Казактелеком
+//РљР°Р·Р°РєС‚РµР»РµРєРѕРј
 value["byAcc"] = new Array();
 value["byAcc"]["prv_image"] = "./img/ui_item/ktalmaty_2.gif";
-//АлматыТелеком (Казактелеком)
+//РђР»РјР°С‚С‹РўРµР»РµРєРѕРј (РљР°Р·Р°РєС‚РµР»РµРєРѕРј)
 value["almatytelecom"] = new Array();
 value["almatytelecom"]["prv_image"] = "./img/ui_item/almatytelecom.gif";
 
-//Оплата по лицевому счету
+//РћРїР»Р°С‚Р° РїРѕ Р»РёС†РµРІРѕРјСѓ СЃС‡РµС‚Сѓ
 value["4050"] = new Array ();
 value["4050"]["prv_id"]="4050";
-value["4050"]["prv_name"]= "Алматытелеком Оплата по лицевому счету";
+value["4050"]["prv_name"]= "РђР»РјР°С‚С‹С‚РµР»РµРєРѕРј РћРїР»Р°С‚Р° РїРѕ Р»РёС†РµРІРѕРјСѓ СЃС‡РµС‚Сѓ";
 value["4050"]["prv_folder"]="zkh";
 value["4050"]["prv_image"]="./img/ui_item/almatytelecom.gif";
 value["4050"]["prv_page"]="./p_ktalmaty.html";
 value["4050"]["prv_alert"]="";
-//Алматинская ОДТ
+//РђР»РјР°С‚РёРЅСЃРєР°СЏ РћР”Рў
 value["almatytel_regions"] = new Array();
 value["almatytel_regions"]["prv_image"] = "./img/ui_item/almatytel_regions.gif";
-//Астанателеком
+//РђСЃС‚Р°РЅР°С‚РµР»РµРєРѕРј
 value["3523"] = new Array ();
 value["3523"]["prv_id"]="3523";
-value["3523"]["prv_name"]= "Казактелеком";
+value["3523"]["prv_name"]= "РљР°Р·Р°РєС‚РµР»РµРєРѕРј";
 value["3523"]["prv_folder"]="zkh";
 value["3523"]["prv_image"]="./img/ui_item/astanatelecom.gif";
 value["3523"]["prv_page"]="./p_astanatelecom.html";
 value["3523"]["prv_page_conf"]="./validate_confirm.html";
 value["3523"]["prv_alert"]="";
-//Оплата по лицевому счету
+//РћРїР»Р°С‚Р° РїРѕ Р»РёС†РµРІРѕРјСѓ СЃС‡РµС‚Сѓ
 value["4174"] = new Array ();
 value["4174"]["prv_id"]="4174";
-value["4174"]["prv_name"]= "Алматинская ОДТ. Оплата по лицевому счету";
+value["4174"]["prv_name"]= "РђР»РјР°С‚РёРЅСЃРєР°СЏ РћР”Рў. РћРїР»Р°С‚Р° РїРѕ Р»РёС†РµРІРѕРјСѓ СЃС‡РµС‚Сѓ";
 value["4174"]["prv_folder"]="zkh";
 value["4174"]["prv_image"]="./img/ui_item/almatytel_regions.gif";
 value["4174"]["prv_page"]="./p_ktalmaty.html";
 value["4174"]["prv_alert"]="";
-//ТОО «Регион север»
+//РўРћРћ В«Р РµРіРёРѕРЅ СЃРµРІРµСЂВ»
 value["3818"] = new Array ();
 value["3818"]["prv_id"]="3818";
-value["3818"]["prv_name"]= "Кокшетау Энерго Центр";
+value["3818"]["prv_name"]= "РљРѕРєС€РµС‚Р°Сѓ Р­РЅРµСЂРіРѕ Р¦РµРЅС‚СЂ";
 value["3818"]["prv_folder"]="zkh";
 value["3818"]["prv_image"]="./img/ui_item/kokshe_energo.gif";
 value["3818"]["prv_page"]="./p_sekatel.html";
 value["3818"]["prv_alert"]="";
-//Горгаз - сервис
+//Р“РѕСЂРіР°Р· - СЃРµСЂРІРёСЃ
 value["3817"] = new Array ();
 value["3817"]["prv_id"]="3817";
-value["3817"]["prv_name"]= "Горгаз - сервис";
+value["3817"]["prv_name"]= "Р“РѕСЂРіР°Р· - СЃРµСЂРІРёСЃ";
 value["3817"]["prv_folder"]="zkh";
 value["3817"]["prv_image"]="./img/ui_item/gorgas.gif";
 value["3817"]["prv_page"]="./p_personal_acc_online.html";
@@ -2245,15 +2245,15 @@ value["4233"]["prv_folder"]="other";
 value["4233"]["prv_image"]="./img/ui_item/sound_cards.gif";
 value["4233"]["prv_page"]="./p_sound_cards.html";
 value["4233"]["prv_alert"]="";
-//Кызылорда Энергосервис
+//РљС‹Р·С‹Р»РѕСЂРґР° Р­РЅРµСЂРіРѕСЃРµСЂРІРёСЃ
 value["4205"] = new Array ();
 value["4205"]["prv_id"]="4205";
-value["4205"]["prv_name"]= "Кызылорда Энергосервис";
+value["4205"]["prv_name"]= "РљС‹Р·С‹Р»РѕСЂРґР° Р­РЅРµСЂРіРѕСЃРµСЂРІРёСЃ";
 value["4205"]["prv_folder"]="zkh";
 value["4205"]["prv_image"]="./img/ui_item/kyzylorda_energosevice.gif";
 value["4205"]["prv_page"]="./p_personal_acc_online.html";
 value["4205"]["prv_alert"]="";
-//Тендеры
+//РўРµРЅРґРµСЂС‹
 value["4194"] = new Array ();
 value["4194"]["prv_id"]="4194";
 value["4194"]["prv_name"]= "Detect";
@@ -2261,10 +2261,10 @@ value["4194"]["prv_folder"]="other";
 value["4194"]["prv_image"]="./img/ui_item/detect.gif";
 value["4194"]["prv_page"]="./p_detect.html";
 value["4194"]["prv_alert"]="";
-//ПО
+//РџРћ
 value["software"] = new Array();
 value["software"]["prv_image"] = "./img/ui/software.gif";
-//ТОО "Юридическая компания Sot.kz"
+//РўРћРћ "Р®СЂРёРґРёС‡РµСЃРєР°СЏ РєРѕРјРїР°РЅРёСЏ Sot.kz"
 value["4275"] = new Array ();
 value["4275"]["prv_id"]="4275";
 value["4275"]["prv_name"]= "sot.kz";
@@ -2272,7 +2272,7 @@ value["4275"]["prv_folder"]="other";
 value["4275"]["prv_image"]="./img/ui_item/sotkz.gif";
 value["4275"]["prv_page"]="./p_sotkz.html";
 value["4275"]["prv_alert"]="";
-//ТОО «Trans Avia Luxe» 
+//РўРћРћ В«Trans Avia LuxeВ» 
 value["4309"] = new Array ();
 value["4309"]["prv_id"]="4309";
 value["4309"]["prv_name"]= "Mobile One ";
@@ -2280,49 +2280,49 @@ value["4309"]["prv_folder"]="internet";
 value["4309"]["prv_image"]="./img/ui_item/mobileone.gif";
 value["4309"]["prv_page"]="./p_mobileone.html";
 value["4309"]["prv_alert"]="";
-//ИП Шаповалова Т.А 
+//РРџ РЁР°РїРѕРІР°Р»РѕРІР° Рў.Рђ 
 value["4352"] = new Array ();
 value["4352"]["prv_id"]="4352";
-value["4352"]["prv_name"]= "НикоСиС";
+value["4352"]["prv_name"]= "РќРёРєРѕРЎРёРЎ";
 value["4352"]["prv_folder"]="other";
 value["4352"]["prv_image"]="./img/ui_item/nikosys.gif";
 value["4352"]["prv_page"]="./p_nikosys.html";
 value["4352"]["prv_alert"]="";
-//ТОО «Сервисный Центр Ваш Домофон»
+//РўРћРћ В«РЎРµСЂРІРёСЃРЅС‹Р№ Р¦РµРЅС‚СЂ Р’Р°С€ Р”РѕРјРѕС„РѕРЅВ»
 value["4351"] = new Array ();
 value["4351"]["prv_id"]="4351";
-value["4351"]["prv_name"]= "Ваш домофон";
+value["4351"]["prv_name"]= "Р’Р°С€ РґРѕРјРѕС„РѕРЅ";
 value["4351"]["prv_folder"]="zkh";
 value["4351"]["prv_image"]="./img/ui_item/vash_domophone.gif";
 value["4351"]["prv_page"]="./p_personal_acc_online.html";
 value["4351"]["prv_alert"]="";
-//ТОО «Регион север»
+//РўРћРћ В«Р РµРіРёРѕРЅ СЃРµРІРµСЂВ»
 value["4353"] = new Array ();
 value["4353"]["prv_id"]="4353";
-value["4353"]["prv_name"]= "Мюль Сервис";
+value["4353"]["prv_name"]= "РњСЋР»СЊ РЎРµСЂРІРёСЃ";
 value["4353"]["prv_folder"]="zkh";
 value["4353"]["prv_image"]="./img/ui_item/mservice.gif";
 value["4353"]["prv_page"]="./p_mservice.html";
 value["4353"]["prv_alert"]="";
-//ИП Пуолакайнен М.И. 
+//РРџ РџСѓРѕР»Р°РєР°Р№РЅРµРЅ Рњ.Р. 
 value["4355"] = new Array ();
 value["4355"]["prv_id"]="4355";
-value["4355"]["prv_name"]= "СМС – Дневник (Караганда)";
+value["4355"]["prv_name"]= "РЎРњРЎ вЂ“ Р”РЅРµРІРЅРёРє (РљР°СЂР°РіР°РЅРґР°)";
 value["4355"]["prv_folder"]="other";
 value["4355"]["prv_image"]="./img/ui_item/sms_karaganda.gif";
 value["4355"]["prv_page"]="./p_phoneonline.html";
 value["4355"]["prv_alert"]="";
-// ТОО ДАНА
+// РўРћРћ Р”РђРќРђ
 value["4459"] = new Array ();
 value["4459"]["prv_id"]="4459";
 value["4459"]["prv_folder"]="other";
 value["4459"]["prv_image"]="./img/ui_item/tech_osmotr.gif";
 value["4459"]["prv_page"]="./embed_flash_TechOsmotr.html";
 value["4459"]["prv_alert"]="";
-//DIGITAL tv Актау
+//DIGITAL tv РђРєС‚Р°Сѓ
 value["4529"] = new Array ();
 value["4529"]["prv_id"]="4529";
-value["4529"]["prv_name"]= "DigitalTv Актау";
+value["4529"]["prv_name"]= "DigitalTv РђРєС‚Р°Сѓ";
 value["4529"]["prv_folder"]="tv";
 value["4529"]["prv_image"]="./img/ui_item/dtv_aktau.gif";
 value["4529"]["prv_page"] = "./p_dtv_online.html";
@@ -2330,7 +2330,7 @@ value["4529"]["prv_alert"]="";
 //DIGITAL TV
 value["dtv"] = new Array();
 value["dtv"]["prv_image"] = "./img/ui_item/button_dtv2.gif";
-//DIGITAL TV Алматы
+//DIGITAL TV РђР»РјР°С‚С‹
 value["388"] = new Array ();
 value["388"]["prv_id"]="388";
 value["388"]["prv_name"]= "4529 TV";
@@ -2342,95 +2342,95 @@ value["388"]["prv_alert"]="";
 //SMARTNET
 value["smartnet"] = new Array();
 value["smartnet"]["prv_image"] = "./img/ui_item/smartnet_all.gif";
-//ТОО «Smartnet»
+//РўРћРћ В«SmartnetВ»
 value["4526"] = new Array ();
 value["4526"]["prv_id"]="4526";
-value["4526"]["prv_name"]= "SMARTNET Услуги связи";
+value["4526"]["prv_name"]= "SMARTNET РЈСЃР»СѓРіРё СЃРІСЏР·Рё";
 value["4526"]["prv_folder"]="tv";
 value["4526"]["prv_image"]="./img/ui_item/smartnet.gif";
 value["4526"]["prv_page"]="./p_smartnet.html";
 value["4526"]["prv_alert"]="";
-//ТОО SMARTNET Smart TV
+//РўРћРћ SMARTNET Smart TV
 value["4502"] = new Array ();
 value["4502"]["prv_id"]="4502";
-value["4502"]["prv_name"]= "SMARTNET Дополнительные услуги ТВ ";
+value["4502"]["prv_name"]= "SMARTNET Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СѓСЃР»СѓРіРё РўР’ ";
 value["4502"]["prv_folder"]="tv";
 value["4502"]["prv_image"]="./img/ui_item/smarttv.gif";
 value["4502"]["prv_page"]="./p_smartnet.html";
 value["4502"]["prv_alert"]="";
-//ГКП «Семей Водоканал» ГУ «Отдел жилищно-коммунального хозяйства, пассажирского транспорта и автомобильных дорог города Семей»
+//Р“РљРџ В«РЎРµРјРµР№ Р’РѕРґРѕРєР°РЅР°Р»В» Р“РЈ В«РћС‚РґРµР» Р¶РёР»РёС‰РЅРѕ-РєРѕРјРјСѓРЅР°Р»СЊРЅРѕРіРѕ С…РѕР·СЏР№СЃС‚РІР°, РїР°СЃСЃР°Р¶РёСЂСЃРєРѕРіРѕ С‚СЂР°РЅСЃРїРѕСЂС‚Р° Рё Р°РІС‚РѕРјРѕР±РёР»СЊРЅС‹С… РґРѕСЂРѕРі РіРѕСЂРѕРґР° РЎРµРјРµР№В»
 value["4519"] = new Array ();
 value["4519"]["prv_id"]="4519";
-value["4519"]["prv_name"]= "Семей Водоканал";
+value["4519"]["prv_name"]= "РЎРµРјРµР№ Р’РѕРґРѕРєР°РЅР°Р»";
 value["4519"]["prv_folder"]="tv";
 value["4519"]["prv_image"]="./img/ui_item/semei_vodokanal.gif";
 value["4519"]["prv_page"]="./p_semei_vodokanal.html";
 value["4519"]["prv_alert"]="";
 
-//ТОО «Рудненская ЭнергоКомпания»
+//РўРћРћ В«Р СѓРґРЅРµРЅСЃРєР°СЏ Р­РЅРµСЂРіРѕРљРѕРјРїР°РЅРёСЏВ»
 value["rudnyi"] = new Array();
 value["rudnyi"]["prv_image"] = "./img/ui_item/rudnyi.gif";
-//РЭК - Госпошлина 
+//Р Р­Рљ - Р“РѕСЃРїРѕС€Р»РёРЅР° 
 value["4513"] = new Array ();
 value["4513"]["prv_id"]="4513";
-value["4513"]["prv_name"]= "РЭК - Госпошлина ";
+value["4513"]["prv_name"]= "Р Р­Рљ - Р“РѕСЃРїРѕС€Р»РёРЅР° ";
 value["4513"]["prv_folder"]="zkh";
 value["4513"]["prv_image"]="./img/ui_item/rud_1.gif";
 value["4513"]["prv_page"]="./p_zkh_rudnyi.html";
 value["4513"]["prv_alert"]="";
 
-//РЭК - Акты 
+//Р Р­Рљ - РђРєС‚С‹ 
 value["4514"] = new Array ();
 value["4514"]["prv_id"]="4514";
-value["4514"]["prv_name"]= "РЭК - За акты ";
+value["4514"]["prv_name"]= "Р Р­Рљ - Р—Р° Р°РєС‚С‹ ";
 value["4514"]["prv_folder"]="zkh";
 value["4514"]["prv_image"]="./img/ui_item/rud_2.gif";
 value["4514"]["prv_page"]="./p_zkh_rudnyi.html";
 value["4514"]["prv_alert"]="";
-//РЭК - Акты 
+//Р Р­Рљ - РђРєС‚С‹ 
 value["4516"] = new Array ();
 value["4516"]["prv_id"]="4516";
-value["4516"]["prv_name"]= "РЭК - За подключение  ";
+value["4516"]["prv_name"]= "Р Р­Рљ - Р—Р° РїРѕРґРєР»СЋС‡РµРЅРёРµ  ";
 value["4516"]["prv_folder"]="zkh";
 value["4516"]["prv_image"]="./img/ui_item/rud_3.gif";
 value["4516"]["prv_page"]="./p_zkh_rudnyi.html";
 value["4516"]["prv_alert"]="";
-//РЭК - электроэнергию  
+//Р Р­Рљ - СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёСЋ  
 value["4517"] = new Array ();
 value["4517"]["prv_id"]="4517";
-value["4517"]["prv_name"]= "РЭК - За электроэнергию";
+value["4517"]["prv_name"]= "Р Р­Рљ - Р—Р° СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёСЋ";
 value["4517"]["prv_folder"]="zkh";
 value["4517"]["prv_image"]="./img/ui_item/rud_4.gif";
 value["4517"]["prv_page"]="./p_zkh_rudnyi.html";
 value["4517"]["prv_alert"]="";
-//РЭК - электроэнергию  
+//Р Р­Рљ - СЌР»РµРєС‚СЂРѕСЌРЅРµСЂРіРёСЋ  
 value["4518"] = new Array ();
 value["4518"]["prv_id"]="4518";
-value["4518"]["prv_name"]= "РЭК - Подъездное освещение";
+value["4518"]["prv_name"]= "Р Р­Рљ - РџРѕРґСЉРµР·РґРЅРѕРµ РѕСЃРІРµС‰РµРЅРёРµ";
 value["4518"]["prv_folder"]="zkh";
 value["4518"]["prv_image"]="./img/ui_item/rud_5.gif";
 value["4518"]["prv_page"]="./p_zkh_rudnyi.html";
 value["4518"]["prv_alert"]="";
-//ТОО «Рудненская ЭнергоКомпания»
+//РўРћРћ В«Р СѓРґРЅРµРЅСЃРєР°СЏ Р­РЅРµСЂРіРѕРљРѕРјРїР°РЅРёСЏВ»
 value["torgo_all"] = new Array();
 value["torgo_all"]["prv_image"] = "./img/ui_item/torgo.gif";
-//Torgo - Торговая база 
+//Torgo - РўРѕСЂРіРѕРІР°СЏ Р±Р°Р·Р° 
 value["4596"] = new Array ();
 value["4596"]["prv_id"]="4596";
-value["4596"]["prv_name"]= "Torgo - Торговая база";
+value["4596"]["prv_name"]= "Torgo - РўРѕСЂРіРѕРІР°СЏ Р±Р°Р·Р°";
 value["4596"]["prv_folder"]="other";
 value["4596"]["prv_image"]="./img/ui_item/torgo1.gif";
 value["4596"]["prv_page"]="./p_torgo.html";
 value["4596"]["prv_alert"]="";
-//Torgo - Магазин
+//Torgo - РњР°РіР°Р·РёРЅ
 value["4597"] = new Array ();
 value["4597"]["prv_id"]="4597";
-value["4597"]["prv_name"]= "Torgo - Магазин";
+value["4597"]["prv_name"]= "Torgo - РњР°РіР°Р·РёРЅ";
 value["4597"]["prv_folder"]="other";
 value["4597"]["prv_image"]="./img/ui_item/torgo2.gif";
 value["4597"]["prv_page"]="./p_torgo.html";
 value["4597"]["prv_alert"]="";
-//ТОО «BeNetCom» 
+//РўРћРћ В«BeNetComВ» 
 value["4616"] = new Array ();
 value["4616"]["prv_id"]="4616";
 value["4616"]["prv_name"]= "BeNetCom";
@@ -2438,7 +2438,7 @@ value["4616"]["prv_folder"]="internet";
 value["4616"]["prv_image"]="./img/ui_item/benetcom.gif";
 value["4616"]["prv_page"]="./p_benetcom.html";
 value["4616"]["prv_alert"]="";
-//ТОО «iSpot» (Айспот) 
+//РўРћРћ В«iSpotВ» (РђР№СЃРїРѕС‚) 
 value["4617"] = new Array ();
 value["4617"]["prv_id"]="4617";
 value["4617"]["prv_name"]= "iSpot";
@@ -2446,15 +2446,15 @@ value["4617"]["prv_folder"]="internet";
 value["4617"]["prv_image"]="./img/ui_item/ispot.gif";
 value["4617"]["prv_page"]="./p_2day.html";
 value["4617"]["prv_alert"]="";
-//ТОО «Расчетный центр Караганда-биллинг»
+//РўРћРћ В«Р Р°СЃС‡РµС‚РЅС‹Р№ С†РµРЅС‚СЂ РљР°СЂР°РіР°РЅРґР°-Р±РёР»Р»РёРЅРіВ»
 value["4639"] = new Array ();
 value["4639"]["prv_id"]="4639";
-value["4639"]["prv_name"]= "Караганда-биллинг";
+value["4639"]["prv_name"]= "РљР°СЂР°РіР°РЅРґР°-Р±РёР»Р»РёРЅРі";
 value["4639"]["prv_folder"]="zkh";
 value["4639"]["prv_image"]="./img/ui_item/zkh_kar_bill.gif";
 value["4639"]["prv_page"]="./p_zkh_kar_bill.html";
 value["4639"]["prv_alert"]="";
-//ТОО «Софтлайн Трэйд»
+//РўРћРћ В«РЎРѕС„С‚Р»Р°Р№РЅ РўСЂСЌР№РґВ»
 value["4644"] = new Array ();
 value["4644"]["prv_id"]="4644";
 value["4644"]["prv_name"]= "All Soft";
@@ -2462,31 +2462,31 @@ value["4644"]["prv_folder"]="other";
 value["4644"]["prv_image"]="./img/ui_item/allsoft.gif";
 value["4644"]["prv_page"]="./p_all_soft.html";
 value["4644"]["prv_alert"]="";
-//Алсеко  
+//РђР»СЃРµРєРѕ  
 value["4553"] = new Array ();
 value["4553"]["prv_id"]="4553";
-value["4553"]["prv_name"]= "АЛСЕКО";
+value["4553"]["prv_name"]= "РђР›РЎР•РљРћ";
 value["4553"]["prv_folder"]="zkh";
 value["4553"]["prv_image"]="./img/ui_item/alseco.gif";
 value["4553"]["prv_page"]="./embed_flash_ZhKHAlseco.html";
 value["4553"]["prv_alert"]="";
-//ТОО «Позитив Студия»
+//РўРћРћ В«РџРѕР·РёС‚РёРІ РЎС‚СѓРґРёСЏВ»
 value["4628"] = new Array ();
 value["4628"]["prv_id"]="4628";
-value["4628"]["prv_name"]= "Позитив Студия";
+value["4628"]["prv_name"]= "РџРѕР·РёС‚РёРІ РЎС‚СѓРґРёСЏ";
 value["4628"]["prv_folder"]="other";
 value["4628"]["prv_image"]="./img/ui_item/pozitiv_studio.gif";
 value["4628"]["prv_page"]="./p_sms_positiv_studio.html";
 value["4628"]["prv_alert"]="";
-//ТОО "Технологий 21"
+//РўРћРћ "РўРµС…РЅРѕР»РѕРіРёР№ 21"
 value["4667"] = new Array ();
 value["4667"]["prv_id"]="4667";
-value["4667"]["prv_name"]= "Технологий 21";
+value["4667"]["prv_name"]= "РўРµС…РЅРѕР»РѕРіРёР№ 21";
 value["4667"]["prv_folder"]="zkh";
 value["4667"]["prv_image"]="./img/ui_item/techno21.gif";
 value["4667"]["prv_page"]="./p_personal_acc_online.html";
 value["4667"]["prv_alert"]="";
-//ТОО "Bastau Business Group"
+//РўРћРћ "Bastau Business Group"
 value["4694"] = new Array ();
 value["4694"]["prv_id"]="4694";
 value["4694"]["prv_name"]= "BigSkidki.kz";
@@ -2494,85 +2494,85 @@ value["4694"]["prv_folder"]="other";
 value["4694"]["prv_image"]="./img/ui_item/bigdiscounts.gif";
 value["4694"]["prv_page"]="./p_enter_num_off.html";
 value["4694"]["prv_alert"]="";
-//ТОО «Коммунсбыт» 
+//РўРћРћ В«РљРѕРјРјСѓРЅСЃР±С‹С‚В» 
 value["kommunsbyt"] = new Array();
 value["kommunsbyt"]["prv_image"] = "./img/ui_item/kommunsbyt.gif";
-//Коммунсбыт - Вывоз мусора
+//РљРѕРјРјСѓРЅСЃР±С‹С‚ - Р’С‹РІРѕР· РјСѓСЃРѕСЂР°
 value["4669"] = new Array ();
 value["4669"]["prv_id"]="4669";
-value["4669"]["prv_name"]= "Коммунсбыт - Вывоз мусора";
+value["4669"]["prv_name"]= "РљРѕРјРјСѓРЅСЃР±С‹С‚ - Р’С‹РІРѕР· РјСѓСЃРѕСЂР°";
 value["4669"]["prv_folder"]="zkh";
 value["4669"]["prv_image"]="./img/ui_item/kommunsbyt_1.gif";
 value["4669"]["prv_page"]="./p_zkh_kommunsbyt.html";
 value["4669"]["prv_alert"]="";
-//Коммунсбыт - Услуги КСК
+//РљРѕРјРјСѓРЅСЃР±С‹С‚ - РЈСЃР»СѓРіРё РљРЎРљ
 value["4670"] = new Array ();
 value["4670"]["prv_id"]="4670";
-value["4670"]["prv_name"]= "Коммунсбыт - Услуги КСК";
+value["4670"]["prv_name"]= "РљРѕРјРјСѓРЅСЃР±С‹С‚ - РЈСЃР»СѓРіРё РљРЎРљ";
 value["4670"]["prv_folder"]="zkh";
 value["4670"]["prv_image"]="./img/ui_item/kommunsbyt_2.gif";
 value["4670"]["prv_page"]="./p_zkh_kommunsbyt.html";
 value["4670"]["prv_alert"]="";
-//Коммунсбыт - Авар. дисп. служба
+//РљРѕРјРјСѓРЅСЃР±С‹С‚ - РђРІР°СЂ. РґРёСЃРї. СЃР»СѓР¶Р±Р°
 value["4671"] = new Array ();
 value["4671"]["prv_id"]="4671";
-value["4671"]["prv_name"]= "Коммунсбыт - Авар. дисп. служба";
+value["4671"]["prv_name"]= "РљРѕРјРјСѓРЅСЃР±С‹С‚ - РђРІР°СЂ. РґРёСЃРї. СЃР»СѓР¶Р±Р°";
 value["4671"]["prv_folder"]="zkh";
 value["4671"]["prv_image"]="./img/ui_item/kommunsbyt_3.gif";
 value["4671"]["prv_page"]="./p_zkh_kommunsbyt.html";
 value["4671"]["prv_alert"]="";
-//Коммунсбыт - Домофон
+//РљРѕРјРјСѓРЅСЃР±С‹С‚ - Р”РѕРјРѕС„РѕРЅ
 value["4672"] = new Array ();
 value["4672"]["prv_id"]="4672";
-value["4672"]["prv_name"]= "Коммунсбыт - Домофон";
+value["4672"]["prv_name"]= "РљРѕРјРјСѓРЅСЃР±С‹С‚ - Р”РѕРјРѕС„РѕРЅ";
 value["4672"]["prv_folder"]="zkh";
 value["4672"]["prv_image"]="./img/ui_item/kommunsbyt_4.gif";
 value["4672"]["prv_page"]="./p_zkh_kommunsbyt.html";
 value["4672"]["prv_alert"]="";
-//Страховой брокер e-kz
+//РЎС‚СЂР°С…РѕРІРѕР№ Р±СЂРѕРєРµСЂ e-kz
 value["4675"] = new Array ();
 value["4675"]["prv_id"]="4675";
-value["4675"]["prv_name"]= "Страховой брокер e-kz";
+value["4675"]["prv_name"]= "РЎС‚СЂР°С…РѕРІРѕР№ Р±СЂРѕРєРµСЂ e-kz";
 value["4675"]["prv_folder"]="other";
 value["4675"]["prv_image"]="./img/ui_item/ekz.gif";
 value["4675"]["prv_page"]="./embed_flash_brokerEKZ.html";
 value["4675"]["prv_alert"]="";
-//С ДНЕМ РОЖДЕНИЯ
+//РЎ Р”РќР•Рњ Р РћР–Р”Р•РќРРЇ
 value["4715a"] = new Array ();
 value["4715a"]["prv_id"]="4715a";
-value["4715a"]["prv_name"]= "С ДНЕМ РОЖДЕНИЯ";
+value["4715a"]["prv_name"]= "РЎ Р”РќР•Рњ Р РћР–Р”Р•РќРРЇ";
 value["4715a"]["prv_folder"]="other";
 value["4715a"]["prv_image"]="./img/ui_item/vc_birthday.gif";
 value["4715a"]["prv_page"]="./p_vc_birthday.html";
 value["4715a"]["prv_alert"]="";
-//С ДНЕМ СВАДЬБЫ ДЛЯ ЖЕНИХА И НЕВЕСТЫ
+//РЎ Р”РќР•Рњ РЎР’РђР”Р¬Р‘Р« Р”Р›РЇ Р–Р•РќРРҐРђ Р РќР•Р’Р•РЎРўР«
 value["4715b"] = new Array ();
 value["4715b"]["prv_id"]="4715b";
-value["4715b"]["prv_name"]= "С ДНЕМ СВАДЬБЫ ДЛЯ ЖЕНИХА И НЕВЕСТЫ";
+value["4715b"]["prv_name"]= "РЎ Р”РќР•Рњ РЎР’РђР”Р¬Р‘Р« Р”Р›РЇ Р–Р•РќРРҐРђ Р РќР•Р’Р•РЎРўР«";
 value["4715b"]["prv_folder"]="other";
 value["4715b"]["prv_image"]="./img/ui_item/vc_wedding.gif";
 value["4715b"]["prv_page"]="./p_vc_wedding.html";
 value["4715b"]["prv_alert"]="";
-//КОЛЛЕГЕ
+//РљРћР›Р›Р•Р“Р•
 value["4715c"] = new Array ();
 value["4715c"]["prv_id"]="4715c";
-value["4715c"]["prv_name"]= "КОЛЛЕГЕ";
+value["4715c"]["prv_name"]= "РљРћР›Р›Р•Р“Р•";
 value["4715c"]["prv_folder"]="other";
 value["4715c"]["prv_image"]="./img/ui_item/vc_colleagues.gif";
 value["4715c"]["prv_page"]="./p_vc_colleagues.html";
 value["4715c"]["prv_alert"]="";
-//ЛЮБОВЬ И ДРУЖБА
+//Р›Р®Р‘РћР’Р¬ Р Р”Р РЈР–Р‘Рђ
 value["4715d"] = new Array ();
 value["4715d"]["prv_id"]="4715d";
-value["4715d"]["prv_name"]= "ЛЮБОВЬ И ДРУЖБА";
+value["4715d"]["prv_name"]= "Р›Р®Р‘РћР’Р¬ Р Р”Р РЈР–Р‘Рђ";
 value["4715d"]["prv_folder"]="other";
 value["4715d"]["prv_image"]="./img/ui_item/vc_love_friendship.gif";
 value["4715d"]["prv_page"]="./p_vc_love_friendship.html";
 value["4715d"]["prv_alert"]="";
-//С НОВЫМ ГОДОМ
+//РЎ РќРћР’Р«Рњ Р“РћР”РћРњ
 value["4715e"] = new Array ();
 value["4715e"]["prv_id"]="4715e";
-value["4715e"]["prv_name"]= "C НОВЫМ ГОДОМ";
+value["4715e"]["prv_name"]= "C РќРћР’Р«Рњ Р“РћР”РћРњ";
 value["4715e"]["prv_folder"]="other";
 value["4715e"]["prv_image"]="./img/ui_item/vc_new_year.gif";
 value["4715e"]["prv_page"]="./p_vc_new_year.html";
@@ -2580,12 +2580,12 @@ value["4715e"]["prv_alert"] = "";
 //DIGITAL tv Astana
 value["4785"] = new Array();
 value["4785"]["prv_id"] = "4785";
-value["4785"]["prv_name"] = "DigitalTv Астана";
+value["4785"]["prv_name"] = "DigitalTv РђСЃС‚Р°РЅР°";
 value["4785"]["prv_folder"] = "tv";
 value["4785"]["prv_image"] = "./img/ui_item/dtv_astana.gif";
 value["4785"]["prv_page"] = "./p_dtv_online.html";
 value["4785"]["prv_alert"] = "";
-//ТОО «Комбинат Связи»
+//РўРћРћ В«РљРѕРјР±РёРЅР°С‚ РЎРІСЏР·РёВ»
 value["4713"] = new Array();
 value["4713"]["prv_id"] = "4713";
 value["4713"]["prv_name"] = "Intertel";
@@ -2593,31 +2593,31 @@ value["4713"]["prv_folder"] = "internet";
 value["4713"]["prv_image"] = "./img/ui_item/intertel.gif";
 value["4713"]["prv_page"] = "./p_intertel_online.html";
 value["4713"]["prv_alert"] = "";
-//ГКП "Орал Су Арнасы"
+//Р“РљРџ "РћСЂР°Р» РЎСѓ РђСЂРЅР°СЃС‹"
 value["4830"] = new Array();
 value["4830"]["prv_id"] = "4830";
-value["4830"]["prv_name"] = "Орал Су Арнасы";
+value["4830"]["prv_name"] = "РћСЂР°Р» РЎСѓ РђСЂРЅР°СЃС‹";
 value["4830"]["prv_folder"] = "zkh";
 value["4830"]["prv_image"] = "./img/ui_item/oralsu_arnasy.gif";
 value["4830"]["prv_page"] = "./p_oralsu_arnasy.html";
 value["4830"]["prv_alert"] = "";
-//ТОО «B-Tel»
+//РўРћРћ В«B-TelВ»
 value["4916"] = new Array();
 value["4916"]["prv_id"] = "4916";
-value["4916"]["prv_name"] = "Балхаш электронный город";
+value["4916"]["prv_name"] = "Р‘Р°Р»С…Р°С€ СЌР»РµРєС‚СЂРѕРЅРЅС‹Р№ РіРѕСЂРѕРґ";
 value["4916"]["prv_folder"] = "internet";
 value["4916"]["prv_image"] = "./img/ui_item/balhash.gif";
 value["4916"]["prv_page"] = "./p_balhash_online.html";
 value["4916"]["prv_alert"] = "";
-//ТОО «КазТелеТот»
+//РўРћРћ В«РљР°Р·РўРµР»РµРўРѕС‚В»
 value["4921"] = new Array();
 value["4921"]["prv_id"] = "4921";
-value["4921"]["prv_name"] = "КазТелеТот";
+value["4921"]["prv_name"] = "РљР°Р·РўРµР»РµРўРѕС‚";
 value["4921"]["prv_folder"] = "other";
 value["4921"]["prv_image"] = "./img/ui_item/kaz_teletot.gif";
 value["4921"]["prv_page"] = "./p_kaz_teletot_online.html";
 value["4921"]["prv_alert"] = "";
-//ТОО «Mary Kay Kazakhstan»
+//РўРћРћ В«Mary Kay KazakhstanВ»
 value["4908"] = new Array();
 value["4908"]["prv_id"] = "4908";
 value["4908"]["prv_name"] = "Mary Kay";
@@ -2625,37 +2625,37 @@ value["4908"]["prv_folder"] = "other";
 value["4908"]["prv_image"] = "./img/ui_item/mary_kay.gif";
 value["4908"]["prv_page"] = "./p_mary_kay.html";
 value["4908"]["prv_alert"] = "";
-//ТОО «Жамбыл-Жарык-Сауда 2030»
+//РўРћРћ В«Р–Р°РјР±С‹Р»-Р–Р°СЂС‹Рє-РЎР°СѓРґР° 2030В»
 value["4915"] = new Array();
 value["4915"]["prv_id"] = "4915";
-value["4915"]["prv_name"] = "Жамбыл-Жарык-Сауда";
+value["4915"]["prv_name"] = "Р–Р°РјР±С‹Р»-Р–Р°СЂС‹Рє-РЎР°СѓРґР°";
 value["4915"]["prv_folder"] = "zkh";
 value["4915"]["prv_image"] = "./img/ui_item/zhambyl_energo_sauda.gif";
 value["4915"]["prv_page"] = "./p_zhambyl_energo_sauda.html";
 value["4915"]["prv_alert"] = "";
-//Юридическое бюро "НАЙЗА"
+//Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р±СЋСЂРѕ "РќРђР™Р—Рђ"
 value["4893"] = new Array();
 value["4893"]["prv_id"] = "4893";
-value["4893"]["prv_name"] = "Юридическое бюро НАЙЗА";
+value["4893"]["prv_name"] = "Р®СЂРёРґРёС‡РµСЃРєРѕРµ Р±СЋСЂРѕ РќРђР™Р—Рђ";
 value["4893"]["prv_folder"] = "other";
 value["4893"]["prv_image"] = "./img/ui_item/naiza.gif";
 value["4893"]["prv_page"] = "./p_naiza_oferta.html";
 value["4893"]["prv_alert"] = "";
-//ТОО Караганды Жылу Сбыт
+//РўРћРћ РљР°СЂР°РіР°РЅРґС‹ Р–С‹Р»Сѓ РЎР±С‹С‚
 value["karzhylsbyt"] = new Array();
 value["karzhylsbyt"]["prv_image"] = "./img/ui_item/karzhylsbyt.gif";
-//ТОО "Караганды Жылу Сбыт"
+//РўРћРћ "РљР°СЂР°РіР°РЅРґС‹ Р–С‹Р»Сѓ РЎР±С‹С‚"
 value["4997"] = new Array();
 value["4997"]["prv_id"] = "4997";
-value["4997"]["prv_name"] = "Электоэнергия";
+value["4997"]["prv_name"] = "Р­Р»РµРєС‚РѕСЌРЅРµСЂРіРёСЏ";
 value["4997"]["prv_folder"] = "other";
 value["4997"]["prv_image"] = "./img/ui_item/karzhylsbyt1.gif";
 value["4997"]["prv_page"] = "./p_zkh_karzhylsbyt.html";
 value["4997"]["prv_alert"] = "";
-//ТОО "Караганды Жылу Сбыт"
+//РўРћРћ "РљР°СЂР°РіР°РЅРґС‹ Р–С‹Р»Сѓ РЎР±С‹С‚"
 value["4999"] = new Array();
 value["4999"]["prv_id"] = "4999";
-value["4999"]["prv_name"] = "За теплоэнергию и гвс ";
+value["4999"]["prv_name"] = "Р—Р° С‚РµРїР»РѕСЌРЅРµСЂРіРёСЋ Рё РіРІСЃ ";
 value["4999"]["prv_folder"] = "other";
 value["4999"]["prv_image"] = "./img/ui_item/karzhylsbyt2.gif";
 value["4999"]["prv_page"] = "./p_zkh_karzhylsbyt.html";
@@ -2668,7 +2668,7 @@ value["4715r"]["prv_folder"] = "other";
 value["4715r"]["prv_image"] = "./img/ui_item/voic_cards.gif";
 value["4715r"]["prv_page"] = "./voic__cards.html.html";
 value["4715r"]["prv_alert"] = "";
-//АлматыЭнергоСбыт
+//РђР»РјР°С‚С‹Р­РЅРµСЂРіРѕРЎР±С‹С‚
 value["4395"] = new Array();
 value["4395"]["prv_id"] = "4395";
 value["4395"]["prv_folder"] = "other";
@@ -2677,7 +2677,7 @@ value["4395"]["prv_page"] = "./embed_flash_AEneggo.html";
 
 value["voicCards"] = new Array();
 value["voicCards"]["prv_image"] = "./img/ui_item/voic_cards.gif";
-//ТОО «АERO»
+//РўРћРћ В«РђEROВ»
 value["5029"] = new Array();
 value["5029"]["prv_id"] = "5029";
 value["5029"]["prv_name"] = "AERO";
@@ -2685,7 +2685,7 @@ value["5029"]["prv_folder"] = "internet";
 value["5029"]["prv_image"] = "./img/ui_item/aero.gif";
 value["5029"]["prv_page"] = "./p_promtell_2.html";
 value["5029"]["prv_alert"] = "";
-//НИККЕН
+//РќРРљРљР•Рќ
 value["5066"] = new Array();
 value["5066"]["prv_id"] = "5066";
 value["5066"]["prv_name"] = "NIKKEN";
@@ -2693,19 +2693,19 @@ value["5066"]["prv_folder"] = "other";
 value["5066"]["prv_image"] = "./img/ui_item/nikken.gif";
 value["5066"]["prv_page"] = "./p_nikken.html";
 value["5066"]["prv_alert"] = "";
-//КупиКупон
+//РљСѓРїРёРљСѓРїРѕРЅ
 value["5104"] = new Array();
 value["5104"]["prv_id"] = "5104";
-value["5104"]["prv_name"] = "КупиКупон";
+value["5104"]["prv_name"] = "РљСѓРїРёРљСѓРїРѕРЅ";
 value["5104"]["prv_folder"] = "other";
 value["5104"]["prv_image"] = "./img/ui_item/kupikupon.gif";
 value["5104"]["prv_page"] = "./p_kupikupon.html";
 value["5104"]["prv_alert"] = "";
 
-//ТОО «IT Intelligent Services»
+//РўРћРћ В«IT Intelligent ServicesВ»
 value["guidejet"] = new Array();
 value["guidejet"]["prv_image"] = "./img/ui_item/guidejet.gif";
-//1 день
+//1 РґРµРЅСЊ
 value["GUIDJET1"] = new Array();
 value["GUIDJET1"]["prv_id"] = "5098";
 value["GUIDJET1"]["prv_name"] = "Guidejet";
@@ -2714,7 +2714,7 @@ value["GUIDJET1"]["prv_image"] = "./img/ui_item/guidejet1.gif";
 value["GUIDJET1"]["prv_page"] = "./p_guidejet.html";
 value["GUIDJET1"]["prv_eparams"] = "200";
 value["GUIDJET1"]["prv_alert"] = "";
-//3 дня
+//3 РґРЅСЏ
 value["GUIDJET3"] = new Array();
 value["GUIDJET3"]["prv_id"] = "5098";
 value["GUIDJET3"]["prv_name"] = "Guidejet";
@@ -2723,31 +2723,31 @@ value["GUIDJET3"]["prv_image"] = "./img/ui_item/guidejet3.gif";
 value["GUIDJET3"]["prv_page"] = "./p_guidejet.html";
 value["GUIDJET3"]["prv_eparams"] = "400";
 value["GUIDJET3"]["prv_alert"] = "";
-//КЦМР
+//РљР¦РњР 
 value["5083"] = new Array();
 value["5083"]["prv_id"] = "5083";
-value["5083"]["prv_name"] = "Казахтелеком";
+value["5083"]["prv_name"] = "РљР°Р·Р°С…С‚РµР»РµРєРѕРј";
 value["5083"]["prv_folder"] = "zkh";
 value["5083"]["prv_image"] = "./img/ui_item/ktalmaty_1.gif";
 value["5083"]["prv_page"] = "./p_kt_phone.html";
 value["5083"]["prv_alert"] = "";
-//ТОО «Актобеэнергоснаб»
+//РўРћРћ В«РђРєС‚РѕР±РµСЌРЅРµСЂРіРѕСЃРЅР°Р±В»
 value["aktobe_es"] = new Array();
 value["aktobe_es"]["prv_image"] = "./img/ui_item/aktobe_es.gif";
 
-//Актобеэнергоснаб - для физ. лиц 
+//РђРєС‚РѕР±РµСЌРЅРµСЂРіРѕСЃРЅР°Р± - РґР»СЏ С„РёР·. Р»РёС† 
 value["5214"] = new Array();
 value["5214"]["prv_id"] = "5214";
-value["5214"]["prv_name"] = "Актобеэнергоснаб - для физ. лиц";
+value["5214"]["prv_name"] = "РђРєС‚РѕР±РµСЌРЅРµСЂРіРѕСЃРЅР°Р± - РґР»СЏ С„РёР·. Р»РёС†";
 value["5214"]["prv_folder"] = "zkh";
 value["5214"]["prv_image"] = "./img/ui_item/aktobe_es1.gif";
 value["5214"]["prv_page"] = "./p_personal_acc_online.html";
 value["5214"]["prv_alert"] = "";
 
-//Актобеэнергоснаб - для ИП 
+//РђРєС‚РѕР±РµСЌРЅРµСЂРіРѕСЃРЅР°Р± - РґР»СЏ РРџ 
 value["5215"] = new Array();
 value["5215"]["prv_id"] = "5215";
-value["5215"]["prv_name"] = "Актобеэнергоснаб - для ИП";
+value["5215"]["prv_name"] = "РђРєС‚РѕР±РµСЌРЅРµСЂРіРѕСЃРЅР°Р± - РґР»СЏ РРџ";
 value["5215"]["prv_folder"] = "zkh";
 value["5215"]["prv_image"] = "./img/ui_item/aktobe_es2.gif";
 value["5215"]["prv_page"] = "./p_personal_acc_online.html";
