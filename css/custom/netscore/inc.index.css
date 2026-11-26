@@ -1,0 +1,38 @@
+﻿<table style="height: 580px;">
+	<tr>
+		<th >
+			<center>
+			<table style="width: auto; ">
+				<tr>
+					<td>
+                        <div style="height:20px;"></div>
+						<a href="#" onclick="goto('money')" class="bt-01">
+							<img src="img/custom/netscore/money.jpg" border="0" />
+							<div langres="money">[money]</div>
+						</a>
+					</td>
+					<td style="width: 40px;"></td>
+					<td>
+                        <div style="height:20px;"></div>
+						<a href="#" onclick="goto('job')" class="bt-01">
+							<img src="img/custom/netscore/job.jpg" border="0" />
+							<div langres="job">[job]</div>
+						</a>
+					</td>
+				</tr>
+
+                <tr >
+                    <td colspan="3" align="center">
+                        <div style="height:50px;"></div>
+                        <div onclick="window.location='netscore.html';" class="change_city" >
+                            <div class="change_city_text" langres="change.new.city">[change.new.city]</div>
+	                    </div>
+
+                    </td>
+                </tr>
+			</table>
+			</center>
+		</th>
+	</tr>
+</table>
+

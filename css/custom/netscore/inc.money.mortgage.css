@@ -1,0 +1,89 @@
+﻿<div id="formpanel"  style=" padding:0px; font-size:0px;">
+	<form>
+	<input type="hidden" name="mode" value="mortgage" />      
+	<input id="CityId" name="CityId" type="hidden" value="5500" />
+	
+	<input id="SortOrder" name="SortOrder" type="hidden" value="Pay ASC" />
+	<table style="height: auto">
+<!--	    <tr>
+			<th class="row throwdiv" langres="job.location">[job.location]</th>
+			<td class="row"  style="text-align:left;" colspan="4">
+				<div id="location" class="long-dd" selector="on" selectorsource="db_lib_locations" selectorid="#location-id" selectortext="#location"></div>
+				<input type="hidden" name="location_id" id="location-id" />
+			</td>
+		</tr>-->
+		<tr>
+			<th class="row"><div langres="money.mortgage.amount">[money.mortgage.amount]</div></th>
+			<td class="row">
+				<div class="long-num-ccy">
+					<div id="amount-disp" keyboard="on" keyboardmode="numeric" keyboardcopyval="#amount" class="num"></div>
+					<div id="amount-ccy" style="float:left; padding-left:20px;"  selector="radio" selectorsource="db_lCurrency" selectorid="#amount-ccy-id" selectortext="#amount-ccy"></div>
+					<input type="hidden" name="The_size_of_the_mortgage" id="amount" value="0" />
+					<input type="hidden" name="MortgageCurrency" id="amount-ccy-id" value="1" />
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="row"><div langres="money.mortgage.income">[money.mortgage.income]</div></th>
+			<td class="row">
+				<div class="long-num-ccy">
+					<div id="income-disp" keyboard="on" keyboardmode="numeric" keyboardcopyval="#income" class="num"></div>
+					<div id="income-ccy" style="float:left; padding-left:20px;" selector="radio" selectorsource="db_lCurrency" selectorid="#income-ccy-id" selectortext="#income-ccy"></div>
+					<input type="hidden" name="Legal_monthly_income" id="income" value="0" />
+					<input type="hidden" name="IncomeCurrency" id="income-ccy-id" value="1" />
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="row"><div langres="money.mortgage.startamt">[money.mortgage.startamt]</div></th>
+			<td class="row">
+				<div class="long-num-ccy">
+					<div id="startamt-disp" keyboard="on" keyboardmode="numeric" keyboardcopyval="#startamt" class="num"></div>
+					<div id="startamt-ccy" style="float:left; padding-left:20px;" selector="radio" selectorsource="db_lCurrency" selectorid="#startamt-ccy-id" selectortext="#startamt-ccy"></div>
+					<input type="hidden" name="The_first_payment" id="startamt" value="0" />
+					<input type="hidden" name="PaymentCurrency" id="startamt-ccy-id" value="1" />
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="row"><div langres="money.mortgage.period">[money.mortgage.period]</div></th>
+            <td class="row">
+			    <div class="short-txt" style="float:left; width:271px;"  id="period-disp" keyboard="on" keyboardcopyval="#period" keyboardmode="numeric">5</div>
+			    <input type="hidden" name="For_a_period_of_val" id="period" value="5"/>
+			    <div  id="period-mode" style="float:left;" selector="radio_big" selectorsource="db_lPeriod" selectorid="#period-id" selectortext="#period-mode"></div>
+			    <input type="hidden" name="For_a_period_of" id="period-id" value="Short_years" /> 
+			</td>
+		</tr>
+		<tr>
+			<th class="row"><div langres="money.mortgage.bail">[money.mortgage.bail]</div></th>
+			<td class="row">
+				<div id="bail" style="float:left;" selector="radio_big" selectorsource="db_lYesNoStr" selectorid="#bail-id" selectortext="#bail"></div>
+				<input type="hidden" name="Additional_collateral" id="bail-id" value="Yes" />
+			</td>
+        </tr>
+        <tr>
+			<th class="row"><div langres="money.mortgage.irs">[money.mortgage.irs]</div></th>
+			<td class="row">
+				<div id="irs" style="float:left;" selector="radio_big" selectorsource="db_lYesNoStr" selectorid="#irs-id" selectortext="#irs"></div>
+				<input type="hidden" name="Resident" id="irs-id" value="Yes" />
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+<div id="resultpanel" style="display: none">
+	<table>
+		<tr>
+			<th style="font-weight: normal; height: 425px">
+				<div id="ResultText"></div>
+			</th>
+		</tr>
+	</table>
+</div>
+<script language="javascript" type="text/javascript">
+    gotohistory[gotohistory.length - 1].title = 'Ипотека';
+    ShowButtonResult();
+    $('#goto-result').unbind('click').click(function () {
+        money_formsubmit('mortgage')
+    });
+</script>

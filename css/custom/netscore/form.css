@@ -1,0 +1,1015 @@
+﻿.row
+{
+	background: url(../../../img/custom/netscore/blue_line_row.png) repeat-x;
+	height: 115px;
+	vertical-align:middle;
+	text-align: right;
+	font-weight: bold;
+	color: #ffffff;
+		
+}
+
+.row *
+{
+	vertical-align: middle;
+	font-size: 25px;
+}
+
+th.row
+{
+	text-align: right;
+	width: 235px;
+	padding-left:25px;
+	padding-right:30px;
+	vertical-align:middle;
+	color: #ffffff;
+	text-transform:uppercase;
+}
+
+th.row div
+{
+	text-align: right;
+	color: #ffffff;
+	font-family:Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+    
+}
+
+.row th div 
+{
+    font-family:Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+.row th 
+{
+   
+    text-align: right;
+   
+    width: 235px;
+	padding-left:25px;
+	padding-right:30px;
+	vertical-align:middle;
+	color: #ffffff;
+}
+
+.throwdiv
+{
+    vertical-align: top;
+	text-align: right;
+	color: #ffffff;
+	font-family:Verdana;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.row td
+{   
+    color: Black;
+    line-height: 110px;
+    padding-right:25px;
+	vertical-align:top;
+}
+
+
+td.row
+{
+	vertical-align:top;
+	color: Black;
+    line-height: 110px;
+    padding-right:25px;
+}
+
+.short-txt
+{
+	background: url(../../../img/custom/netscore/short-txt.png) no-repeat;
+	width: 247px;
+	height: 95px;
+    line-height:95px;
+    text-align: center;
+    overflow: hidden;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:50px;
+    
+}
+
+/*
+.short-dd
+{
+	background: url(../../../img/custom/netscore/short-dd.jpg) no-repeat;
+	width: 103px;
+	height: 51px;
+	font-size: 20px;
+	color: #005cb2;
+	text-align: left;
+}
+*/
+
+.long-txt
+{
+	background: url(../../../img/custom/netscore/long-txt.png) no-repeat;
+	width: 520px;
+	height: 96px;
+	text-align: center;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:50px;
+
+}
+
+.long-dd
+{
+    margin-top: 9px;
+	background: url(../../../img/custom/netscore/long-dd.png) no-repeat;
+	width: 927px;
+	height: 88px;
+	padding-left: 10px;
+	color: #005cb2;
+	
+}
+
+
+.check-sign 
+{
+    width:32px; 
+    height:34px; 
+    display:none;
+    position: absolute; 
+    background: url(../../../img/custom/netscore/check-sign.png) no-repeat; 
+    top:37px; 
+    left:5px;
+} 
+
+.check-sign-big 
+{
+    width:32px; 
+    height:34px; 
+    display:none;
+    position: absolute; 
+    background: url(../../../img/custom/netscore/check-sign.png) no-repeat; 
+    top:35px; 
+    left:40px;
+} 
+
+.check-language-sign-big 
+{
+    width:35px; 
+    height:34px; 
+    display:none;
+    position: absolute; 
+    background: url(../../../img/custom/netscore/check_language_sign.png) no-repeat; 
+    top:35px; 
+    left:20px;
+} 
+.rate_button
+{
+    position: relative;	
+   
+    background-position: 0px 0px;
+	background-image: url(../../../img/custom/netscore/rate_button.png);
+	
+	text-align: center;
+	display:block;
+	overflow:hidden;
+    height:98px;
+	/*padding:0px 26px 0px 26px;*/
+	width: 110px;
+	background-repeat:no-repeat;
+
+}
+.rate_button div.right
+{
+    width:15px; height:98px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    background-position: 0px 0px;
+	background-image: url(../../../img/custom/netscore/rate_button_right.png);
+	background-repeat:no-repeat;
+    }
+.rate_button.selected
+{
+	background-repeat: no-repeat;
+	background-position: 0px -98px;
+	position: relative;	
+	background-image: url(../../../img/custom/netscore/rate_button.png);
+	height: 98px;
+	text-align: center;
+	width: 110px;
+	/*padding:0px 16px 0px 16px;*/
+}
+
+.rate_button.selected div.right
+{
+    width:15px; height:98px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    background-position: 0px -98px;
+	background-image: url(../../../img/custom/netscore/rate_button_right.png);
+	background-repeat:no-repeat;
+}
+
+.selected_big .check-sign-big
+{
+    display:block;
+}
+
+.selected_big .check-language-sign-big 
+{
+    display:block;
+}
+
+.selected .check-sign
+{
+    display:block;
+}
+.rate-text 
+{
+    font-family:Arial;
+    font-size:27px;
+    font-weight:bold;
+    color:#005cb2;
+    text-transform:uppercase;
+}
+
+.rate-big-text 
+{
+    font-family:Arial;
+    font-size:27px;
+    font-weight:bold;
+    color:#005cb2;
+    text-transform:uppercase;
+}
+
+
+
+.selected .rate-text
+{
+    padding-left:23px;
+}
+
+.medium-dd.selected_big
+{
+	background-repeat: no-repeat;
+	position: relative;	
+	background-image: url(../../../img/custom/netscore/selected_radio_button.png);
+	width: 222px;
+	height: 95px;
+    text-align: center;
+}
+.medium-dd
+{
+    background-repeat: no-repeat;
+	background-image: url(../../../img/custom/netscore/not_selected_radio_button.png);
+	width: 105px;
+	height: 95px;
+    text-align: center;
+}
+
+.long-num-ccy .num
+{
+    height: 96px;
+    line-height:96px;
+	width: 500px;
+	float: left;
+	background: url(../../../img/custom/netscore/long-txt.png) no-repeat;
+	text-align: center;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:50px;
+	padding-left:25px;
+	overflow: hidden;
+	
+}
+
+.long-num-ccy .ccy
+{
+	line-height:60px;
+	float: right;
+
+	font-size: 20px;
+	color: #005cb2;
+}
+
+
+.language
+{
+    background-repeat: no-repeat;
+    background-position: -113px -1px;
+	background-image: url(../../../img/custom/netscore/language.png);
+	width: 112px;
+	height: 112px;
+	display:block;
+	text-align: center;
+}
+
+.language.selected_language
+{
+	background-repeat: no-repeat;
+	background-position: 0px -1px;
+	position: relative;	
+	background-image: url(../../../img/custom/netscore/language.png);
+	width: 112px;
+	height: 112px;
+	
+	
+}
+
+.language-text 
+{
+    font-family:Verdana;
+	font-size:53px;
+	font-weight:bold;
+	line-height: 112px;
+	color: #fff;
+	text-align: center;
+}
+
+
+.rate_big_button
+{
+    position: relative;	
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+	background-image: url(../../../img/custom/netscore/rate_button.png);
+	overflow:hidden;
+    height:98px;
+	
+	text-align: center;
+	display:block;
+	width:246px;
+	float:left;
+
+}
+.rate_big_button div.right
+{
+    display:block;
+    width:15px; 
+    height:98px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    background-position: 0px 0px;
+	background-image: url(../../../img/custom/netscore/rate_button_right.png);
+	background-repeat: no-repeat;
+}
+    
+.rate_big_button.selected_big
+{
+	background-repeat: no-repeat;
+	background-position: 0px -98px;
+	position: relative;	
+	background-image: url(../../../img/custom/netscore/rate_button.png);
+	height: 98px;
+	text-align: center;
+	width:246px;
+}
+
+.rate_big_button.selected_big div.right
+{
+    width:15px; height:98px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    background-position: 0px -98px;
+	background-image: url(../../../img/custom/netscore/rate_button_right.png);
+}
+
+.location
+{
+    position: relative;	
+    background-repeat: no-repeat;
+	background-image: url(../../../img/custom/netscore/location.png);
+	height: 79px;
+	display:block;
+	width: 410px; 
+}
+
+.location div.right
+{
+    width:20px; 
+    height:79px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    
+	background-image: url(../../../img/custom/netscore/location_right.png);
+}
+
+.location-text 
+{
+    font-family:Arial;
+	font-size:40px;
+	font-weight:bold;
+	line-height: 60px;
+	color: #656464;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left:  20px;
+		
+}
+
+
+.region
+{
+    position: relative;	
+    background-repeat: no-repeat;
+	background-image: url(../../../img/custom/netscore/region.png);
+	height: 100px;
+	display:block;
+	width: 390px;
+}
+
+.region div.right
+{
+    width:15px; 
+    height:100px;
+    position:absolute;
+    right:0px;
+    top:0px;
+	background-image: url(../../../img/custom/netscore/region_right.png);
+}
+
+.region-text 
+{
+    font-family:Arial;
+	font-size:30px;
+	font-weight:bold;
+	color: #656464;
+	padding-left: 10px;
+    padding-top: 10px;    
+	
+		
+}
+
+.region_city
+{
+    position: relative;	
+    background-repeat: no-repeat;
+	background-image: url(../../../img/custom/netscore/region_city.png);
+	height: 89px;
+	display:block;
+	width: 350px;
+}
+
+.region_city div.right
+{
+    width:20px; 
+    height:89px;
+    position:absolute;
+    right:0px;
+    top:0px;
+	background-image: url(../../../img/custom/netscore/region_city_right.png);
+}
+
+.region_city div.back
+{
+    width:35px; 
+    height:60px;
+    position:absolute;
+    left:20px;
+    top:15px;
+	background-image: url(../../../img/custom/netscore/backCitySelect.png);
+}
+
+.region-back-text
+{
+    font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	width: 250;
+	color: #0c5f15;
+    padding-top: 15px;    
+	vertical-align: middle;
+	padding-left:70px
+		
+}
+
+.change_city
+{
+    width:323px; 
+ 	background-image: url(../../../img/custom/netscore/location_button.png);
+}
+
+.change_city_text
+{
+    padding-top:25px;   
+    height:80px;
+    text-transform: uppercase;
+    vertical-align:middle;
+    line-height:30px;
+    color: #161b20;
+    font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	width: 300px; 
+	text-align:center;
+
+}
+
+.job_text
+{
+    font-family: Arial;
+    font-size: 27px;
+    font-weight:bold;
+    text-align:center;
+    line-height:90px;
+    
+}
+
+.job_area
+{
+    position: relative;	
+    background-repeat: no-repeat;
+	background-image: url(../../../img/custom/netscore/job_area.png);
+	height: 82px;
+	display:block;
+	width: 418px;
+
+}
+
+.job_area_text
+{
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight:bold;
+    color: #656464;
+}
+
+.check-windows
+{
+    width:34px; 
+    height:30px; 
+    display:block;
+    position: absolute; 
+    background: url(../../../img/custom/netscore/check-windows.png) no-repeat; 
+    top:38px; 
+    left:20px;
+}
+
+.selected_big .check-windows
+{
+    display:block;
+}
+      /*  Left buttons panel */
+    .rotateText
+    {
+         -moz-transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        position:relative;
+        left: 8px;
+        text-align:center;
+        line-height:52px;
+        text-decoration:underline;
+        font-size:22px;
+        font-family:Arial;
+        height: 220px;
+        width: 52px;
+        top:0px;
+        color:#fff;
+        writing-mode: tb-lr;
+       
+        
+    }
+
+    .green_button
+    {   
+        padding-top: 5px;
+        background: url(../../../img/custom/netscore/green_left_button.png) no-repeat  -40px 0px;  
+        height:230px;
+        width:120px;
+        left:-18px;
+
+    }
+
+    .blue_button
+    {   
+        padding-top: 5px;
+        background: url(../../../img/custom/netscore/blue_left_button.png) no-repeat  -40px 0px;  
+        height:230px;
+        width:120px;
+        left:-18px;
+
+    }
+    
+    .gray_button
+    {   
+        padding-top: 5px;
+        background: url(../../../img/custom/netscore/gray_left_button.png) no-repeat  -60px 0px;  
+        height:230px;
+        width:120px;
+        left:-18px;
+
+    }
+    
+
+.block 
+{
+    width:300px; 
+    height:200px; 
+    margin:0 auto;
+    position:relative;  
+
+}
+         
+.block div.p  
+{
+    width:215px; 
+    height:70px; 
+    display:table; 
+    position:absolute; 
+    text-align:center;  
+    left:30px; 
+    top:115px;  
+}
+                      
+.block div.p div 
+{
+    display: table-cell; 
+    vertical-align: middle;
+    font-size:22px; 
+    font-family:Arial; 
+    font-weight: bold;
+    color: #fff;
+}
+
+.row_company
+{
+	height: 65px;
+	vertical-align:middle;
+	text-align: left;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 20px;
+	border-bottom: 10px solid #fff;
+	background-color: #0294e3;
+	width: 100%;
+	padding-left: 50px;
+	padding-right: 30px;
+}
+
+.payments
+{
+    background: #00a2fd;
+    width: 1150px;
+    height: 700px;
+    position: relative;
+    padding:  15px 5px 5px 25px;
+    border-bottom: 5px solid #fff; 
+}
+
+
+
+.corn_lt, .corn_rt, .corn_lb, .corn_rb {
+    width: 20px; 
+    height: 20px;
+    position: absolute; 
+    font-size: 0; 
+    overflow: hidden;
+}
+
+
+.corn_lt {
+    background: url(../../../img/custom/netscore/corn_lt.png) no-repeat;
+    left: 0; 
+    top: 0; 
+}
+.corn_rt {
+    background: url(../../../img/custom/netscore/corn_rt.png) no-repeat;
+    right: 0; 
+    top: 0; 
+}
+.corn_lb {
+    background: url(../../../img/custom/netscore/corn_lb.png) no-repeat;
+    left: 0; 
+    bottom: 0; 
+}
+.corn_rb {
+    background: url(../../../img/custom/netscore/corn_rb.png) no-repeat;
+    right: 0; 
+    bottom: 0; 
+}
+
+
+/*
+для IE6 
+
+.corn_rt, .corn_rb {
+    margin-left: 100%; 
+    left: -11px; 
+}
+*/
+
+.invest {
+    width: 320px; 
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.title_block 
+{
+    background: url(../../../img/custom/netscore/title_block.png) no-repeat;
+    width:298px; 
+    height:63px; 
+    margin:0 auto;
+    position:relative;  
+    
+}
+         
+.title_block div.p  
+{
+    width:285px; 
+    height:61px; 
+    display:table; 
+    position:absolute; 
+    text-align:center;  
+    left:5px; 
+}
+                      
+.title_block div.p div 
+{
+    display: table-cell; 
+    vertical-align: middle;
+    font-size:20px; 
+    font-family:Arial; 
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+.inform_block
+{
+    width: 280px; 
+    border: 1px solid #89a5cf;
+    padding-left: 7px;
+    color: #125ea5;
+    height: 88px;
+    font-size:16px; 
+    font-family:Arial; 
+    font-weight: bold;
+    margin-bottom:10px;
+    position: relative;
+}
+
+.inform_block_3col 
+{
+    width: 395px; 
+    border: 1px solid #89a5cf;
+    padding-left: 7px;
+    color: #125ea5;
+    height: 88px;
+    font-size:16px; 
+    font-family:Arial; 
+    font-weight: bold;
+    margin-bottom:10px;
+    position: relative;
+}
+
+
+.about_block
+{
+    width: 280px;
+    height: 30px; 
+    line-height: 12px;
+    font-size: 12px; 
+    font-family: Arial; 
+    position: absolute;
+
+    top: 40px;
+    left: 7px;
+    color: #1f1e1e;
+}
+
+.link_block
+{
+    position: absolute;
+    top: 70px; 
+    right: 10px;
+    font-size: 13px; 
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.big_block
+{
+    position: relative;
+    height: 1px;
+    width: 300px; 
+    border-bottom: 10px solid red;
+}
+
+
+.title_block_3col 
+{
+    background: url(../../../img/custom/netscore/title_block_3col.png) no-repeat;
+    width:405px; 
+    height:63px; 
+    margin:0 auto;
+    position:relative;  
+    
+    
+}
+         
+.title_block_3col div.p  
+{
+    width:405px; 
+    height:60px; 
+    display:table; 
+    position:absolute; 
+    text-align:center;  
+    top:-2px;
+     
+}
+                      
+.title_block_3col div.p div 
+{
+    display: table-cell; 
+    vertical-align: middle;
+    font-size:19px; 
+    font-family:Arial; 
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.maps_button 
+{
+    background: url(../../../img/custom/netscore/maps_button.png) no-repeat;
+    width:366px; 
+    height:119px; 
+    margin:0 auto;
+    position:relative;  
+    margin-bottom: 30px;
+    margin-top: 15px;
+    
+}
+         
+.maps_button div.p  
+{
+    width:340px; 
+    height:119px; 
+    display:table; 
+    position:absolute; 
+    text-align:center;  
+    left: 10px;
+  
+}
+                      
+.maps_button div.p div 
+{
+    display: table-cell; 
+    vertical-align: middle;
+    font-size:19px; 
+    font-family:Arial; 
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+.all_info_block 
+{
+    border: 3px solid #89a5cf;
+    width:1000px; 
+    height:100px; 
+    margin:0 auto;
+    position:relative;  
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: ##89a5cf;
+    
+}
+         
+.all_info_block div.p  
+{
+    width:980px; 
+    height:100px; 
+    display:table; 
+    position:absolute; 
+    text-align:center;  
+    left: 10px;
+  
+}
+                      
+.all_info_block div.p div 
+{
+    display: table-cell; 
+    vertical-align: middle;
+    font-size:25px; 
+    font-family:Arial; 
+    font-weight: bold;
+    color: #125da4;
+}
+
+
+.inform_all_info_block 
+{
+    top: -10px;
+    left: 50px;
+    width: 1200px; 
+    background-color: #fff;
+    padding-left: 7px;
+    color: #125ea5;
+    height: 470px;
+    font-size:16px; 
+    font-family:Arial; 
+    font-weight: bold;
+    position: relative;
+}
+
+
+.about_all_information
+{
+
+    width: 800px;
+    background-color: #fff;
+    line-height: 20px;
+    font-size: 15px; 
+    font-family: Arial; 
+    position: relative;
+    border-bottom: 10px;
+    color: #1f1e1e;
+}
+
+.about_all_details
+{
+  
+    width: 800px;
+   
+    line-height: 30px;
+    font-size: 20px; 
+    font-family: Arial; 
+    position: relative;
+    color: #1f1e1e;
+}
+
+
+.maps_block
+{
+    width: 1280px; 
+    height: 630px;
+    text-align:center;
+  
+}
+
+.map_text
+{
+    font-size: 20px; font-family:Arial; font-weight: bold; width: 100%;  text-align:center; text-transform:uppercase;
+}
+
+
+.company_information 
+{
+    width: 1100px;
+    line-height: 19px;
+    font-size: 15px; 
+    font-family: Arial; 
+    position: relative;
+    border-bottom: 10px;
+    color: #1f1e1e;   
+}
+
+
+.company_tittle 
+{
+    border: 3px solid #89a5cf;
+    width:1100px; 
+    height:50px; 
+    margin:0 auto;
+    position:relative;  
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: ##89a5cf;
+    
+}
+         
+.company_tittle div.p  
+{
+    width:1100px; 
+    height:50px; 
+    display:table; 
+    position:absolute; 
+    text-align:center;  
+    left: 10px;
+  
+}
+                      
+.company_tittle div.p div 
+{
+    display: table-cell; 
+    vertical-align: middle;
+    font-size:25px; 
+    font-family:Arial; 
+    font-weight: bold;
+    color: #125da4;
+}

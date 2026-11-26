@@ -1,0 +1,110 @@
+<html>
+<head>
+    <title>Online_Auth_Error</title>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="refresh" content="60; URL=./index.html" />
+    <link rel="stylesheet" href="./css/online_auth.css" type="text/css" />
+    <script type="text/javascript" src="./js/engine/utils.js"></script>
+    <script type="text/javascript" src="./js/engine/storage.js"></script>
+    <script type="text/javascript" src="./js/lang/str_kaz.js"></script>
+    <script type="text/javascript" src="./func/engine/XHConn.js"></script>
+    <script type="text/javascript" src="./js/engine/base.js"></script>
+    <script type="text/javascript">
+
+    var oPayInfo = Object.deserialize(storage.get("pay_info"));
+
+	var sType = oPayInfo.prvId == "644" ? "1" : "2";
+	
+
+        function replaceId() {
+
+            oPayInfo.prvLogo = oPayInfo.prvId == "644" ? "643.gif" : "644.gif";
+            oPayInfo.prvName = oPayInfo.prvId == "644" ? "Kcell" : "Activ";
+		
+            ff.prv_id.value = oPayInfo.prvId == "644" ? "643" : "644";
+            ff.getAccountNumber.value = oPayInfo.account;			
+	    ff.prv_name.value = oPayInfo.prvName;
+		
+	    oPayInfo.prvId = oPayInfo.prvId == "644" ? "643" : "644";
+
+            storage.remove("pay_info");
+            storage.put("pay_info", oPayInfo.serialize());
+
+	    ff.submit();	
+
+        }
+		var i = 0;
+        function start() {
+            var conn = new XHConn();
+            $("progress_bar").innerHTML = getFlashDef("./swf/bar.swf");
+
+            var fnWhenDone = function (oXML) {
+                var oResponseText = oXML.responseText;
+                al("start " + oResponseText);
+                if (oResponseText == "0000")//0000 - можно проводить
+                {
+                    al("можно проводить " + oResponseText);
+                    document.location.href = "./validate_confirm.html";
+                }
+                else if (oResponseText == "0010")//0010 - абонент не найден
+                {
+                    al(" абонент не найден " + oResponseText);
+                    document.location.href = "./online_auth_error2.html";
+                }
+                else if (oResponseText == "0001")//0001 - временная ошибка, пвторить запрос
+                {
+                    al("временная ошибка, пвторить запрос " + oResponseText);
+					i++;
+					if(i < 2)
+					{
+						start();
+					}
+					else
+					{
+						document.location.href = "./online_auth_error300.html";
+					}
+                }
+                else if (oResponseText == "0002")//0002 - ошибка. не повторять запрос.
+                {
+                    al(" ошибка. не повторять запрос " + oResponseText);
+                    document.location.href = "./online_auth_error300.html";
+                }
+                else if (oResponseText == "0003")//0003 - использовать стандартную онлайн схему
+                {
+                    al("использовать стандартную онлайн схему " + oResponseText);
+                    document.location.href = "./validate_confirm.html";
+                }
+                else if (oResponseText == "0011")//0011 - отправлен запрос на актив, но абонент найден в кселл и на оборот
+                {
+                    al("отправлен запрос на актив, но абонент найден в кселл и на оборот " + oResponseText);
+                    replaceId();
+                    document.location.href = "./validate_confirm.html";
+                }
+                else {
+                    al("Exite error 300 " + oResponseText);
+                    document.location.href = "./validate_confirm.html";
+                }
+            };
+            conn.connect('http://92.46.53.228:8089/OnlineInfoGate/Gate.aspx', 'POST', 'request=<r><msisdn>' + oPayInfo.account + '</msisdn><type>' + sType + '</type></r>&service=kcell', fnWhenDone);
+        }
+    </script>
+</head>
+<body onload="start();">
+
+<form id="ff" name="ff" method="post" action="./validate_confirm.html">
+    <input type="hidden" name="prv_id" value=""/>
+    <input type="hidden" name="prv_name" value=""/>
+    <input type="hidden" name="getAccountNumber" value="" />
+    <input type="hidden" id="Language" name="Language" value="RU" />   	
+</form>
+    <div id="content">
+        <div class="txt t_l f_e">
+            Один момент</div>
+        <div class="txt t_l">
+            Идет проверка данных</div>
+        <div id="progress_bar">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,149 @@
+﻿<script type="text/javascript">
+
+
+    function doProcessAnswerSendData(data) {    
+    	try {
+        $('#loadingimg').hide();
+         // alert(data);
+   		data = jQuery.parseJSON(data);
+
+		$('#formpanel').hide();
+		$('#resultpanel').show();
+
+		goForvard(data.tMTermReq_id, 200);
+ 
+        
+        }
+        catch (z) { return; }
+	}
+</script>
+<div id="formpanel">
+	<form>
+		<table style="height: auto">
+		<tr>
+			<th class="row"><div langres="senddata.email">[senddata.email]</div></th>
+			<td class="row" align="left">
+				<div id="email-disp" class="long-txt" style="float:left; overflow:hidden; font-size: 25px; color: #9b9b9b;" keyboard="on" keyboardcopyval="#email" class="num"></div>
+				<input type="hidden" name="email" id="email" value="" />
+			</td>
+		</tr>
+		<tr>
+			<th class="row" ><div langres="senddata.phone" style="float:right">[senddata.phone]</div></th>
+			<td class="row" align="left" >
+                <span style="color:#fff;font-size:50px;float:left;line-height:111px"></span>
+				<div id="phone-disp" class="long-txt" style="float:left; font-size: 50px; color: #9b9b9b; position:relative;" keyboard="on" keyboardmode="numeric" keyboardcopyval="#phone" class="num" > </div>
+                 <div style="position:absolute; font-family:Arial; font-size: 70px; font-weight: bold; text-align:left; left:300px; color: #9b9b9b; overflow:hidden;">+7</div>
+                
+				<input type="hidden" name="phone" id="phone" value="" />
+			</td>
+		</tr>
+	</table>
+	</form>
+</div>
+
+<div id="dialog-alert" style="border:1px solid #0f0f10; background:#FFFFFF; display:none; position:absolute; padding:30px; left:380px; top:200px">
+	 
+</div>
+
+<SCRIPT>
+    function endAlert() {
+        $('#dialog-alert').hide();
+    }
+
+    function isValidEmail (email, strict)
+    {
+        if ( !strict )
+        email = email.replace(/^\s+|\s+$/g, '');
+        return (/^([a-z0-9_\-]+\.)*[a-z0-9_\-]+@([a-z0-9][a-z0-9\-]*[a-z0-9]\.)+[a-z]{2,4}$/i).test(email);
+    }
+
+    function isValidPhone(phone) {
+        return (/^7\d{9}$/i).test(phone);
+    }
+
+    function SendPay() 
+    {
+        
+        try {
+            if ($('#email').val().length == 0) {
+                $('#dialog-alert').html("<span style='color:red'><b>Введите E-MAIL</b></span>");
+                $('#dialog-alert').show();
+                setTimeout("endAlert()", 3000);
+                return;
+            }
+            if (!isValidEmail($('#email').val())) {
+                $('#dialog-alert').html("<span style='color:red'><b>Введите правильный E-MAIL</b></span>");
+                $('#dialog-alert').show();
+                setTimeout("endAlert()", 3000);
+                return;
+            }
+
+            if ($('#phone').val().length == 0) {
+                $('#dialog-alert').html("<span style='color:red'><b>Введите телефон</b></span>");
+                $('#dialog-alert').show();
+                setTimeout("endAlert()", 3000);
+                return;
+            }
+
+            if (!isValidPhone($('#phone').val())) {
+                $('#dialog-alert').html("<span style='color:red'><b>Введите правильный телефон</b></span>");
+                $('#dialog-alert').show();
+                setTimeout("endAlert()", 3000);
+                return;
+            }
+            
+            var queryString = $('#formpanel form').serialize() + '&searchRequestMode=' + searchRequestMode + '&searchRequestId=' + searchRequestId + '&rnd=' + Math.random();
+            
+            $('#loadingimg').show();
+            searchResultId = 0;
+            sendToGateway("http://api.netscore.kz/mterminal/senddatatoclient?" + queryString, doProcessAnswerSendData);
+            $('#goto-result').hide();
+            $('#goto-next').hide().unbind('click').click(function () {
+                goto('senddata');
+            });
+        }
+        catch (z) { return; }
+
+    }
+</SCRIPT>
+<div id="resultpanel" style="display: none; height: 100%;">
+	<table style="height: 580px;">
+		<tr>
+			<th style="font-weight: normal">
+				<div id="ResultText"></div>
+			</th>
+		</tr>
+	</table>
+</div>
+<script language="javascript" type="text/javascript">
+    gotohistory[gotohistory.length - 1].title = 'Отправка результатов поиска';
+    ShowButtonNext(1);
+    
+    $('#goto-next').unbind('click').click(function () {
+        SendPay();
+    });
+
+
+
+
+
+
+
+
+
+
+    function OnCreateView() {
+        $("#dialog:ui-dialog").dialog("destroy");
+        $("#dialog-confirm_CreateView").dialog({
+            resizable: false,
+            height: 240,
+            width: 345,
+            modal: true,
+            buttons: { 
+                "Ок": function () {
+                    $(this).dialog("close");
+                }
+            }
+        });
+    }
+</script>

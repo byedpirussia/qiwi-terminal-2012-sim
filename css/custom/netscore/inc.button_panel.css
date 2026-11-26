@@ -1,0 +1,23 @@
+﻿<div style="padding-left:20px; padding-right:20px;">
+<div id="goto-prev"  onclick="goto('-1')" style="display: none; cursor:pointer;  position:absolute ; top: 870px; left:20px;   white-space:nowrap; color:#fff;  margin-right:45px; padding-left:150px; padding-right:30px;  background:url(img/custom/netscore/back_button_bg_l.png) no-repeat left top; float:left;height:125px;">
+<div langres="main.prev" style="font-size:50px; font-family:Arial; font-weight:bold;  line-height: 125px;">[main.prev]</div>
+<div style="position:absolute; right:-60px; top:0px; height:125px; width:60px; background:url(img/custom/netscore/back_button_bg_r.png) no-repeat 0px 1px;"></div>
+</div>
+
+<div id="goto-next"  style="display: none; cursor:pointer;  position:absolute ; top: 870px;  right: 30px;   white-space:nowrap; color:#fff;  margin-left:45px; padding-right:150px; padding-left:30px;   background:url(img/custom/netscore/next_button_bg_r.png) no-repeat right top; float:right;height:125px;">
+<div langres="main.next" style="font-size:50px; font-family:Arial; font-weight:bold; line-height: 125px;">[main.next]</div>
+<div style="position:absolute; left:-60px; top:0px; height:125px; width:60px; background:url(img/custom/netscore/next_button_bg_l.png) no-repeat 0px 0px;"></div>
+</div>
+
+<div id="goto-result"  style="display: none; cursor:pointer;  position:absolute ; top: 870px; right: 30px;    white-space:nowrap; color:#fff;  margin-left:45px; padding-right:150px; padding-left:30px;   background:url(img/custom/netscore/next_button_bg_r.png) no-repeat right top; float:right;height:125px;">
+<div langres="main.result" style="font-size:50px; font-family:Arial; font-weight:bold; line-height: 125px;">[main.result]</div>
+<div style="position:absolute; left:-60px; top:0px; height:125px; width:60px; background:url(img/custom/netscore/next_button_bg_l.png) no-repeat 0px 0px;"></div>
+</div>
+</div>				
+<script language="javascript" type="text/javascript">
+ 
+    $('#goto-next').unbind('click').click(function () { 
+        goto('senddata');
+    });
+    doSelectors();
+</script>

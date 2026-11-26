@@ -1,0 +1,229 @@
+﻿@import url("base.css");
+
+.banner
+{
+    overflow: hidden;
+}
+
+
+#content
+{
+    width: 1280px;
+    height: 1024px;
+    margin: 0 auto;
+}
+
+#panel
+{
+    width: 1280px; 
+    height: 107px; 
+    background: url('../img/ui/index/index_up.gif') no-repeat;
+}
+
+#c_l
+{
+    width: 1280px; 
+    height: 524px; 
+    margin-top: 159px;
+    padding-left: 338px;
+}
+
+#buttons
+{ 
+    float: left; 
+    width: 604px; 
+    height: 524px;
+}
+
+#logo
+{
+    position: absolute;
+    top: 50px;
+    left: 593px;
+    width: 97px;
+    height: 158px;
+    background: url('../img/ui/qiwi_logo_158px.gif') no-repeat;
+}
+#logo div
+{
+	position: absolute;
+	right: -20px;
+	top: -22px;
+	width: 175px;
+	height: 200px;
+	/*opacity: 0.5;*/
+	background: #F5F5F5;
+}
+
+#advert_5
+{
+    position: absolute;
+    top: 305px;
+    left: 30px;
+    width: 240px; 
+    height: 450px;
+    z-index: 10;
+    display: none;
+}
+
+#advert_3
+{
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    width: 240px; 
+    height: 180px;
+    z-index: 10;
+}
+
+#advert_2
+{
+    width: 240px; 
+    height: 400px; 
+    float: left; 
+    margin-top: auto; 
+    margin-left: 70px; 
+}
+
+#advert_1
+{
+    width: 500px; 
+    height: 200px; 
+    float: left;
+}
+
+#advert_4
+{
+    width: 500px; 
+    height: 200px; 
+    float: right;
+}
+
+#btn_1
+{
+    width: 604px; 
+    height: 169px; 
+    background: url('../img/ui/index/btn_payment.gif') no-repeat;
+}
+
+#btn_2
+{
+    width: 604px; 
+    height: 154px;
+    margin-top: 15px;  
+    background: url('../img/ui/index/btn_lk.gif') no-repeat;
+}
+
+#btn_3
+{
+    width: 604px; 
+    height: 171px; 
+    margin-top: 15px;
+    background: url('../img/ui/index/btn_bank.gif') no-repeat;
+}
+
+#btn_1 img,
+#btn_2 img,
+#btn_3 img
+{
+	visibility: hidden;
+	display: block;
+}
+#btn_1.show img,
+#btn_2.show img,
+#btn_3.show img
+{
+	visibility: visible;
+}
+
+#btn_info
+{
+    width: 111px;
+    height: 97px;
+    float: left;
+    margin-left: 85px;
+    background: url('../img/ui/inf_rus.gif') center no-repeat;
+}
+
+#clock
+{
+    width: 120px;
+    height: 60px;
+    font-size: 26px;
+    color: #666;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    top: 8px;
+    margin-left: -557px;
+}
+
+#date
+{
+    width: 262px;
+    height: 60px;
+    text-align: center;
+    font-size: 26px;
+    color: #666;
+    font-weight: normal;
+    position: absolute;
+    left: 50%;
+    top: 40px;
+    margin-left: -655px;
+}
+
+#con
+{
+    width: 1280px; 
+    height: 200px; 
+    margin-top: 10px; 
+}
+
+#text_info
+{
+    width: 1280px; 
+    height: 24px; 
+    background: #bfbfbf;   
+}
+
+#preload
+{
+	position: absolute;
+	left: 0; 
+	top: -100%; 
+	width: 100%; 
+	height: 100%; 
+	border: 0 none; 
+	margin: 0; 
+	padding: 0; 
+	z-index: 25000;
+	overflow: hidden;
+}
+#preload.active
+{
+	left: 0px;
+	top: 0px;
+}
+
+#lang_panel
+{
+    position: absolute; 
+    width: 300px; 
+    height: 80px; 
+    top: 25px; 
+    right: -10px; 
+}
+#rus_lang
+{
+    position: center;
+    float: right;
+    width: 150px; 
+    height: 100%; 
+}
+#kaz_lang
+{
+    position: center;
+    float: left;
+    width: 150px; 
+    height: 100%; 
+}

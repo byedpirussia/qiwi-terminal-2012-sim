@@ -1,0 +1,62 @@
+﻿<table style="height: 580px;">
+	<tr>
+		<th>
+			<center>
+				<table style="width: auto">
+					<tr>
+						<td>
+							<a href="#" onclick="goto('money.mortgage')" class="bt-01">
+								<img src="img/custom/netscore/money.mortgage.jpg" border="0" />
+								<div langres="money.mortgage">[money.mortgage]</div>
+							</a>
+						</td>
+						<td style="width: 40px;"></td>
+						<td>
+							<a href="#" onclick="goto('money.auto')" class="bt-01">
+								<img src="img/custom/netscore/money.auto.jpg" border="0" />
+								<div langres="money.auto">[money.auto]</div>
+							</a>
+						</td>
+						<td style="width: 40px;"></td>
+						<td>
+							<a href="#" onclick="goto('money.consumerloan')" class="bt-01">
+								<img src="img/custom/netscore/money.consumerloan.jpg" border="0" />
+								<div langres="money.consumerloan">[money.consumerloan]</div>
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td style="height: 40px;"></td>
+					</tr>
+					<tr>
+						<td>
+							<a href="#" onclick="goto('money.revolvingcard')" class="bt-01">
+								<img src="img/custom/netscore/money.revolvingcard.jpg" border="0" />
+								<div langres="money.revolvingcard">[money.revolvingcard]</div>
+							</a>
+						</td>
+						<td style="width: 40px;"></td>
+						<td>
+							<a href="#" onclick="goto('money.microcredit')" class="bt-01">
+								<img src="img/custom/netscore/money.microcredit.jpg" border="0" />
+								<div langres="money.microcredit">[money.microcredit]</div>
+							</a>
+						</td>
+						<td style="width: 40px;"></td>
+						<td>
+							<a href="#" onclick="goto('money.pawnshop')" class="bt-01">
+								<img src="img/custom/netscore/money.pawnshop.jpg" border="0" />
+								<div langres="money.pawnshop">[money.pawnshop]</div>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</center>
+		</th>
+	</tr>
+</table>
+<div style="height:110px"></div>
+
+<script language="javascript" type="text/javascript">
+	gotohistory[gotohistory.length - 1].title = 'Ищу деньги';
+</script>

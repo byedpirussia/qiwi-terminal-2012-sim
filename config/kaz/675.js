@@ -1,0 +1,44 @@
+﻿UIProvider ={
+  "grpId": "123",
+  "id": "675",
+  "logo": "675.gif",
+  "receiptName": "",
+  "sName": "Big Town",
+  "small_logo": "",
+  "tag": "visible",
+  "__objects": [
+    {
+      "__type": "constParams"
+    },
+    {
+      "__type": "pages",
+      "__objects": [
+        {
+          "pageId": "30605",
+          "title": "",
+          "useOnline": "true",
+          "__objects": [
+            {
+              "__type": "controls",
+              "__objects": [
+                {
+                  "header": "Шот нөмірін енгізіңіз",
+                  "mask": "<!^\\d+${1,11}>",
+                  "name": "account",
+                  "nobr": "false",
+                  "regexp": "^\\d{1,11}$",
+                  "strip": "True",
+                  "type": "text_input"
+                },
+                {
+                  "layout": "DG",
+                  "type": "keyboard"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

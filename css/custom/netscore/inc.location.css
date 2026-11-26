@@ -1,0 +1,21 @@
+﻿<div id="citySelectionDiv" style="display:block; width:1280px; height:1024px; background-color: #b8b9b9; z-index:1000; position:absolute; top:0px; ">
+     <div id="locationCityAndRegion"   style="display:block;">
+     <table style="margin-top:30px;">
+        <tr>
+            <td style="vertical-align:top;  padding-left:15px; width:430px; border-right-color: #3d3e3e; border-right-style: solid; border-right-width: 2px;">
+                 
+                <div id="location" selector="location" selectorsource="db_lib_locations" selectorid="#location-id" selectortext="#location"></div>
+            </td>  
+            <td style="vertical-align:top; padding-left:15px; ">
+                <div style="height: 97px;  line-height: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 40px; color:#656464; ">ВЫБРАТЬ ДРУГОЙ РЕГИОН </div>
+                <div id="region" selector="region" selectorsource="db_lib_locations" selectorid="#region_id" selectortext="#region"></div>
+            </td>    
+        </tr>
+        </table>
+     </div>
+     <div id="locationRegionCity" style=" display:none;  ">
+        <div style="height: 80px;   line-height: 80px; text-align: center; font-family: Arial; font-weight: bold; font-size: 40px; color:#656464; ">ВЫБЕРИТЕ ГОРОД</div>
+        <div style="position:relative" selector="region-city" selectorsource="db_lib_locations" selectorid="#location-id" selectortext="#location"></div>
+     </div>
+
+</div>

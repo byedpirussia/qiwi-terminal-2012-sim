@@ -1,0 +1,159 @@
+﻿<script type="text/javascript">
+    function doit() {
+        try 
+        {
+         
+        
+		    var queryString = $('#formpanel form').serialize() + '&rnd=' + Math.random();
+		    queryString="location_id="+$('#location-id').val()+"&"+queryString;
+ 
+		    $('#loadingimg').show();
+		    searchResultId = 0;
+		 
+		    sendToGateway("http://api.netscore.kz/Vacancy/Search/Count/?" + queryString, doProcessAnswerJob);
+        }
+        catch (z) { return; }
+	}
+
+	var searchRequestMode = 'job';
+	var searchRequestId = 0;
+	function doProcessAnswerJob(data) {
+        try {
+		    $('#loadingimg').hide();
+		    data = jQuery.parseJSON(data);
+		
+		    $('#formpanel').hide();
+		    $('#resultpanel').show();
+
+		    $('#goto-result').hide();
+
+		    $("#goto-next").hide();
+		    $("#goto-result").hide();
+		    searchRequestId = data.searchRequestId;
+		    //alert(data.count + '\n' + (data.count>=0))
+		    var count = data.count
+	 
+		    if (count >= 0) {
+ 
+			    $('#searchResultSize').html('<span>' + declensionOfNum(count, ['найдена ', 'найдено ', 'найдено ']) + count + declensionOfNum(count, [' вакансия', ' вакансии', ' вакансий']) + '</span>'); // нужно проверять числа 1, 3 и 5.
+			    if (count > 0) 
+			    {
+			        $('#goto-next').unbind('click').click(function () {
+                        goto('senddata');
+                    });
+			        ShowButtonNext();
+		    
+                }
+		    }
+        }
+        catch (z) { return; }
+	}
+</script>
+<div id="formpanel" style="padding:0px; font-size:0px;">
+	<form>
+	<table style="height: auto">
+		<tr>
+			<th class="row throwdiv"><div langres="job.salary">[job.salary]</div></th>
+			<td class="row">
+				<div class="long-num-ccy">
+					<div id="salary-disp" keyboard="on" keyboardmode="numeric" keyboardcopyval="#salary" class="num"></div>
+					<div id="salary-ccy"  style="float:left; padding-left:20px; " selector="radio" selectorsource="db_lCurrency" selectorid="#salary-ccy-id" selectortext="#salary-ccy"></div>
+					<input type="hidden" name="salary" id="salary" value="150000" />
+					<input type="hidden" name="salary_ccy_id" id="salary-ccy-id" value="1" />
+				</div>
+			</td>
+		</tr>
+
+		<tr>
+			<th class="row throwdiv" langres="job.area">[job.area]</th>
+			<td class="row"  style="text-align:left;">
+				<div class="long-dd" onclick=" $('#job_area_background').css('display', 'block');">
+                    <div class="job_text" id="area-text" langres="job.position.area">[job.position.area] </div>
+                </div>
+				<input type="hidden" name="area_id" id="area-id" />
+			</td>
+		</tr>
+		<tr>
+			<th class="row throwdiv" langres="job.level">[job.level]</th>
+			<td class="row" style="text-align:left;">
+                <div class="long-dd" onclick=" $('#job_level_background').css('display', 'block'); $('#job_level_phone').css('display', 'block'); $('#goto-prev').css('display', 'none');$('#goto-result').css('display', 'none'); ">
+                    <div class="job_text" id="position-level-text" langres="job.position.level">[job.position.level] </div>
+                </div>
+
+			
+				<input type="hidden" name="level_id" id="level-id" />
+			</td>
+		</tr>
+		<tr>
+			<th class="row throwdiv" langres="job.age">[job.age]</th>
+			<td class="row">
+				<div class="short-txt"  style="float:left;"  id="age-disp" keyboard="on" keyboardcopyval="#age" keyboardmode="numeric"></div>
+				<input type="hidden" name="age" id="age" />
+			</td>
+        </tr>
+        <tr>
+			<th class="row throwdiv" langres="job.experience">[job.experience]</th>
+			<td class="row">
+				<div class="short-txt" style="float:left; width:271px;" id="experience-disp" keyboard="on" keyboardcopyval="#experience" keyboardmode="numeric"></div>
+				<input type="hidden" name="experience" id="experience" />
+			
+				<div  id="experience-mode" style="float:left;" selector="radio_big" selectorsource="db_lExperience" selectorid="#experience-id" selectortext="#experience-mode"></div>
+				<input type="hidden" name="experience_id" id="experience-id" value="1" />
+			</td>
+		</tr>
+		<tr>
+			<th class="row throwdiv" langres="job.lang">[job.lang]</th>
+			<td class="row" style="text-align:left;">
+				<div id="lang" selector="vacancy_language" selectorsource="db_lVacLang" selectorid="#lang-id" selectortext="#lang"></div>
+				<input type="hidden" name="lang_id" id="lang-id" value="1" />
+			</td>
+		</tr>
+ 
+	</table>
+	</form>
+</div>
+<div id="resultpanel" style="display: none; height: 100%;">
+	<table style="height: 580px;">
+		<tr>
+			<th style="font-weight: normal">
+				По вашему запросу <span id="searchResultSize"></span>.<br />Хотите продолжить (услуга платная)? 
+           
+			</th>
+		</tr>
+	</table>
+</div>
+
+
+ <div id="job_area_background" style="display:none; width:1280px; height:1024px; background-color: #b8b9b9; z-index:1; position:absolute; top:0px; ">
+     <div selector="job_area" selectorsource="db_lJobPosArea" selectorid="#area-id" selectortext="#area"></div>
+ </div>
+
+ <div id="job_level_background" style="display:none; width:1280px; height:1024px; background: #000; position:absolute; top:0px; z-index: 0; filter:alpha(opacity=70);-moz-opacity:0.7; opacity: 0.7;"></div>
+
+  <div id="job_level_phone" style="display:none; width:500px; height:540px; background-color: #b8b9b9; z-index:1; position:absolute;  margin-top:-270px; margin-left:-250px;  left:50%; top:50%; ">
+   	<div id="level" selector="job_level" selectorsource="db_lJobPosLevel" selectorid="#level-id" selectortext="#level"></div>
+ </div>
+
+<script language="javascript" type="text/javascript">
+    gotohistory[gotohistory.length - 1].title = 'Ищу работу';
+    
+    ShowButtonResult();
+    $('#goto-result').unbind('click').click(function () {
+        doit();
+
+        var all_value = "";
+        o = $('.check_box_class:checked');
+        for (var i = 0; i < o.length; i++) {
+            all_value = all_value + $('.check_box_class:checked')[i].value + ","
+        }
+     
+        $('lang_id').val(all_value);
+
+    });
+
+
+    
+
+
+
+</script>

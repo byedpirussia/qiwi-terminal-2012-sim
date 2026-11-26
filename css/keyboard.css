@@ -1,0 +1,148 @@
+div{
+-moz-user-select: none;
+}
+
+.keyboard.header{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    padding: 19px;
+    z-index: 1002;
+}
+
+.input_holder{
+    background: white;
+    padding: 9px 25px;
+    border: 2px solid black;
+}
+
+.keyboard_body{
+    width: 960px;
+    margin: 0px auto;
+    padding-top: 40px;
+    z-index: 1002;
+}
+#keyboard_eng{
+    width: 800px;
+    display: none;
+}
+
+.button{
+    float: left;
+    padding: 16px 3px;
+    width: 72px;
+    text-align: center;
+    margin: 2px 1px;
+    font-size: 36px;
+    background: url('../img/custom/flight.kz/button_bg.gif') #dedede repeat-x;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+}
+
+.button .left_bg{
+    background: url('../img/custom/flight.kz/button_left.gif') no-repeat;
+    height: 77px;
+    width: 6px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.button .right_bg{
+    background: url('../img/custom/flight.kz/button_right.gif') no-repeat;
+    height: 77px;
+    width: 6px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.button.spacebutton{
+    float: none;
+    width: 500px;
+    margin: 4px auto;
+    cursor: pointer;
+}
+
+.button.lang_button{
+    width: 152px;
+}
+
+
+.button.blue{
+    background: url('../img/custom/flight.kz/blue_button_bg.gif') repeat-x;
+}
+
+.button.blue .left_bg{
+    background: url('../img/custom/flight.kz/blue_button_left.gif') no-repeat;
+    height: 77px;
+    width: 5px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.button.blue .right_bg{
+    background: url('../img/custom/flight.kz/blue_button_right.gif') no-repeat;
+    height: 77px;
+    width: 5px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.inp { background: url(../img/custom/flight.kz/inp.gif) repeat-x; height: 97px; width: 796px; margin: 0 auto;}
+.inp_l { background: url(../img/custom/flight.kz/inp_l.gif) left top no-repeat; height: 97px;}
+.inp_r { background: url(../img/custom/flight.kz/inp_r.gif) right top no-repeat; height: 97px; padding-left: 32px;}
+.inp input { width: 635px; float: left; font-size: 60px; background: none; border: none; padding-top: 11px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+.inp .inp2 { font-size: 48px; padding-top: 18px;} 
+.inp .inp3 { width: 730px;}
+.inp span { float: left; width: 100px; text-align: right; font-size: 36px; color: #666666; padding-top: 25px;}
+
+.block2 { background: url(../img/custom/flight.kz/block2bg.gif) repeat-y; width: 796px; margin: 0 auto; position: relative; top: -5px;}
+.block2_top { background: url(../img/custom/flight.kz/block2_top.gif) center top no-repeat; width: 796px;}
+.block2_foot { background: url(../img/custom/flight.kz/block2_foot.gif) center bottom no-repeat; width: 796px; padding-bottom: 20px; padding-top: 15px; height: 204px;}
+.block2.inactive,.block2.inactive .block2_top,.block2.inactive .block2_foot{ background: none;}
+.block2 ul { width: 790px; margin-left: 3px; font-size: 45px; color: #000;}
+.block2 li { padding-left: 30px; padding-right: 36px;}
+.block2 ul .nd2 { color: #666666; font-size: 24px; float: right; padding-top: 13px;}
+.block2 ul .nd { float: left; width: 640px; overflow: hidden; white-space: nowrap; color: #666666}
+.block2 ul .nd strong { color: black}
+
+.keybord { padding-top: 40px;  font-size: 36px; font-weight: bold; text-align: center; color: #000;}
+.keybord .knopa { background: url(../img/custom/flight.kz/knopabg.gif) repeat-x #dedede; height: 77px; display: inline-block; margin-right: 1px; width: 79px; margin-bottom: 3px;}
+.keybord span { display: inline-block; text-align: center; }
+.keybord ul { padding: 0; list-style: none;}
+.knopa_r { background: url(../img/custom/flight.kz/knopa_r.gif) right top no-repeat; height: 62px; width: 79px; padding-top: 15px;}
+.knopa_l { background: url(../img/custom/flight.kz/knopa_l.gif) left top no-repeat; height: 77px;}
+.keybord .active { background: url(../img/custom/flight.kz/knopabg_active.gif) repeat-x; height: 77px; display: inline-block; margin-right: 1px; width: 79px; margin-bottom: 3px;}
+.keybord .active .knopa_r { background: url(../img/custom/flight.kz/knopa_r_act.gif) right top no-repeat;}
+.keybord .active .knopa_l { background: url(../img/custom/flight.kz/knopa_l_act.gif) left top no-repeat;}
+.keybord .active3 { background: url(../img/custom/flight.kz/knopabg_active.gif) repeat-x; width: 159px;}
+.keybord .active3 .knopa_r { background: url(../img/custom/flight.kz/knopa_r_act.gif) right top no-repeat; width: 159px; }
+.keybord .active3 .knopa_l { background: url(../img/custom/flight.kz/knopa_l_act.gif) left top no-repeat; }
+.keybord .null { background: none;width: 79px;}
+.keybord .send { background: url(../img/custom/flight.kz/knopabg.gif) repeat-x; width: 559px; height: 77px; display: inline-block; margin-right: 1px;  margin-bottom: 3px;}
+.keybord .send .knopa_r { width: 559px;}
+.keybord .send2 { background: url(../img/custom/flight.kz/knopabg.gif) repeat-x; width: 479px; height: 77px; display: inline-block; margin-right: 1px; margin-bottom: 3px;}
+.keybord .send2 .knopa_r { width: 479px;}
+
+.data { margin-left: 354px;}
+.inf { float: left; width: 130px; margin-right: 15px;}
+.inf  input { width: 130px; text-align: center;}
+.inf .inp { width: 130px;}
+.inf .inp_r { padding-left: 0px;}
+
+.inf2 { float: left; width: 137px;  margin-right: 15px;}
+.inf2  input { width: 137px; text-align: center;}
+.inf2 .inp { width: 137px;}
+.inf2 .inp_r { padding-left: 0px;}
+
+
+.inf3 { float: left; width: 177px;  margin-right: 15px;}
+.inf3  input { width: 177px; text-align: center;}
+.inf3 .inp { width: 177px; }
+.inf3 .inp_r { padding-left: 0px;}

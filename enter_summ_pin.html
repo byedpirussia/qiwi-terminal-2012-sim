@@ -1,0 +1,304 @@
+<html>
+<head>
+	<title>Enter_Summ</title>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<link rel="stylesheet" href="./css/enter_summ.css" type="text/css" />
+<script src="./func/ui/objects.js"></script>
+<script src="./func/engine/pars_cookie.js"></script>
+<script src="./advert.js"></script>
+<script src="./advert_content.js"></script>
+
+	<script type="text/javascript" src="./js/engine/utils.js"></script>
+	<script type="text/javascript" src="./js/engine/base.js"></script>
+	<script type="text/javascript" src="./js/engine/storage.js"></script>
+	<script type="text/javascript" src="./js/engine/advert.js"></script>
+	<script type="text/javascript" src="./advert_content.js"></script>
+	<script type="text/javascript" src="./advert_content_kz.js"></script>
+	<script type="text/javascript"></script>
+
+	<script type="text/javascript">
+
+
+function bdef(){
+//	backward_yes.style.display='none';
+//	backward_no.style.display='';
+//	forward_yes.style.display='none';
+//	forward_no.style.display='none';
+//	pay.style.display='';
+//	menu_yes.style.display='none';
+//	menu_no.style.display='';
+
+//		var sLang = storage.get("language");
+//		if (sLang == "rus"){
+//        $('button_payment').src = "./img/ui/navigation/menu_rus.gif";
+//        }
+//        else {
+//        $('button_payment_kaz').src = "./img/ui/navigation/menu_kaz.gif";
+//        
+//        }
+//	var curent_page = document.location.href;
+//	document.cookie='last_page=' + curent_page;
+	
+	   var sLang = storage.get("language");
+       if(sLang == "rus")
+       {
+//       $("btn_center").style.display = "block";
+//       document.getElementById('btn_back').style.display = "block";
+       document.getElementById('btn_right_rus').style.display = "block";
+//       document.getElementById('btn_del').style.display = "block";
+       
+       }
+       else {
+//       $("btn_center_kaz").style.display = "block";
+//       document.getElementById('btn_back_kaz').style.display = "block";
+       document.getElementById('btn_right_kaz').style.display = "block";
+//       document.getElementById('btn_del_kaz').style.display = "block";
+       }
+}
+	
+	var comissionInfoWin = 0;
+
+function backward() {
+	parent.location = "./validate_confirm.html";
+}
+
+function forward() {
+	enter_summ();
+}
+
+function enter_summ(){
+	document.cookie="Sum=" + ff.getAmount.value;
+	ff.submit();
+}
+
+
+
+function showComissionInfo(hide)
+{
+	var x = 10; //event.clientX - 200 +'px';
+	var y = 100; //event.clientY+'px';
+
+	var text = document.ff.comissionInfoText.value;
+	
+	
+	if (text != '')
+	{
+		var obj = document.getElementById('comissionInfoTextArea');
+		obj.innerHTML = text;	
+	}
+	
+	var obj = document.getElementById('comissionInfo');
+	obj.style.top = y;
+	obj.style.left = x;
+	if ((comissionInfoWin == 1) || (hide == 1))
+	{
+		obj.style.display = 'none';
+		comissionInfoWin = 0;
+	}
+	else
+	{
+		obj.style.display = '';
+		comissionInfoWin = 1;
+		setTimeout('showComissionInfo(1);',15000);
+	}
+}
+
+        function onPaymentBtnClick() {
+//            startAdvert('Enter_Summ');
+            enter_summ();
+            setTimeout(function(){
+		    if (bIsEnterSumm) {
+		        oPayInfo.summ = $("really_summ").value;
+		        storage.put("pay_info", oPayInfo.serialize());
+                document.location.href = "./ok.html";
+		    }
+	    }, 50);
+        }
+
+
+
+	</script>
+</head>
+<body onload="bdef();">
+    <bgsound src="./sound/enter_summ.wav" loop="1"></bgsound>
+    <div id="qiwi_logo" style="width: 86px; height: 140px; position: absolute; left: 0px; top: 0px; background: url('./img/ui/qiwicel.gif') no-repeat;"></div>
+    <table id="commission_info" cellpadding="20" cellspacing="1">
+        <tr>
+            <td id="commission_txt">
+                <strong>Нет дополнительной информации</strong>
+            </td>
+        </tr>
+    </table>
+    <table cellpadding="0" cellspacing="0" border="0" style="width: 100%; height: 100%">
+        <tr>
+            <td align="center" valign="middle">
+                <form id="ff" name="ff" method="post" action="./online_auth.html">
+                    <input id="komisswarn" name="komisswarn" type="hidden" value="" />
+                    <!--<input id="komisswarn2" name="komisswarn" type="hidden" value="" />-->
+                    <input id="comissionInfoText" name="comissionInfoText" type="hidden" value="" />
+                  <!--  <input id="comissionInfoText2" name="comissionInfoText2" type="hidden" value="" />-->
+                 <!--   <input id="Prv2Type" name="Prv2Type" type="hidden" value="" />-->
+                    <!--<input id="SecondPrvComm" name="SecondPrvComm" type="hidden" value="" />-->
+                    <div style="width: 494px; height: 38px; background: url('./img/ui/es/blue_txt_rus.gif') no-repeat; position: relative; top: 19px;"></div>
+                    <div style="width: 980px;">
+                        <div style="width: 43px; height: 101px; background: url('./img/ui/es/left.gif') no-repeat; float: left;"></div>
+                        <div style="width: 894px; height: 101px; background: url('./img/ui/es/center.gif') repeat-x; float: left;">
+                            <div class="min_summ" align="left" style=" height: 30px;">
+                                <div id="min_summ_txt">Внимание, вносимая сумма должна быть не меньше</div>
+                                <div id="min_summ_div" align="right">
+                                    <input id="min_summ" name="min_summ" class="inp" type="text" value="" />
+                                </div>
+                                <div id="min_summ_um">Тг.</div>
+                            </div>
+                        </div>
+                        <div style="width: 43px; height: 101px; background: url('./img/ui/es/right.gif') no-repeat; float: left;"></div>
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="clear: both">
+                            <tr>
+                                <td style="width: 2px; background: url('./img/ui/es/left_border_blue.gif') repeat-y;"></td>
+                                <td style="width: 976px; background: #2c68b3;">
+                                    <div style="margin: 20px; overflow: hidden">
+                                        <div style="height: 110px;">
+                                            <div style="width: 465px; height: 100%; margin-top: 35px; color: #fff; font-size: 50px; float: left;">Внесенная сумма</div>
+                                            <div style="width: 468px; height: 100%; float: left;">
+                                                <div style="width: 16px; height: 100%; background: url('./img/ui/es/vnesen_left.gif') no-repeat; float: left;"></div>
+                                                <div style="width: 436px; height: 100%; background: url('./img/ui/es/vnesen_1px.gif') repeat-x; float: left;">
+                                                    <input id="getAmount" name="getAmount" class="inp" type="text" value="" />
+                                                </div>
+                                                <div style="width: 16px; height: 100%; background: url('./img/ui/es/vnesen_right.gif') no-repeat; float: left;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="w_100" style="margin-top: 20px;">
+                                            <div class="c_fff f_l l_u_l">
+                                                <span id="komisswarn_span" class="i_s">Комиссия </span>
+                                            </div>
+                                            <div class="c_fff f_r">
+                                                <input id="komissprop" name="komissprop" class="c_fff inp" type="text" value="" />
+                                            </div>
+                                            <div class="c_fff f_r">
+                                                <input id="komiss" name="komiss" class="c_fff inp" type="text" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="w_100">
+                                            <input id="komissprofile" name="komissprofile" class="c_fff inp" type="text" value="" />        
+                                        </div>
+                                        <div class="w_100">
+                                            <div class="c_fff f_l l_u_l">
+                                                <span id="really_summ_span" class="i_s">К зачислению на счет абонента </span>
+                                            </div>
+                                            <div class="c_fff f_r">
+                                                <input id="really_summ_prop" name="really_summ_prop" class="c_fff inp" type="text" value="Тг." />
+                                            </div>
+                                            <div class="c_fff f_r">
+                                                <input id="really_summ" name="really_summ" class="c_fff inp" type="text" value="" />
+                                            </div>
+                                        </div>
+                                        <div id="delivery_div" class="w_100">
+                                            <div class="c_fff f_l l_u_l">
+                                                <span id="change_span" class="i_s">Сдача </span>
+                                            </div>
+                                            <div class="c_fff f_r">
+                                                <input id="changeprop" name="changeprop" class="c_fff inp" type="text" value="Тг." />
+                                            </div>
+                                            <div class="c_888 f_r">
+                                                <input id="change" name="change" class="c_fff inp" type="text" value="" />
+                                            </div>
+                                        </div>
+                                        <div id="info_2" class="d_n">
+                                            <div style="width: 450px; height: 49px; margin: 20px 0px 20px 0px;">
+                                                <div style="width: 11px; height: 100%; background: url('./img/ui/es/left_uho_s_warning.gif') no-repeat; float: left;"></div>
+                                                <div id="dc_header" style="width: 428px; height: 100%; text-align: center; color: #fff; font-size: 26px; padding-top: 9px; background: url('./img/ui/es/bg_s_warning.gif') repeat-x; float: left;"></div>
+                                                <div style="width: 11px; height: 100%; background: url('./img/ui/es/right_uho_s_warning.gif') no-repeat; float: left;"></div>
+                                            </div>
+                                           <!-- <div class="w_100">
+                                                <div class="c_fff f_l l_u_l">
+                                                    <span id="komisswarn2_span" class="i_s">Комиссия </span>
+                                                </div>
+                                                <div class="c_fff f_r">
+                                                    <input id="komissprop2" name="komissprop2" class="c_fff inp" type="text" value="" />
+                                                </div>
+                                                <div class="c_fff f_r">
+                                                    <input id="komiss2" name="komiss2" class="c_fff inp" type="text" value="" />
+                                                </div>
+                                            </div>
+                                            <div class="w_100">
+                                                <input id="komissprofile2" name="komissprofile2" class="c_fff inp" type="text" value="" />        
+                                            </div>
+                                            <div class="w_100">
+                                                <div class="c_fff f_l l_u_l">
+                                                    <span id="really_summ_span2" class="i_s">К зачислению на счет абонента </span>
+                                                </div>
+                                                <div class="c_fff f_r">
+                                                    <input id="really_summ_prop2" name="really_summ_prop2" class="c_fff inp" type="text" value="Тг." />
+                                                </div>
+                                                <div class="c_fff f_r">
+                                                    <input id="really_summ2" name="really_summ2" class="c_fff inp" type="text" value="" />
+                                                </div>
+                                            </div>-->
+                                        </div>
+                                    </div>
+                                    <div id="red_line" style="margin: 10px; height: 96px; clear: both">
+                                        <div style="width: 18px; height: 100%; background: url('./img/ui/es/left_uho_b_warning.gif') no-repeat; float: left;"></div>
+                                        <div id="red_line_txt" style="width: 920px; height: 100%; text-align: center; color: #fff; font-size: 45px; padding-top: 20px; background: url('./img/ui/es/bg_b_warning.gif') repeat-x; float: left;">Автомат сдачи не выдает!</div>
+                                        <div style="width: 18px; height: 100%; background: url('./img/ui/es/right_uho_b_warning.gif') no-repeat; float: left;"></div>
+                                    </div>
+                                    <div style="margin: 5px 0px 0px 25px; color: #fff;">Вставьте купюры в купюроприемник.</div>
+                                    <div style="margin: 5px 0px 0px 25px; color: #fff;">Дождитесь, пока в поле "Внесенная сумма" появится сумма внесенных вами денег.</div>
+                                </td>
+                                <td style="width: 2px; background: url('./img/ui/es/right_border_blue.gif') repeat-y;"></td>
+                            </tr>
+                        </table>
+                        <div style="width: 17px; height: 16px; background: url('./img/ui/es/darkblue_circle.gif') 0px -16px; float: left;"></div>
+                        <div style="width: 946px; height: 16px; background: #2c68b3; float: left;"></div>
+                        <div style="width: 17px; height: 16px; background: url('./img/ui/es/darkblue_circle.gif') 17px -16px; float: left;"></div>
+                        <div align="center" class="max_summ">
+                            <div class="f_l" style="font-size: 18px; color: #F2692B;">Максимальная сумма платежа для данного провайдера:</div>
+                            <div class="f_l">
+                                <input id="max_cash_summ" name="max_cash_summ" class="inp" type="text" value="не ограничена" />
+                            </div>    
+                        </div>
+                    </div>
+                </form>
+                <form id="alert" name="alert">
+                    <div class="w_100">
+                       <input id="alert1" name="alert1" class="inp w_100" type="text" value="" />
+                    </div>
+                </form>
+            </td>
+        </tr>
+        <tr style="height: 130px">
+            <td align="center" valign="middle" style="height: 130px">&nbsp;</td>
+        </tr>
+    </table>
+    <div id="background" style="position: absolute; left: 0px; top: 0px; width: 0px; height: 0px;" onclick="onPaymentBtnClick();"></div>
+    <div id="advert_1"></div>
+<div id="btn_left" class="bottom-button-left">
+    <img id="commission_btn_1" src="./img/ui/navigation/comis.gif" onMouseOver='src="./img/ui/navigation/comis_press.gif"' onMouseOut='src="./img/ui/navigation/comis.gif"' style="display: none;" onclick="onCommissionBtnClick(null, 1);" />
+</div>
+<div id="btn_center" class="bottom-button-center">
+    <img id="commission_btn_2" alt="" src="./img/ui/navigation/comis.gif" onMouseOver='src="./img/ui/navigation/comis_press.gif"' onMouseOut='src="./img/ui/navigation/comis.gif"' style="display: none;" onclick="onCommissionBtnClick(null, 2);" />
+</div>
+
+
+
+
+
+
+<!--<div id="btn_right" class="bottom-button-right">
+    <img id="button_payment" src="" onclick="onPaymentBtnClick();" />
+</div>-->
+
+          <div id="btn_right_rus" style="display:none;" class="bottom-button-right">
+          <img id="button_payment" src="./img/ui/navigation/forward_rus.gif" onclick="onPaymentBtnClick();" />
+          </div>
+          <div id="btn_right_kaz" style="display:none;" class="bottom-button-right">
+          <img id="button_payment" src="./img/ui/navigation/forward_kaz.gif" onclick="onPaymentBtnClick();" />
+          </div>
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿<table>
+	<tr>
+		<td style="position: relative; background: url(img/custom/netscore/header.png)">
+			<div id="debug" style="width:470px; height:125px" onclick="goto('index'); "></div>
+			<div style="position: absolute; left: 480px; top:65px;">
+                <div id="location-text" style="font-style:italic; font-family: Arial; font-size:25px; color: #fff; text-decoration: underline; "></div>
+                <input type="hidden"  name="location_id" id="location-id" /> 
+            </div>
+            <div id="changelang" style="position: absolute; top: 0px; right: 270px;" selector="language" selectorsource="db_lLang" selectorid="#currentlangid"  selectortext="#currentlang" selectortriggerafter="chnagesystemlang()">
+            <!--  <img src="img/custom/netscore/lang_ru.jpg" name="currentlang" id="currentlang" border="0" />-->
+            <input type="hidden" name="currentlangid" id="currentlangid" value="ru" /></div>
+		
+            <a href="index.html"><div id="goto-ext" style="font-size:32px; font-weight: bold; font-family:Verdana;  display: block; position: absolute; top: 3px; right:35px; background: url(img/custom/netscore/exit.png); width:200px; height:105px;text-align:center;line-height:107px;color:White" langres="main.exit">[main.exit]</div></a>
+		</td>
+	</tr>
+</table>
+<script>
+	$('#goto-next').unbind('click').click(function () {
+		goto('senddata');
+	});
+	doSelectors();
+</script>

@@ -1,0 +1,15 @@
+﻿UIGroup=[
+{"__type":"provider","id":"388","tag":"visible","logo":"16.gif","sName":"Алматы","small_logo":""},
+{"__type":"provider","id":"4785","tag":"visible","logo":"16.gif","sName":"Астана","small_logo":""},
+{"__type":"provider","id":"5550","tag":"visible","logo":"16.gif","sName":"Караганда","small_logo":""},
+{"__type":"provider","id":"4529","tag":"visible","logo":"16.gif","sName":"Актау","small_logo":""},
+{"__type":"provider","id":"5370","tag":"visible","logo":"16.gif","sName":"Павлодар","small_logo":""},
+{"__type":"provider","id":"5809","tag":"visible","logo":"16.gif","sName":"Тараз","small_logo":""},
+{"__type":"provider","id":"5810","tag":"visible","logo":"16.gif","sName":"Шымкент","small_logo":""},
+{"__type":"provider","id":"7567","tag":"visible","logo":"16.gif","sName":"Орал","small_logo":""},
+{"__type":"provider","id":"7933","tag":"visible","logo":"16.gif","sName":"Актобе","small_logo":""},
+{"__type":"provider","id":"7935","tag":"visible","logo":"16.gif","sName":"Атырау","small_logo":""},
+{"__type":"provider","id":"7932","tag":"visible","logo":"16.gif","sName":"Кокшетау","small_logo":""},
+{"__type":"provider","id":"7918","tag":"visible","logo":"16.gif","sName":"Кызылорда","small_logo":""},
+{"__type":"provider","id":"7934","tag":"visible","logo":"16.gif","sName":"Оскемен","small_logo":""}
+]

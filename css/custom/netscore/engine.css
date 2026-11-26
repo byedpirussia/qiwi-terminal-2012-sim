@@ -1,0 +1,70 @@
+﻿html, body, table, caption, th, td, input, button, textarea, a, span, div 
+{
+	font-family: Arial;
+	font-size: 40px;
+	font-weight: normal;
+	 -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+     user-select: none;
+	
+}
+
+html, body
+{
+	padding: 0px;
+	margin: auto;
+}
+
+table
+{
+	width: 100%;
+	height: 100%;
+	border-collapse: collapse;
+}
+
+th, td
+{
+	padding: 0px;
+}
+
+a
+{
+	color: #183ba0;
+	text-decoration: none;
+}
+
+.bt-01, .bt-01 *
+{
+	font-size: 22px;
+	color: #767877;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#content
+{
+	vertical-align: top;
+}
+
+#gotoPath
+{
+	font-size: 24px;
+	color: #7b7a7a;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+
+#debug
+{
+	font-size: 12px;
+	color: black;
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
+}
+form {margin:0px;}

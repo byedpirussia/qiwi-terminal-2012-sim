@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="refresh" content="420; URL=./index.html" />
+<title>Flight.kz</title>
+<script type="text/javascript" src="./js/custom/flight.kz/libs/jquery.js"></script>
+<script type="text/javascript" src="./js/custom/flight.kz/functions.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/custom/flight.kz/style.css" />
+<script type="text/javascript">
+$(document).ready(function(){
+    hideLoad();
+    keyboardInit(["booking","email"]);
+});
+</script>
+<script type="text/javascript" src="./js/custom/flight.kz/keyboard_main.js"></script> 
+<script type="text/javascript" src="./js/custom/flight.kz/keyboard_country.js"></script> 
+<script type="text/javascript" src="./js/custom/flight.kz/keyboard.js"></script> 
+<script type="text/javascript" src="./js/custom/flight.kz/calendar.js"></script> 
+<script type="text/javascript" src="./js/custom/flight.kz/main.js"></script> 
+<script type="text/javascript" src="./js/custom/flight.kz/libs/airports.js"></script>
+<script type="text/javascript" src="./js/custom/flight.kz/libs/countries.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/custom/flight.kz/keyboard.css" />
+<link rel="stylesheet" type="text/css" href="./css/custom/flight.kz/calendar.css" />
+</head>
+<body onselectstart="return false">
+<div class="bg loading_bg" id="loading"><div class="loading_image"></div></div>
+<script>
+var booking_num = '';
+function getValue(elem,type){
+    if(type=='booking'){
+        return "";
+    }else{
+        return "";
+    }
+    return '';
+}
+function addFromKeyboard(elem,value,type){
+    if(type=='booking'){
+        checkBooking(value,'');
+        booking_num = value;
+    }else{
+        checkBooking(booking_num,value);
+    }
+}
+</script>
+<div class="page">
+    <a href="javascript:;" onclick="showMain();" id="logo"><img src="./img/custom/flight.kz/logo.gif" /></a>
+    <a href="javascript:;" id="help"><img src="./img/custom/flight.kz/help.gif" /></a>
+    <div class="main_page">
+        <div class="main_button" onclick="showMain();">Новое бронирование</div>
+        <div class="main_button double" onclick="showKeyboard(false,'booking')">Оплата существующей<br>брони<span class="val"></span></div>
+    </div>
+    <!--<div class="clearfix"></div>-->
+    <div class="footer grad">
+        <a href="index.html"><div class="button_menu super_menu_button">В меню</div></a>
+        <div class="clearfix"></div>
+    </div>
+</div>
+</body>
+</html>

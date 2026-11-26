@@ -1,0 +1,56 @@
+﻿<div id="formpanel" style=" padding:0px; font-size:0px;">
+	<form>
+	<input type="hidden" name="mode" value="revolvingcard" />      
+	<input id="CityId" name="CityId" type="hidden" value="5500" />
+	<input id="SortOrder" name="SortOrder" type="hidden" value="Pay ASC" />
+	<table style="height: auto">
+		<tr>
+			<th class="row"><div langres="money.revolvingcard.amount">[money.revolvingcard.amount]</div></th>
+			<td class="row" >
+				<div class="long-num-ccy">
+					<div id="amount-disp" keyboard="on" keyboardmode="numeric" keyboardcopyval="#amount" class="num"></div>
+					<div id="amount-ccy" style="float:left; padding-left:20px;" selector="radio" selectorsource="db_lCurrency" selectorid="#amount-ccy-id" selectortext="#amount-ccy"></div>
+					<input type="hidden" name="The_size_of_the_credit" id="amount" value="0" />
+					<input type="hidden" name="CreditCurrency" id="amount-ccy-id" value="1" />
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="row"><div langres="money.revolvingcard.income">[money.revolvingcard.income]</div></th>
+			<td class="row" >
+				<div class="long-num-ccy">
+					<div id="income-disp" keyboard="on" keyboardmode="numeric" keyboardcopyval="#income" class="num"></div>
+					<div id="income-ccy" style="float:left; padding-left:20px;" selector="radio" selectorsource="db_lCurrency" selectorid="#income-ccy-id" selectortext="#income-ccy"></div>
+					<input type="hidden" name="Legal_monthly_income" id="income" value="0" />
+					<input type="hidden" name="IncomeCurrency" id="income-ccy-id" value="1" />
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<th class="row"><div langres="money.revolvingcard.irs">[money.revolvingcard.irs]</div></th>
+			<td class="row" >
+				<div id="irs"  style="float:left;" selector="radio_big" selectorsource="db_lYesNoStr" selectorid="#irs-id" selectortext="#irs"></div>
+				<input type="hidden" name="Resident" id="irs-id" value="Yes" />
+			</td>
+		</tr>
+ 
+	</table>
+	</form>
+</div>
+<div style="height:340px"></div>
+<div id="resultpanel" style="display: none">
+	<table>
+		<tr>
+			<th style="font-weight: normal; height: 425px">
+				<div id="ResultText"></div>
+			</th>
+		</tr>
+	</table>
+</div>
+<script language="javascript" type="text/javascript">
+    gotohistory[gotohistory.length - 1].title = 'Револьверная карта';
+    ShowButtonResult();
+    $('#goto-result').unbind('click').click(function () {
+        money_formsubmit('revolvingcard')
+    });
+</script>
