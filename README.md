@@ -1,6 +1,7 @@
 # QIWI Terminal 2012 — Ностальгическая симуляция
 
-[![Скачать архив](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%90%D1%80%D1%85%D0%B8%D0%B2%20(v1.0.0)-ff8c00?style=for-the-badge)](https://github.com/byedpirussia/qiwi-terminal-2012-sim/releases/latest/download/qiwi-terminal-2012-sim.zip)
+[![Скачать ПК-версию](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-%D0%9F%D0%9A--%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8E%20(v1.1.0)-ff8c00?style=for-the-badge)](https://github.com/byedpirussia/qiwi-terminal-2012-sim/releases/download/v1.1.0/qiwi-terminal-2012-sim-v1.1.zip)
+[![Скачать Android APK](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Android%20APK%20(v1.1.0)-3ddc84?style=for-the-badge)](https://github.com/byedpirussia/qiwi-terminal-2012-sim/releases/download/v1.1.0/qiwi-terminal-2012-v1.1.apk)
 
 > **Отказ от ответственности (Disclaimer):**  
 > Мы никак не связаны с компанией **QIWI**. Это исключительно симуляция интерфейса платёжного терминала 2012 года для ностальгии и ознакомления. Никакие реальные платежи, переводы или сбор данных не производятся.
